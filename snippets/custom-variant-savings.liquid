@@ -1,0 +1,74 @@
+<!-- {% assign current_variant = product.selected_or_first_available_variant %} -->
+<!-- {% if current_variant.metafields.global.Variant_Description != ""%}
+  <div id="variant-description">{{current_variant.metafields.global.Variant_Description}}</div>
+{% endif %} -->
+<span class="sales-text" style="visibility: hidden">SAVE x%</span>
+
+{% capture 'variant_savings' %} {% for variant in product.variants %}
+{{
+  variant.compare_at_price
+    | minus: variant.price
+    | times: 100.0
+    | divided_by: variant.compare_at_price
+    | floor
+}}
+{% unless forloop.last %}!0{% endunless %} {% endfor %} {% endcapture %}
+<!-- <span>Save {{ variant.compare_at_price | minus: variant.price | times: 100.0 | divided_by: variant.compare_at_price | floor}}% </span> -->
+
+<script>
+  var variant_savings;
+  var savings_arr;
+  var one_time;
+  var subscription;
+  var subscription_save;
+  window.addEventListener("load", function (event) {
+    variant_savings = `{{variant_savings}}`;
+    savings_arr = variant_savings
+      .replace(/\n/gm, "")
+      .split("!0")
+      .map((v) => v.trim());
+    // const result = Object.fromEntries(arr);
+    // console.log(arr);
+  });
+
+  setTimeout(() => {
+    subscription_save = document.getElementsByClassName(
+      "rc_widget__option__discount"
+    )[0].innerText;
+    one_time = document.getElementsByClassName("rc_widget__option--onetime")[0];
+    subscription = document.getElementsByClassName(
+      "rc_widget__option--subsave"
+    )[0];
+
+    if (one_time) {
+      one_time.addEventListener("click", (e) => {
+        let sales = document.querySelectorAll(".sales-text");
+        sales.forEach((sale, i) => {
+          if (savings_arr[i] != "0") {
+            sale.innerText = `Save ${savings_arr[i]}%`;
+            sale.style.visibility = "visible";
+          } else {
+            sale.style.visibility = "hidden";
+          }
+        });
+      });
+    }
+
+    if (subscription) {
+      subscription.addEventListener("click", (e) => {
+        let sales = document.querySelectorAll(".sales-text");
+        sales.forEach((sale, i) => {
+          // sale.innerText = `Save ${subscription_save}`;
+          sale.style.visibility = "hidden";
+        });
+      });
+    }
+    if (subscription_save) {
+      let sales = document.querySelectorAll(".sales-text");
+      sales.forEach((sale, i) => {
+        sale.innerText = `Save ${subscription_save}`;
+        sale.style.visibility = "hidden";
+      });
+    }
+  }, 1200);
+</script>

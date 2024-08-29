@@ -1,0 +1,40 @@
+<div class="custom-sidebar-content">
+  <p class="custom-sidebar-title">{{settings.sidebar_title}}</p>
+  <div class="custom-card custom-sidebar-card">
+    {% if settings.card_image_check && settings.card_img_1 != blank%}
+      <img src="{{ settings.card_img_1 | img_url: '540x' }}" alt="{{ settings.card_img_1.alt | strip_html | escape }}"/>
+    {% endif %}
+    <div class="custom-card-text">
+      <h2>{{settings.card_heading_1}}</h2>
+      <p>{{settings.card_info_1}}</p>
+    </div>
+  </div>
+  <div class="custom-card custom-sidebar-card">
+    {% if settings.card_image_check && settings.card_img_2 != blank%}
+      <img src="{{ settings.card_img_2 | img_url: '540x' }}" alt="{{ settings.card_img_2.alt | strip_html | escape }}"/>
+    {% endif %}
+    <div class="custom-card-text">
+      <h2>{{settings.card_heading_2}}</h2>
+      <p>{{settings.card_info_2}}</p>
+    </div>
+  </div>
+  <div class="custom-card custom-sidebar-card">
+    {% if settings.card_image_check && settings.card_img_3 != blank%}
+      <img src="{{ settings.card_img_3| img_url: '540x' }}" alt="{{ settings.card_img_3.alt | strip_html | escape }}"/>
+    {% endif %}
+    <div class="custom-card-text">
+      <h2>{{settings.card_heading_3}}</h2>
+      <p>{{settings.card_info_3}}</p>
+    </div>
+  </div>
+  <div class="custom-card custom-sidebar-card">
+    {% if settings.card_image_check && settings.card_img_4 != blank%}
+      <img src="{{ settings.card_img_4 | img_url: '540x' }}" alt="{{ settings.card_img_4.alt | strip_html | escape }}"/>
+    {% endif %}
+    <div class="custom-card-text">
+      <h2>{{settings.card_heading_4}}</h2>
+      <p>{{settings.card_info_4}}</p>
+    </div>
+  </div>
+  <p class="post-text">{{settings.post_text}}</p>
+</div>

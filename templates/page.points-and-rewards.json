@@ -1,0 +1,72 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "f615224f-d6aa-44fd-86fc-d8ac46970212": {
+      "type": "section-double",
+      "blocks": {
+        "template--16789501509851__f615224f-d6aa-44fd-86fc-d8ac46970212-text-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "Unlock Your Rewards and Discounts",
+            "title": "",
+            "text": "<p>To access your rewards, simply visit our homepage at formuland.com. Look for the green 'Rewards' link located at the bottom right corner of the page. Click on this link and enter the email and password associated with your order history or account (refer to the attached image for guidance). This will take you to your rewards and points account, where you can redeem your points using a unique code (be sure to copy it) during checkout by entering it into the 'Discount Code' box. <\/p>",
+            "text_size": 1,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "template--16789501509851__f615224f-d6aa-44fd-86fc-d8ac46970212-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-09-22_120402.png",
+            "bg_position": "right-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "template--16789501509851__f615224f-d6aa-44fd-86fc-d8ac46970212-text-1",
+        "template--16789501509851__f615224f-d6aa-44fd-86fc-d8ac46970212-image-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f615224f-d6aa-44fd-86fc-d8ac46970212"
+  ]
+}

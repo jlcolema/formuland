@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-hero",
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": false,
+        "show_description": true,
+        "show_description_below": true,
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "use_screen_one_fifth",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "text_color": "text--white"
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "show_subcollection": true,
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "aspect_ratio": 0.6,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "collections": {
+          "type": "collections",
+          "disabled": true,
+          "settings": {
+            "title": "All collections"
+          }
+        },
+        "filters": {
+          "type": "filters",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "collections",
+        "filters"
+      ],
+      "settings": {
+        "product_limit": 36,
+        "grid_setting_large": 4,
+        "grid_setting_small": "2",
+        "enable_layout_toggle": true,
+        "collection_sorting": true,
+        "hide_sidebar": true
+      }
+    },
+    "e92bcef3-3c18-4c65-a381-bdecbe959780": {
+      "type": "section-html",
+      "custom_css": [
+        ".two-col .flex-content {max-width: unset;}",
+        ".flex-content h2 {font-size: 32px !important;}",
+        ".flex-content h3 {font-size: 22px; margin: 10px 0 0;}",
+        ".flex-content h2,.flex-content h3,.flex-content p,.flex-content ul {max-width: unset;}",
+        ".obx-faq h3 {margin: 0 auto;}"
+      ],
+      "settings": {
+        "html": "<div id=\"obx-bottom-content\">\n    <div class=\"beige\">\n        <span class=\"home__subtitle\">Shop with Confidence<\/span>\n        <div class=\"obx-icon-row\">\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-fast-shipping.png?v=1688406357\" alt=\"\">\n                <span>Fast Shipping<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-fulfilling-orders.png?v=1688406357\" alt=\"\">\n                <span>Fulfilling Orders Since 2014<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-authenticity-guaranteed.png?v=1688406357\" alt=\"\">\n                <span>Authenticity Guaranteed<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-6-mo-shelf-life.png?v=1688406357\" alt=\"\">\n                <span>Long Shelf Life of 6+ Months<\/span>\n            <\/div>\n        <\/div>\n    <\/div>\n    <div class=\"one-col\">\n        <div class=\"flex-row\" class=\"min-height: 344px;\">\n            <div class=\"flex-img\">\n            <\/div> \n<div class=\"two-col\">\n        <div class=\"flex-row\" class=\"min-height: 344px;\">\n            <div class=\"flex-img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/Nannycare_Formula_fed_baby.png?v=1693253285\" alt=\"Nannycare formula fed baby starting back up at smiling mother\">\n            <\/div>\n            <div class=\"flex-content\"\n                <<p>Discover Holle, the best European company renowned for its Organic Baby Milk Formula. Holle's commitment to excellence begins with sourcing organically grown ingredients from local small-scale farms. In crafting all our infant formulas, we exclusively employ high-quality Demeter milk. Demeter farmers adhere to ethical practices, refraining from painful dehorning of cows and exclusively feeding them from biologically and dynamically cultivated meadows, ensuring the production of superior milk.<\/p>\n<p>Our formulas are enriched with organic vegetable oils, which provide essential fatty acids vital for infant development, along with maltodextrin sourced from organic corn starch. The remaining approximate 1% of ingredients comprises vitamins and minerals that are indispensable for infants of all ages.<\/p>\n<p><strong>Choose from our collection of Holle cow based formulas:<\/strong><br>\n<ul>\n<li style=\"font-weight: 400;\"><a href=\"https:\/\/formuland.com\/products\/holle-formula-stage-1\"><span style=\"font-weight: 400;\">Holle Cow Milk Formula Stage 1<\/span><\/a><span style=\"font-weight: 400;\"> (From Birth)<\/span><\/li>\n<li style=\"font-weight: 400;\"><a href=\"https:\/\/formuland.com\/products\/holle-stage-2-organic-baby-formula\"><span style=\"font-weight: 400;\">Holle Cow Milk Formula Stage 2<\/span><\/a><span style=\"font-weight: 400;\"> (6+ Months)<\/span><\/li>\n<li style=\"font-weight: 400;\"><a href=\"https:\/\/formuland.com\/products\/holle-stage-3-organic-formula\"><span style=\"font-weight: 400;\">Holle Cow Milk Formula Stage 3<\/span><\/a><span style=\"font-weight: 400;\"> (10+ Months)<\/span><\/li>\n<li style=\"font-weight: 400;\"><a href=\"https:\/\/formuland.com\/products\/holle-stage-4-organic-formula\">Holle Cow Milk Formula Stage 4 <\/a>(12+ Months)<\/li><\/ul><\/span><\/p>",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "main",
+    "e92bcef3-3c18-4c65-a381-bdecbe959780"
+  ]
+}

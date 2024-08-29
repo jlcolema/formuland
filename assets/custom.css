@@ -1,0 +1,328 @@
+.radio__button .unavailable+label:before {
+  background: transparent !important;
+}
+
+/*obx-babyface hero image mobile fix*/
+.background-size-cover {
+  background-position: 75% 0 !important;
+}
+
+/*obx-homepage-old-template-fixes*/
+.obx-home-centered {
+  text-align: left;
+  max-width: 1120px;
+  padding: 40px 0;
+  margin: auto;
+}
+.obx-home-centered p {
+  font-size: 18px;
+}
+/****obx-boc-template*****/
+.rte.standard__rte.collection__heading__text a:hover,
+div#obx-bottom-content a:hover {
+    text-decoration: underline;
+}
+.flex-row {
+    display: flex;
+}
+
+.flex-img {
+    flex-basis: 50%;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 160 / 79;
+    max-width: 950px;
+}
+
+.flex-content {
+    flex-basis: 50%;
+    padding: 120px 32px;
+    max-width: 950px;
+    max-height: 474px;
+}
+.flex-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px    
+}
+.flex-content p {
+    margin-bottom: 0;    
+}
+.flex-img img {
+    aspect-ratio: 160 / 79;
+    max-width: 950px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    }
+
+span.home__subtitle {
+    display: block;
+}
+
+.obx-icon-row .obx-icon {
+    display: inline-block;
+    width: 247px;
+    text-align: center;
+    font-size: 14.5px;
+    font-family: 'Avenir Next';
+    color: #00160E;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.obx-icon-row {
+    max-width: 1000px;
+    margin: auto;
+}
+.obx-icon-row span {
+    display: block
+}
+
+
+
+.beige {
+    padding: 60px 0 40px;
+    background-color: #FCFAF7;
+}
+
+.green.reviews {
+    background-color: #006240;
+    color: #ffffff;
+    padding: 100px 0;
+}
+.green.reviews span.home__subtitle
+{
+    color: #ffffff;
+}
+.green.reviews span.home__subtitle:after {
+    background-color: #fff;
+} 
+
+
+.review-card {
+    max-width: 710px;
+    display: inline-block;
+    /* white-space: nowrap; */
+}
+.review-card span {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin: 20px;
+}
+.review-card .home__subtitle {
+    color: #ffffff;
+}
+
+.review-card .home__subtitle::after {
+    background:  #ffffff;
+    opacity: .5;
+}
+
+#obx-bottom-content .two-col {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.flex-content p,
+.flex-content h2,
+.flex-content h3,
+.flex-content ul {
+    max-width: 526px;
+}
+
+.flex-content.right-align {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.one-col {
+    background: #FCFAF7;
+    padding: 96px 20px;
+}
+
+.obx-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+ul.obx-list {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 30px 0 0 35px;
+    margin-bottom: 0;
+    text-indent: -15px;
+}
+.obx-list li {
+    list-style-type:  none;
+}
+.obx-list li:before {
+    content: url(https://cdn.shopify.com/s/files/1/0647/7493/0651/files/bullet.svg?v=1688406357);
+    margin-right: 10px;
+}
+
+.obx-cta {
+    color: white;
+    padding: 160px 20px;
+    background: #181A1D;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.cta-container {
+    max-width:  600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.cta-container h2 {
+    margin-bottom: 20px;
+}
+.cta-container p {
+    margin: 0 0 30px
+}
+
+a.obx-btn.green {
+    display: block;
+    background: #006240;
+    max-width: max-content;
+    padding: 18px 30px 14px;
+    margin: auto;
+}
+
+.obx-faq h2 {
+    margin-bottom: 20px;
+}
+
+h3.question {
+    font-family: 'Avenir Next';
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+details.faq-item {
+    border: 2px solid #CCDFD9;
+    border-width: 1px 0 1px 0;
+    cursor: pointer;
+    padding: 24px 0;
+    margin: 0;
+}
+.obx-faq:first-child details {
+    border: 2px solid #CCDFD9;
+
+}
+.obx-faq details h3.question:after {
+    content: url(https://cdn.shopify.com/s/files/1/0647/7493/0651/files/arrow-right.svg?v=1688406357);
+    float: right;
+}
+.obx-faq details[open] h3.question:after {
+    content: url(https://cdn.shopify.com/s/files/1/0647/7493/0651/files/arrow-down.svg?v=1688406357);
+    float: right;
+}
+
+.obx-article {
+    height: 245px;
+    max-width: 349px;
+    margin-bottom: 100px
+}
+
+.obx-related-articles .container {max-width:1116px;
+                                 margin: auto;}
+
+.obx-related-articles .flex-row {
+    justify-content: space-between;
+}
+.obx-related-articles .obx-article {
+    padding: 110px 20px;
+}
+.obx-related-articles a {
+    color: #fff;
+    font-size: 30px;
+    font-family: ITC Clearface Std;
+    line-height: 1.3;
+    vertical-align:
+}
+
+.obx-related-articles {
+    padding: 100px 20px;
+}
+
+.obx-related-articles h2 {
+    margin-bottom: 0;
+}
+
+.obx-related-articles hr {
+margin: 20px 0 40px;
+}
+.obx-cta {
+      background-position: 80%  !important;
+}
+@media (max-width: 1024px) {
+    .obx-related-articles .flex-row {
+        justify-content: space-around;
+    }
+    .obx-article {
+        max-width: 300px;
+    }
+}
+@media (max-width: 768px) {
+    .obx-icon-row .obx-icon {
+        display: block;
+        margin: 0 auto 20px;
+    }
+    .flex-content .flex-row,
+    .two-col .flex-row {
+        flex-wrap: wrap;
+        max-height: unset;
+    }
+    .two-col .flex-img {
+        order: 1
+    }
+    .two-col .flex-content{
+        padding: 30px
+    }
+    .flex-content.right-align {
+        display: block;
+    }
+    .two-col .flex-img,
+    .two-col .flex-content {
+        flex-basis: 100%;
+        width: 100%;
+    }
+    .one-col { padding: 40px 20px;}
+    .obx-related-articles .flex-row {
+        flex-wrap: wrap;
+    }
+    .obx-related-articles .obx-article {
+        min-width: 320px;
+        max-width: 385px;
+        margin: 20px auto;
+        background-position: center;
+        background-size: cover;
+        }
+  
+}
+
+@media (max-width: 767px) {
+    ul.obx-list {
+        padding: 15px;
+    }
+    .obx-cta.holle {
+        
+    }
+    .obx-related-articles {
+        padding: 50px 20px;
+    }
+
+}
+@media (max-width: 320px) {
+    .obx-related-articles .obx-article {
+    padding: 140px 20px 0;
+}
+    .obx-related-articles .obx-article a {
+        font-size: 24px;
+        padding-top: 50px
+    }
+}

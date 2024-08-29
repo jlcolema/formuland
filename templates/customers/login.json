@@ -1,0 +1,253 @@
+{
+  "sections": {
+    "main": {
+      "type": "customer-login",
+      "settings": {}
+    },
+    "4194d797-8b3c-4a4c-92e7-c7ce0af243b2": {
+      "type": "section-columns",
+      "blocks": {
+        "template--16789501083867__4194d797-8b3c-4a4c-92e7-c7ce0af243b2-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/hand-with-two-fingers-up-peace.jpg",
+            "bg_position": "center-center",
+            "title": "Peace of mind",
+            "text": "<p>At Formuland, we make parenting easier. With our premium subscription service, you'll never worry about running out of essential baby products. Enjoy transparent terms, flexible options, and top-quality products for your peace of mind. Our dedicated customer support team is always here to assist you. Join Formuland today for worry-free parenting.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--16789501083867__4194d797-8b3c-4a4c-92e7-c7ce0af243b2-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/bitcoin-into-piggy-bank.jpg",
+            "bg_position": "center-center",
+            "title": "Save when subscribed",
+            "text": "<p>When you subscribe at Formuland, not only do you gain the convenience of never running out of essential baby products, but you'll also enjoy the added benefit of saving 5% on your order, making it both a practical and cost-effective choice for parents.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--16789501083867__4194d797-8b3c-4a4c-92e7-c7ce0af243b2-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/race-track-numbers.jpg",
+            "bg_position": "center-center",
+            "title": "Priority",
+            "text": "<p>At Formuland, our subscribers come first. With us, you'll enjoy top priority on products, avoiding shortages and delays. Recent supply chain challenges can impact the baby formula industry. Subscribing to Formuland secures a reliable source, ensuring peace of mind for your baby's nutrition.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--16789501083867__4194d797-8b3c-4a4c-92e7-c7ce0af243b2-text_block-1",
+        "template--16789501083867__4194d797-8b3c-4a4c-92e7-c7ce0af243b2-text_block-2",
+        "template--16789501083867__4194d797-8b3c-4a4c-92e7-c7ce0af243b2-text_block-3"
+      ],
+      "settings": {
+        "title": "Why Choose to Subscribe?",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "aspect_ratio": 0.9
+      }
+    },
+    "84d8de0a-3acf-40bf-a35e-4683e6fd6359": {
+      "type": "section-accordion",
+      "blocks": {
+        "2f1ba751-e297-45f4-ae96-b4d87f585340": {
+          "type": "image",
+          "settings": {
+            "title": "step 1",
+            "text": "<p>Select Your Preferred Product (e.g., I've Chosen Hipp UK Stage 1)<\/p>",
+            "image": "shopify:\/\/shop_images\/step1.jpg",
+            "bg_position": "right-center",
+            "aspect_ratio": 0.8
+          }
+        },
+        "69a22c10-07c8-4c57-b9f2-4db29ff27b28": {
+          "type": "image",
+          "settings": {
+            "title": "step 2",
+            "text": "<p>Select Your Desired Quantity and Click (e.g., I've Chosen 4 Boxes for $41.99 Each)<\/p>",
+            "image": "shopify:\/\/shop_images\/step2.jpg",
+            "bg_position": "center-center",
+            "aspect_ratio": 0.8
+          }
+        },
+        "05dd48e7-5bdf-4f4b-90bb-11e03c700103": {
+          "type": "image",
+          "settings": {
+            "title": "step 3",
+            "text": "<p>Click on 'Subscribe & Save' (Highlighted in Pink and Enclosed in a Red Box, as Shown in the Example Image)<\/p>",
+            "image": "shopify:\/\/shop_images\/step3.jpg",
+            "bg_position": "right-center",
+            "aspect_ratio": 0.8
+          }
+        },
+        "dfd2dc34-5f5b-413d-85f7-e9dfeb0a1131": {
+          "type": "image",
+          "settings": {
+            "title": "step 4",
+            "text": "<p>Select and Click on the Dropdown Menu for Your Preferred Delivery Schedule (As Shown in the Example Image with a Red Box)<\/p>",
+            "image": "shopify:\/\/shop_images\/step4.jpg",
+            "bg_position": "right-center",
+            "aspect_ratio": 0.8
+          }
+        },
+        "c79a8d00-2f8e-4bfa-aeb9-921423079ab5": {
+          "type": "image",
+          "settings": {
+            "title": "step 5",
+            "text": "<p>Select the Desired Quantity for this Setup (As Illustrated in the Example Image with a Red Box)<\/p>",
+            "image": "shopify:\/\/shop_images\/step5.jpg",
+            "bg_position": "right-center",
+            "aspect_ratio": 0.8
+          }
+        },
+        "3cf82b25-22a7-47df-ba49-ab243c8e1349": {
+          "type": "image",
+          "settings": {
+            "title": "step 6",
+            "text": "<p>Before Proceeding, Double-Check Your Selected Subscription Setup. In the 'ADD TO CART' Box, Your Total (Before Shipping) Will Be Displayed in Green. If Everything Appears Correct, Click the 'ADD TO CART' Button (Highlighted in Green and Enclosed in a Red Box, as Shown in the Example Image).<\/p>",
+            "image": "shopify:\/\/shop_images\/step6.jpg",
+            "bg_position": "center-center",
+            "aspect_ratio": 0.8
+          }
+        },
+        "4939f9e1-373b-4aad-933a-56ca2d20aa87": {
+          "type": "image",
+          "settings": {
+            "title": "step 7",
+            "text": "<p>Now, on the same page, scroll to the top, and you'll find the cart icon with a notification dot, indicating that your selection has been added. Click on that cart icon (Highlighted in a Red Box, as Shown in the Example Image).<\/p>",
+            "image": "shopify:\/\/shop_images\/step7.jpg",
+            "bg_position": "right-center",
+            "aspect_ratio": 0.8
+          }
+        },
+        "d003d1fd-8301-402d-a6f0-f35a7a253eb6": {
+          "type": "image",
+          "settings": {
+            "title": "step 8",
+            "text": "<p>After clicking the cart icon, the website will open a pop-up page. If you have any special instructions or would like to inquire about estimated shipping times, select one of the two dropdown boxes to provide the requested information. Once you've ensured everything is set correctly on this page, proceed by clicking the 'CHECK OUT' box (Highlighted in Green and Enclosed in a Red Box, as Shown in the Example Image).<\/p>",
+            "image": "shopify:\/\/shop_images\/step8.jpg",
+            "bg_position": "right-center",
+            "aspect_ratio": 0.8
+          }
+        },
+        "844cee3a-d175-40c4-8ac0-44db46554b7e": {
+          "type": "image",
+          "settings": {
+            "title": "step 9",
+            "text": "<p>Afterward, you'll be directed to a new page where you can enter your contact and shipping details. At the top of this page, there's an option for express checkout. Once you've completed all the required information, you're ready to proceed by clicking the 'Continue to Shipping' box (Highlighted in Green and Enclosed in a Red Box, as Shown in the Example Images).<\/p>",
+            "image": "shopify:\/\/shop_images\/step9.jpg",
+            "bg_position": "left-center",
+            "aspect_ratio": 0.8
+          }
+        },
+        "47542f6b-0283-4902-b8f8-6d156ff1e1f7": {
+          "type": "image",
+          "settings": {
+            "title": "step 10",
+            "text": "<p>Next, the page will refresh and present you with the payment details. If all the information appears correct to you, simply click on the 'Continue to Payment' box (Highlighted in Green and Enclosed in a Red Box, as Shown in the Example Image).<\/p>",
+            "image": "shopify:\/\/shop_images\/step10.jpg",
+            "bg_position": "center-center",
+            "aspect_ratio": 0.8
+          }
+        },
+        "11e1b9e1-5458-424f-8b01-696ab37071d3": {
+          "type": "image",
+          "settings": {
+            "title": "step 11",
+            "text": "<p>Congratulations, you've reached the final step! On this payment page, please double-check that the information above, including your email address and shipping address, is accurate. Below that, input your payment details and billing address. Once you've confirmed everything, you're ready to complete your order by clicking the 'Pay Now' box (Highlighted in Green and Enclosed in a Red Box, as Shown in the Example Image).<\/p>",
+            "image": "shopify:\/\/shop_images\/step11.jpg",
+            "bg_position": "center-center",
+            "aspect_ratio": 0.8
+          }
+        }
+      },
+      "block_order": [
+        "2f1ba751-e297-45f4-ae96-b4d87f585340",
+        "69a22c10-07c8-4c57-b9f2-4db29ff27b28",
+        "05dd48e7-5bdf-4f4b-90bb-11e03c700103",
+        "dfd2dc34-5f5b-413d-85f7-e9dfeb0a1131",
+        "c79a8d00-2f8e-4bfa-aeb9-921423079ab5",
+        "3cf82b25-22a7-47df-ba49-ab243c8e1349",
+        "4939f9e1-373b-4aad-933a-56ca2d20aa87",
+        "d003d1fd-8301-402d-a6f0-f35a7a253eb6",
+        "844cee3a-d175-40c4-8ac0-44db46554b7e",
+        "47542f6b-0283-4902-b8f8-6d156ff1e1f7",
+        "11e1b9e1-5458-424f-8b01-696ab37071d3"
+      ],
+      "settings": {
+        "title": "How to Get Started with Your Subscription",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "9a7fb0d8-22d3-4360-913f-6432f704841b": {
+      "type": "section-accordion",
+      "blocks": {
+        "8c2122be-aed8-4dd8-a8e2-0846182153f2": {
+          "type": "image",
+          "settings": {
+            "title": "step 1",
+            "text": "<p>To seamlessly manage your subscription, begin by locating the login page. Just scroll to the bottom of any section on the Formuland website, and at the far bottom left, you'll spot the 'Manage Subscription' link. Give it a friendly click, as depicted in the example image with those helpful red box.<\/p>",
+            "image": "shopify:\/\/shop_images\/step1-1.jpg",
+            "bg_position": "center-center",
+            "aspect_ratio": 0.8
+          }
+        },
+        "b89ce273-ebaf-4fc6-9eb8-909576226347": {
+          "type": "image",
+          "settings": {
+            "title": "step 2",
+            "text": "<p>After clicking on 'Manage Subscription,' you'll be directed to a new page where you can input your login details. If you don't have a prior account with us, don't fret. Below the sentence 'Need help accessing your subscriptions?' you'll find a link that reads 'Click here.' Simply click on that link (as indicated in the example image with the helpful red box).<\/p>",
+            "image": "shopify:\/\/shop_images\/step2-2.jpg",
+            "bg_position": "center-center",
+            "aspect_ratio": 0.8
+          }
+        },
+        "2f451123-d131-4dbd-a550-befac47bb1f2": {
+          "type": "image",
+          "settings": {
+            "title": "step 3",
+            "text": "<p>After clicking on the 'Click here' link, you'll be directed to a new page where you can provide the email address you used during your recent subscription checkout to complete your account setup. Simply input your email address, and then click on the prominently highlighted green box that says 'Get Subscription Login' (as shown in the example image with the red box). Once this is done, you'll have full access to manage your subscriptions directly within your account.<\/p>",
+            "image": "shopify:\/\/shop_images\/step3-3.jpg",
+            "bg_position": "center-center",
+            "aspect_ratio": 0.8
+          }
+        }
+      },
+      "block_order": [
+        "8c2122be-aed8-4dd8-a8e2-0846182153f2",
+        "b89ce273-ebaf-4fc6-9eb8-909576226347",
+        "2f451123-d131-4dbd-a550-befac47bb1f2"
+      ],
+      "settings": {
+        "title": "Managing Your Subscription",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4194d797-8b3c-4a4c-92e7-c7ce0af243b2",
+    "84d8de0a-3acf-40bf-a35e-4683e6fd6359",
+    "9a7fb0d8-22d3-4360-913f-6432f704841b"
+  ]
+}

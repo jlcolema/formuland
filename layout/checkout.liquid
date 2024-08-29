@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}" dir="{{ direction }}" class="{{ checkout_html_classes }}">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Ads -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-975144250"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-975144250');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0">
+    <meta name="referrer" content="origin">
+
+    <title>{{ page_title }}</title>
+
+    {{ content_for_header }}
+
+    {{ checkout_stylesheets }}
+    {{ checkout_scripts }}
+  
+  <!-- REAMAZE INTEGRATION START - DO NOT REMOVE -->
+{% render 'reamaze-config' %}
+{% render 'reamaze-sso' %}
+<!-- REAMAZE INTEGRATION END - DO NOT REMOVE -->
+
+</head>
+  <body>
+    {{ skip_to_content_link }}
+
+    <header class="banner" data-header role="banner">
+      <div class="wrap">
+        {{ content_for_logo }}
+      </div>
+    </header>
+
+    {{ order_summary_toggle }}
+    <div class="content" data-content>
+      <div class="wrap">
+        <div class="main">
+          <header class="main__header" role="banner">
+            {{ content_for_logo }}
+            {{ breadcrumb }}
+            {{ alternative_payment_methods }}
+          </header>
+          <main class="main__content" role="main">
+            {{ content_for_layout }}
+            <!-- CUSTOM SECTION -->
+            {% if settings.extra_info_card %}
+              <div class="custom-card custom-gurantee">
+                {% if settings.card_img_0 != blank%}
+                  <img src="{{ settings.card_img_0 | img_url: '540x' }}" alt="{{ settings.card_img_0.alt | strip_html | escape }}"/>
+                {% endif %}
+                <div class="custom-card-text">
+                  <h2>{{settings.card_heading_0}}</h2>
+                  <p>{{settings.card_info_0}}</p>
+                </div>
+              </div>
+            {% endif %}
+            <div class="sidebar-mobile">{% include 'custom-sidebar' %}</div>
+            <!-- END OF CUSTOM SECTION -->
+          </main>
+          <footer class="main__footer" role="contentinfo">
+            {{ content_for_footer }}
+          </footer>
+        </div>
+        <aside class="sidebar" role="complementary">
+          <div class="sidebar__header">
+            {{ content_for_logo }}
+          </div>
+          <div class="sidebar__content">
+            {{ content_for_order_summary }}
+            <!-- CUSTOM SECTION -->
+            <div class="sidebar-desktop">{% include 'custom-sidebar' %}</div>
+            <!-- END OF CUSTOM SECTION -->
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    {{ tracking_code }}
+  </body>
+</html>
+
+{%- assign custom_shipping_text = settings.custom_shipping_text -%}
+
+<script>
+(function($) {
+  
+  $(document).on("page:load page:change", function() {
+    if (Shopify.Checkout.step === "contact_information") {
+      let shipping_address = document.querySelectorAll('.section__header')[1];
+      let shipping_info = document.createElement("p");
+      shipping_info.innerText = `{{custom_shipping_text}}`;
+      shipping_info.classList.add("custom_shipping_text");
+      shipping_address.append(shipping_info);
+    }
+
+  });
+})(Checkout.$);
+
+</script>
+
+<style>
+  .custom_shipping_text{
+    color: rgb(220, 65, 65);
+  }
+  .custom-sidebar-content{
+    padding: 20px 0;
+  }
+  .custom-sidebar-title{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .custom-sidebar-title::before, .custom-sidebar-title::after{
+    content: '';
+    display: inline-block;
+    height: 1px;
+    background-color: #e6e6e6;
+    flex-grow: 1;
+  }
+  .custom-card{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  .custom-card h2{
+    font-weight: bold;
+  }
+  .custom-gurantee{
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 16px;
+  }
+  .custom-gurantee img{
+    /* flex: 1 1 64px; */
+    width: 64px;
+  }
+  .custom-gurantee h2{
+   color: #006240;
+  }
+  .custom-sidebar-card img{
+    /* flex: 1 1 45px; */
+    width: 45px;
+  }
+  .custom-sidebar-card h2{
+    font-size: 0.9rem;
+  }
+  .custom-sidebar-card p{
+    font-size: 0.8rem;
+  }
+  .post-text{
+    margin-top: 20px;
+    font-size: 0.7rem;
+  }
+  .order-summary__sections{
+    height: auto !important;
+  }
+  .sidebar-mobile{
+    display: none;
+  }
+
+
+  @media screen and (min-width: 320px) and (max-width: 1000px) {
+    .sidebar-desktop{
+      display: none;
+    }
+    .sidebar-mobile{
+    display: block;
+    }
+    /* .post-text{
+      text-align: center;
+    } */
+  }
+</style>

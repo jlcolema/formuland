@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-hero",
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": false,
+        "show_description": true,
+        "show_description_below": true,
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "use_screen_one_fifth",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "text_color": "text--white"
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "show_subcollection": true,
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "aspect_ratio": 0.6,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "collections": {
+          "type": "collections",
+          "disabled": true,
+          "settings": {
+            "title": "All collections"
+          }
+        },
+        "filters": {
+          "type": "filters",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "collections",
+        "filters"
+      ],
+      "settings": {
+        "product_limit": 36,
+        "grid_setting_large": 4,
+        "grid_setting_small": "2",
+        "enable_layout_toggle": true,
+        "collection_sorting": true,
+        "hide_sidebar": true
+      }
+    },
+    "e92bcef3-3c18-4c65-a381-bdecbe959780": {
+      "type": "section-html",
+      "custom_css": [
+        ".two-col .flex-content {max-width: unset;}",
+        ".flex-content h2 {font-size: 32px !important;}",
+        ".flex-content h3 {font-size: 22px; margin: 10px 0 0;}",
+        ".flex-content h2,.flex-content h3,.flex-content p,.flex-content ul {max-width: unset;}",
+        ".obx-faq h3 {margin: 0 auto;}"
+      ],
+      "settings": {
+        "html": "<div id=\"obx-bottom-content\">\n    <div class=\"beige\">\n        <span class=\"home__subtitle\">Shop with Confidence<\/span>\n        <div class=\"obx-icon-row\">\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-fast-shipping.png?v=1688406357\" alt=\"\">\n                <span>Fast Shipping<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-fulfilling-orders.png?v=1688406357\" alt=\"\">\n                <span>Fulfilling Orders Since 2014<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-authenticity-guaranteed.png?v=1688406357\" alt=\"\">\n                <span>Authenticity Guaranteed<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-6-mo-shelf-life.png?v=1688406357\" alt=\"\">\n                <span>Long Shelf Life of 6+ Months<\/span>\n            <\/div>\n        <\/div>\n    <\/div>\n    <div class=\"one-col\">\n        <div class=\"flex-row\" class=\"min-height: 344px;\">\n            <div class=\"flex-img\">\n            <\/div> \n<div class=\"two-col\">\n        <div class=\"flex-row\" class=\"min-height: 344px;\">\n            <div class=\"flex-img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/Nannycare_Formula_fed_baby.png?v=1693253285\" alt=\"Nannycare formula fed baby starting back up at smiling mother\">\n            <\/div>\n            <div class=\"flex-content\"\n              <div style=\"text-align: left;\">\n<p>Holle offers two distinct varieties of formula: cow-based and goat-based. Both cow milk and goat milk formulas are excellent alternatives to nursing, as they boast a similar fat content. For infants who may encounter challenges digesting the protein found in cow's milk, goat milk can be a viable solution.<\/p>\n<p>Typically, goat milk formula forms a softer, smaller, and looser curd in the infant's gut, potentially making it easier to digest. This formulation can be particularly beneficial when a newborn experiences difficulties digesting the milk's sugar, resulting in lactose intolerance. Goat milk contains lower lactose levels compared to cow's milk, which may make it a more favorable option for your baby.<\/p>\n<p><strong>Formula Stages Include:<\/strong><\/p>\n<ul>\n<li>Holle Goat Stage PRE Organic Formula (From Birth)<\/li>\n<li>Holle Goat Stage 1 Organic Formula (From Birth)<\/li>\n<li>Holle Goat Stage 2 Organic Formula (6+ Months)<\/li>\n<li>Holle Goat Stage 3 Organic Formula (10+ Months)<\/li>\n<li>Holle Dutch Goat Stage 1 Formula (From Birth)<\/li>\n<li>Holle Dutch Goat Stage 2 Formula (6+ Months)<\/li>\n<li>Holle Dutch Goat Stage 3 Formula (10+ Months)<\/li>\n<\/ul>\n<p>Discover the Holle advantage, where we prioritize your baby's comfort and well-being by offering a diverse range of formulas tailored to their unique needs.<\/p>\n<\/div>\n<div style=\"text-align: left;\">\n<ul><\/ul>\n<\/div>",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "main",
+    "e92bcef3-3c18-4c65-a381-bdecbe959780"
+  ]
+}

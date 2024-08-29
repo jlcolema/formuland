@@ -1,0 +1,74 @@
+{
+  "sections": {
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "show_subcollection": true,
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "aspect_ratio": 0.6,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "collections": {
+          "type": "collections",
+          "disabled": true,
+          "settings": {
+            "title": "All collections"
+          }
+        },
+        "filters": {
+          "type": "filters",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "collections",
+        "filters"
+      ],
+      "settings": {
+        "product_limit": 36,
+        "grid_setting_large": 4,
+        "grid_setting_small": "2",
+        "enable_layout_toggle": true,
+        "collection_sorting": true,
+        "hide_sidebar": true
+      }
+    },
+    "428b6bf4-66a6-42b0-a313-0bc3740f69b3": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div id=\"obx-bottom-content\">\n    <div class=\"beige\">\n        <span class=\"home__subtitle\"> Organic European Formula<\/span>\n        <div class=\"obx-icon-row\">\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-fast-shipping.png?v=1688406357\" alt=\"\">\n                <span>Fast Shipping<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-fulfilling-orders.png?v=1688406357\" alt=\"\">\n                <span>Fulfilling Orders Since 2014<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-authenticity-guaranteed.png?v=1688406357\" alt=\"\">\n                <span>Authenticity Guaranteed<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-6-mo-shelf-life.png?v=1688406357\" alt=\"\">\n                <span>Long Shelf Life of 6+ Months<\/span>\n            <\/div>\n        <\/div>\n    <\/div>",
+        "full_width": true
+      }
+    },
+    "hero": {
+      "type": "collection-hero",
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": false,
+        "show_description": true,
+        "show_description_below": true,
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "use_screen_one_fifth",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "text_color": "text--white"
+      }
+    }
+  },
+  "order": [
+    "subcollections",
+    "main",
+    "428b6bf4-66a6-42b0-a313-0bc3740f69b3",
+    "hero"
+  ]
+}

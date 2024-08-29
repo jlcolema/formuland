@@ -1,0 +1,336 @@
+{
+  "sections": {
+    "b02d60c9-54f6-468a-b756-5e35ce5af8cf": {
+      "type": "section-gallery",
+      "blocks": {
+        "62da49aa-1222-4cab-a058-7a89b1ca3050": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bitcoin-into-piggy-bank.jpg",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "62da49aa-1222-4cab-a058-7a89b1ca3050"
+      ],
+      "settings": {
+        "full_width": false,
+        "padding": true,
+        "scale_image": true,
+        "aspect_ratio": 0.5,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text--black",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "323f138a-3999-4acd-9f05-d472a4597d8e": {
+      "type": "section-html",
+      "custom_css": [
+        "h2 {margin-bottom: 0; font-size: 28px;}",
+        "p {margin: 0 0 30px;}"
+      ],
+      "settings": {
+        "html": "<div>\n    <h2>Exclusive Formuland Coupon for New Subscribers<\/h2>\n    <p>Don't miss out on the best nutrition for your baby. Sign up for our email newsletter today and receive a <strong>10% Formuland coupon code<\/strong> in your inbox to thank you for signing up.\n    <\/p>\n    <h2>Holiday Offers You Can't Resist<\/h2>\n    <p>The holidays are a time of giving, and what better gift than the gift of nutrition? Subscribers receive exclusive holiday deals and all the latest Formuland promo codes!\n    <\/p>\n    <h2>Why Choose Formuland?<\/h2>\n    <p style=\"margin-bottom: 0;\">Besides offering the highest-quality <a href=\"https:\/\/food.ec.europa.eu\/safety\/labelling-and-nutrition\/specific-groups\/food-infants-and-young-children_en\" target=\"_blank\">baby food from Europe<\/a> since 2014, here are some other reasons why Formuland is your best choice for feeding your baby.\n    <\/p>\n<\/div>",
+        "full_width": false
+      }
+    },
+    "60f0e6cf-025d-4085-9e60-ee51900f364d": {
+      "type": "section-gallery-text",
+      "blocks": {
+        "template--16682341564635__60f0e6cf-025d-4085-9e60-ee51900f364d-1674965804f7c4438e-0": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p><\/p><ul><li><strong>Exclusive Discounts<\/strong>: By subscribing to our newsletter, you can get a unique Formuland discount code for your first order, along with future special offers directly to your inbox.<\/li><li><strong>Parent-Founded<\/strong>: As a company founded by parents for parents, we understand your concerns and needs intimately, ensuring that the products we offer are ones we would use for our own families.<\/li><\/ul><p><\/p>",
+            "text_align": "text-left"
+          }
+        },
+        "dd176cff-6386-427b-b4ef-08ae65ee9f7a": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<ul><li><strong>Wide Selection<\/strong>: Our carefully curated range of European formula brands caters to the diverse nutritional needs of babies. From organic or <a href=\"https:\/\/formuland.com\/collections\/plant-based-formula\"><span style=\"text-decoration:underline\">plant-based<\/span><\/a> to <a href=\"https:\/\/formuland.com\/collections\/goat-milk-formula\"><span style=\"text-decoration:underline\">goat milk-based formulas<\/span><\/a>, we have you covered.<\/li><li><strong>Direct Partnerships<\/strong>: We work directly with manufacturers or their official wholesale distributors in Europe who have undergone rigorous vetting to meet our high standards.<\/li><\/ul>",
+            "text_align": "text-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--16682341564635__60f0e6cf-025d-4085-9e60-ee51900f364d-1674965804f7c4438e-0",
+        "dd176cff-6386-427b-b4ef-08ae65ee9f7a"
+      ],
+      "custom_css": [
+        "ul {color: #000; padding-top: 20px;}",
+        "li {margin-bottom: 20px; min-height: 100px;}",
+        ".gallery__item {padding-left: 30px;}",
+        "@media (max-width: 767px) {.gallery__item {padding-left: 15px; width: 100%; } .border--line {border-top: none; } .frame-blocks-2 .slides-mobile-inner {flex-wrap: wrap; justify-content: space-around; padding-bottom: 0; margin-bottom: 0; } ul {padding-top: 0px; margin: 0 0 0 20px; } li {margin: 0 0 20px; padding: 0; min-height: unset; }}"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1705165785c12f4a09": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_nVYN7q": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-RAfxMj\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_nVYN7q"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "92792700-c193-49b7-837b-ce99d5612ffe": {
+      "type": "section-html",
+      "custom_css": [
+        "p {font-size: 17px; margin-bottom: 0;}",
+        "h2 {margin-bottom: 0;}"
+      ],
+      "settings": {
+        "html": "<div style=\n\"text-align: left;\"><h2>How to Use Your Formuland Promo Code\n<\/h2><p><strong>Using your Formuland discount code is simple.<\/strong> Just enter the code at checkout and watch the savings add up.<\/p><\/div>",
+        "full_width": false
+      }
+    },
+    "3a429f48-19cd-40c9-b1ae-32ce38b535e6": {
+      "type": "section-gallery",
+      "blocks": {
+        "template--16682341564635__3a429f48-19cd-40c9-b1ae-32ce38b535e6-1674963986811d5e77-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Happy-Kendamil-Formula-fed-baby.png",
+            "bg_position": "right-center",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16682341564635__3a429f48-19cd-40c9-b1ae-32ce38b535e6-1674963986811d5e77-0"
+      ],
+      "custom_css": [
+        ".frame {padding-top: 10px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "padding": false,
+        "scale_image": true,
+        "aspect_ratio": 0.5,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "6da46469-22a4-41ab-92f3-88c0fb5f984f": {
+      "type": "section-html",
+      "custom_css": [
+        "p {font-size: 17px;}",
+        "h2 {margin-bottom: 0;}"
+      ],
+      "settings": {
+        "html": "<div style='text-align: left; padding: 40px 0 0'><h2>Use Your Formuland Coupon for Your Favorite European Baby Formula Brands\n<\/h2><p>There are many <a href=\"https:\/\/formuland.com\/blogs\/news\/the-benefits-of-buying-european-baby-formula\" style=\"text-decoration: underline;\">benefits to choosing European baby food<\/a>, but each baby has unique needs. Here are some of our most popular collections or you can use our <a href=\"https:\/\/formuland.com\/pages\/european-baby-formula-comparison-chart\" style=\"text-decoration: underline;\">Baby Formula Comparison Charts<\/a> to help you choose.<\/p><\/div>",
+        "full_width": false
+      }
+    },
+    "200519e5-4ad6-466f-8ea1-d6327e782eb9": {
+      "type": "section-double",
+      "blocks": {
+        "template--16950952591579__200519e5-4ad6-466f-8ea1-d6327e782eb9-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hipp-uk-stage-1-organic-infant-formula-800g-350639_6107874d-3cb2-4c56-867f-b94abbdc9a79.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--bottom-center",
+            "text_color": "text--white",
+            "link_text": "Shop HiPP Formula",
+            "link": "\/collections\/hipp",
+            "button_color": "btn--secondary",
+            "button_style": "btn uppercase"
+          }
+        },
+        "95a3d5f5-0fdd-40f5-b589-70027e1032a5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kendamilclassic1.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--bottom-center",
+            "text_color": "text--white",
+            "link_text": "Shop Kendamil Formula",
+            "link": "\/collections\/kendamil",
+            "button_color": "btn--secondary",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "template--16950952591579__200519e5-4ad6-466f-8ea1-d6327e782eb9-image-1",
+        "95a3d5f5-0fdd-40f5-b589-70027e1032a5"
+      ],
+      "custom_css": [],
+      "settings": {
+        "height": "image-height",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "0ab693ac-9cf4-44bf-aedc-8d56c2feaef9": {
+      "type": "section-double",
+      "blocks": {
+        "template--16950952591579__0ab693ac-9cf4-44bf-aedc-8d56c2feaef9-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/holleorganicformulastage1.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--bottom-center",
+            "text_color": "text--white",
+            "link_text": "Shop Holle Formula",
+            "link": "\/collections\/holle",
+            "button_color": "btn--secondary",
+            "button_style": "btn uppercase"
+          }
+        },
+        "9c36d1aa-7ca7-42d5-bf52-377ed945e8de": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lebenswert-stage-1-bio-formula-500g-247030_600x_b953eb2c-690b-4756-9d5e-402f44ef0040.jpg",
+            "bg_position": "center-bottom",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--bottom-center",
+            "text_color": "text--white",
+            "link_text": "Shop Lebenswert Formula",
+            "link": "\/collections\/lebenswert",
+            "button_color": "btn--secondary",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "template--16950952591579__0ab693ac-9cf4-44bf-aedc-8d56c2feaef9-image-1",
+        "9c36d1aa-7ca7-42d5-bf52-377ed945e8de"
+      ],
+      "custom_css": [],
+      "settings": {
+        "height": "image-height",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "de385837-ea52-4e34-bb99-5c3b1f13971e": {
+      "type": "section-video",
+      "custom_css": [
+        "{max-width: 1180px; padding: 0 20px; margin: 60px auto 30px;}"
+      ],
+      "settings": {
+        "height": "use_pixels_650",
+        "video_link_bg": "",
+        "object_position": "center-center",
+        "image": "shopify:\/\/shop_images\/maxresdefault.jpg",
+        "bg_position": "center-center",
+        "video_link": "https:\/\/www.youtube.com\/watch?v=A2VOn9-7NZU",
+        "popup_text": "",
+        "kicker": "Formuland",
+        "title": "Choosing the Right Organic Baby Food",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "02892b48-3e10-4010-a144-519203a52862": {
+      "type": "section-html",
+      "custom_css": [
+        "h3 {font-size: 23px;}",
+        "p {font-size: 17px;}"
+      ],
+      "settings": {
+        "html": "<div style='text-align: center; padding: 30px 0;'><h2 class='home__subtitle'>FAQs About Formuland Coupon Codes and More<\/h2><p>You may have questions about our products, services and how to save with Formuland discount codes. Here are some frequently asked questions to guide you through your Formuland experience.<\/p><\/div>\n<h3>How Do I Use My Formuland Promo Code?<\/h3>\n<p>Using your Formuland coupon code is simple. Just enter your Formuland promo code at checkout to apply your discount. It's an easy way to make your purchase even more budget-friendly.<\/p>\n<h3>Do You Provide Subscriptions to Formulas?<\/h3>\n<p>Yes, we offer a <a href=\"https:\/\/formuland.com\/pages\/formuland-website-faqs\" style=\"text-decoration: underline;\">subscription service<\/a> to ensure you never run out of your baby's essential nutrition. When you subscribe, not only do you get the convenience of regular deliveries, but you also get to enjoy additional discounts. Combine this with a Formuland coupon code for even greater savings.\/p>\n<h3>Where to Find Preparation Instructions?<\/h3>\n<p>Preparation instructions for each type of formula can be found on the respective product page on our website. You can also find detailed preparation guides in the packaging of each product, ensuring you prepare the formula in a way that is both safe and nutritious for your baby.<\/p>\n<h3>Where Do You Purchase the Products?<\/h3>\n<p>We source our products directly from manufacturers or their official wholesale distributors in Europe. Each of these partners has been thoroughly vetted to meet our high standards for quality and safety. This way, you can be assured that when you use a Formuland discount code, you're investing in top-notch products.<\/p>\n<h3><\/h3>\n<p><\/p>",
+        "full_width": false
+      }
+    },
+    "11070427-6f0d-41a7-887c-c460f19c4da3": {
+      "type": "section-html",
+      "custom_css": [
+        ".obx-cta {margin: 60px 0; color: white; padding: 160px 20px; background: #181a1d; background-position: 80% !important; background-repeat: no-repeat; background-size: cover;}",
+        ".cta-container {max-width: 600px; margin: 0 auto; text-align: center;}",
+        "a.obx-btn.green {display: block; background: #006240; max-width: max-content; padding: 18px 30px 14px; margin: auto;}"
+      ],
+      "settings": {
+        "html": "<div class=\"obx-cta\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/HiPP_formula_fed_happy_baby.png?v=1691174493);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n        <div class=\"cta-container\">\n            <h2>Trusted by Parents, Vetted by Us<\/h2>\n            <p>Our commitment to quality ensures that we only work with manufacturers or their official wholesale distributors in Europe who meet our rigorous standards. <strong>Use your Formuland coupon to invest in <a href=\"https:\/\/formuland.com\/collections\" style=\"text-decoration: underline;\">trustworthy brands<\/a> that prioritize your baby’s nutritional needs and start saving today!<\/strong><\/p>\n\n        <\/div>\n    <\/div>",
+        "full_width": false
+      }
+    },
+    "f6243796-21ef-40b2-bc81-ef4ec651c4a6": {
+      "type": "section-html",
+      "custom_css": [
+        "#obx-bottom-content .obx-related-articles {padding-top: 0;}",
+        "p {font-size: 17px;}",
+        "p > a {color: #000 !important; font-size: inherit !important; text-decoration: underline !important; font-family: \"Avenir Next\", sans-serif !important;}",
+        ".obx-article {flex-basis: 31.75%; max-width: 31.75%;}"
+      ],
+      "settings": {
+        "html": "<div id=\"obx-bottom-content\"><div class=\"obx-related-articles\">\n    <div class=\"container\">\n        <h2>Related Articles: Formuland Discount Code<\/h2>\n        <p>Explore more insights and tips on <a href=\"https:\/\/www.cdc.gov\/nutrition\/infantandtoddlernutrition\/index.html\" target=\"_blank\" >baby nutrition<\/a> with our related articles. For more savings, keep an eye on our newsletters, where we frequently share Formuland coupon codes and promo offers.<\/p>\n<hr>\n            <div class=\"flex-row\">\n                <div class=\"obx-article\" style=\"background-image: url(https:\/\/formuland.com\/cdn\/shop\/articles\/tMbnv6uR1OLPP1xSgkVhgm8ZgaI0YofK1663682048.jpg?v=1663875529);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n                    <a href=\"https:\/\/formuland.com\/blogs\/news\/debunking-6-common-myths-about-baby-formula\">\n                        <span class=\"obx-article-heading\">Debunking 6 <br>Common Myths <br>About Baby Formula<\/span>\n                    <\/a>    \n                <\/div>\n                <div class=\"obx-article\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/blog-feeding-the-young-the-history-of-baby-formula.png?v=1688406357);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n                    <a href=\"https:\/\/formuland.com\/blogs\/news\/3-tips-for-storing-your-supply-of-baby-formula\">\n                        <span class=\"obx-article-heading\">3 Tips for <br>Storing Your Supply <br>of Baby Formula\n                    <\/a>    \n                <\/div>\n                <div class=\"obx-article\" style=\"background-image: url(https:\/\/formuland.com\/cdn\/shop\/articles\/tGxfeeeGnP1jSOZVSnxdNDq16iLa4MUw1671641708.jpg?v=1672844530);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n                    <a href=\"https:\/\/formuland.com\/blogs\/news\/tips-for-seamlessly-switching-baby-formula-brands\">\n                        <span class=\"obx-article-heading\">Tips for Seamlessly Switching Baby <br>Formula Brands<\/span>\n                    <\/a>    \n                <\/div>\n            <\/div>\n    <\/div>\n        <\/div><\/div>",
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "b02d60c9-54f6-468a-b756-5e35ce5af8cf",
+    "main",
+    "323f138a-3999-4acd-9f05-d472a4597d8e",
+    "60f0e6cf-025d-4085-9e60-ee51900f364d",
+    "1705165785c12f4a09",
+    "92792700-c193-49b7-837b-ce99d5612ffe",
+    "3a429f48-19cd-40c9-b1ae-32ce38b535e6",
+    "6da46469-22a4-41ab-92f3-88c0fb5f984f",
+    "200519e5-4ad6-466f-8ea1-d6327e782eb9",
+    "0ab693ac-9cf4-44bf-aedc-8d56c2feaef9",
+    "de385837-ea52-4e34-bb99-5c3b1f13971e",
+    "02892b48-3e10-4010-a144-519203a52862",
+    "11070427-6f0d-41a7-887c-c460f19c4da3",
+    "f6243796-21ef-40b2-bc81-ef4ec651c4a6"
+  ]
+}

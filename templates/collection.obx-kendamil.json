@@ -1,0 +1,75 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-hero",
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": false,
+        "show_description": true,
+        "show_description_below": true,
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "use_screen_one_fifth",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "text_color": "text--white"
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "show_subcollection": true,
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "aspect_ratio": 0.6,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "collections": {
+          "type": "collections",
+          "disabled": true,
+          "settings": {
+            "title": "All collections"
+          }
+        },
+        "filters": {
+          "type": "filters",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "collections",
+        "filters"
+      ],
+      "settings": {
+        "product_limit": 36,
+        "grid_setting_large": 4,
+        "grid_setting_small": "2",
+        "enable_layout_toggle": true,
+        "collection_sorting": true,
+        "hide_sidebar": true
+      }
+    },
+    "e91b30c9-c862-4cfb-96cb-18aa016788d0": {
+      "type": "section-html",
+      "custom_css": [],
+      "settings": {
+        "html": "<div id=\"obx-bottom-content\">\n    <div class=\"beige\">\n        <span class=\"home__subtitle\">Kendamil: Bringing You the Best of British Baby Formula<\/span>\n        <div class=\"obx-icon-row\">\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-fast-shipping.png?v=1688406357\" alt=\"\">\n                <span>Fast Shipping<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-fulfilling-orders.png?v=1688406357\" alt=\"\">\n                <span>Fulfilling Orders Since 2014<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-authenticity-guaranteed.png?v=1688406357\" alt=\"\">\n                <span>Authenticity Guaranteed<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-6-mo-shelf-life.png?v=1688406357\" alt=\"\">\n                <span>Long Shelf Life of 6+ Months<\/span>\n            <\/div>\n        <\/div>\n    <\/div>\n    <div class=\"green reviews\" style=\"display: none;\">\n        <span class=\"home__subtitle\">REAL REVIEWS FROM REAL CUSTOMERS<\/span>\n            <div class=\"review-card\">\n                <span class=\"review-stars\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-stars-five.svg?v=1688406357\" alt=\"\"><\/span>\n                <span class=\"review-body\">I have used this formula for both my babies, and I have always had an amazing experience. My formula has always been in stock, and has always gotten to me in great time. I always recommend this company to my friends and family! Thank you!!<\/span>\n                <span class=\"review-name\">Candace Stang<\/span>\n            <\/div>\n            <div class=\"review-card\">\n                \n                <span class=\"review-stars\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-stars-five.svg?v=1688406357\" alt=\"\"><\/span>\n                <span class=\"review-body\">I have used this formula for both my babies, and I have always had an amazing experience. My formula has always been in stock, and has always gotten to me in great time. I always recommend this company to my friends and family! Thank you!!<\/span>\n                <span class=\"review-name\">Candace Stang<\/span>\n            <\/div>\n            <div class=\"review-card\">\n                <span class=\"review-stars\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-stars-five.svg?v=1688406357\" alt=\"\"><\/span>\n                <span class=\"review-body\">I have used this formula for both my babies, and I have always had an amazing experience. My formula has always been in stock, and has always gotten to me in great time. I always recommend this company to my friends and family! Thank you!!<\/span>\n                <span class=\"review-name\">Candace Stang<\/span>\n            <\/div>\n        <\/div>\n    <div class=\"two-col\">\n        <div class=\"flex-row\">\n            <div class=\"flex-img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/Kendamil-Formula-from-grass-fed_cows.png?v=1690833974\" alt=\"Green farmland and pastures for Kendamil grass fed cows\">\n            <\/div>\n            <div class=\"flex-content\">\n                <h2>Discover the Nutritional Benefits of Kendamil Formula for Your Baby<\/h2>\n                <p>At Kendamil, we're committed to providing high-quality and nutritious formula options for your growing baby. Our formulas are made using organic ingredients and prioritize natural ingredients to support healthy development and digestion. Discover the benefits of Kendamil formula and choose the perfect formula stage for your baby's needs.<\/p>\n            <\/div>\n        <\/div>\n    <\/div>\n    <div class=\"two-col\">\n        <div class=\"flex-row\">\n            <div class=\"flex-content right-align\">\n    <div>\n        <h2>A Truly Creamy and Delicious Organic Formula<\/h2>\n        <p>Kendamil formula uses whole milk as a source of fat, resulting in a naturally creamy taste without the need for excess vegetable oils. Our milk is sourced from grass-fed cows and is free from genetic modification. Your little one will surely enjoy the delicious and satisfying taste of Kendamil formula at every feeding.<\/p>                    \n    <\/div>\n            <\/div>\n            <div class=\"flex-img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/Kendamil_Formula_fed_baby.png?v=1690833974\" alt=\"Mother feeding her baby Kendamil baby formula\">\n            <\/div>\n        <\/div>\n    <\/div>\n    <div class=\"one-col\">\n        <div class=\"obx-container\">\n            <h2>Sustainability and Digestion Matters<\/h2>\n            <p>At Formuland, we understand the importance of sustainability and digestion for our little ones. Kendamil infant formula is palm-oil-free, which not only contributes to sustainability efforts but also supports your baby's digestion. We pledge to produce the highest quality product possible while taking care of the environment for the future.<\/p>\n            <h3 style=\"margin-top:60px;\">Sustainably Sourced Omega 3<\/h3>\n            <p>Kendamil takes pride in sourcing Omega 3 from sustainably farmed marine algae instead of fish oil, which can trigger allergies in some babies. We're committed to maintaining a focus on sustainability efforts and environmental protection while providing the best nutrition possible for your little one.<\/p>\n\n            <h3>Certified Vegetarian-Friendly Formula<\/h3>\n            <p>Kendamil baby formula avoids the use of animal rennet, making our formula certified vegetarian-friendly. Our marine algae-sourced Omega 3 sets Kendamil formula apart from other brands, making us the perfect choice for parents looking for natural, delicious, and satisfying infant formula options.<\/p>\n            <h3>Kendamil: Committed to Natural Ingredients and Sustainability<\/h3>\n            <p>Kendamil is dedicated to the commitment to natural ingredients and a focus on sustainability that sets us apart from other baby formula brands. Our infant formula provides essential nutrients for your baby's growth and development, without the use of unnecessary additives or preservatives.<\/p>\n            <ul class=\"obx-list\">\n                <li><a href=\"https:\/\/formuland.com\/products\/kendamil-organic-formula-stage-1\">Kendamil Stage 1 - Organic Formula 800g (Cow)<\/a><\/li>\n                <li><a href=\"https:\/\/formuland.com\/products\/kendamil-organic-formula-stage-2\">Kendamil Stage 2 - Organic Formula 800g (Cow)<\/a><\/li>\n                <li><a href=\"https:\/\/formuland.com\/products\/kendamil-organic-formula-stage-3\">Kendamil Stage 3 - Organic Formula 800g (Cow)<\/a><\/li>\n                <li><a href=\"https:\/\/formuland.com\/products\/kendamil-goat-milk-formula-stage-1\">Kendamil Goat Milk Formula Stage 1 (800g)<\/a><\/li>\n                <li><a href=\"https:\/\/formuland.com\/products\/kendamil-goat-milk-formula-stage-2\">Kendamil Goat Milk Formula Stage 2 (800g)<\/a><\/li>\n                <li><a href=\"https:\/\/formuland.com\/products\/kendamil-goat-milk-formula-stage-3\">Kendamil Goat Milk Formula Stage 3 (800g)<\/a><\/li>\n            <\/ul>\n        <\/div>\n    <\/div>\n        <div class=\"obx-cta kendamil\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/Happy-Kendamil-Formula-fed-baby.png?v=1690833974);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n    <div class=\"cta-container\">\n        <h2>Try Kendamil Formula for Your Baby Today<\/h2>\n        <p>Discover the benefits of Kendamil formula for your growing baby's nutrition and development. Choose your preferred formula stage and experience the natural, delicious taste of Kendamil formula. Shop now at Formuland and give your little one the best start in life.<\/p>\n        <a href=\"#\" class=\"obx-btn green\">Shop Today<\/a>\n    <\/div>\n\n<\/div>\n\n    <div class=\"obx-faq one-col\" style=\"display: none\">\n    <div class=\"obx-container\">\n        <h2>Kendamil Formula FAQs<\/h2>\n        <details class=\"faq-item\" style=\"\n    border-top: 2px solid #CCDFD9;\n\">\n            <summary><h3 class=\"question\">Is Kendamil formula suitable for babies with digestive sensitivities?<\/h3><\/summary>\n            <div class=\"faq-answer\">\n                <p>Kendamil goat milk-based formula is a suitable alternative option for infants allergic to cow milk formulas as it contains natural prebiotics and has anti-infection properties that help solve digestive issues. As always, consult with your pediatrician to determine the best formula for your baby<\/p>\n            <\/div>\n        <\/details>\n        <details class=\"faq-item\">\n            <summary><h3 class=\"question\">Can I switch between different stages of Kendamil formula?<\/h3><\/summary>\n            <div class=\"faq-answer\">\n                <p>Yes, Kendamil formula stages are made to cater to the changing nutritional needs of babies. However, it is always best to consult with a pediatrician before making any changes to your baby's feeding routine.<\/p>\n            <\/div>\n        <\/details>\n        <details class=\"faq-item\">\n            <summary><h3 class=\"question\">Where is Kendamil formula manufactured?<\/h3><\/summary>\n            <div class=\"faq-answer\">\n                <p>Kendamil formula is manufactured in Kendal, Cumbria, in the United Kingdom. As a British family owned business Kendamil has 60 years of experience in producing high quality baby milk.<\/p>\n            <\/div>\n        <\/details>\n        <details class=\"faq-item\" style=\"\n    border-bottom: 2px solid #CCDFD9;\">\n            <summary><h3 class=\"question\">Are Kendamil formulas available in the USA?<\/h3><\/summary>\n            <div class=\"faq-answer\">\n                <p>Yes, Kendamil formula is available in the USA and is committed to providing high-quality and sustainable formula options to parents in the US. <\/p>\n            <\/div>\n        <\/details>\n    <\/div>\n<\/div>\n    <div class=\"obx-related-articles\">\n        <div class=\"container\">\n            <h2>Kendamil Baby Formula: Related Articles<\/h2>\n<hr>\n                <div class=\"flex-row\">\n                    <div class=\"obx-article\" style=\"background-image: url(https:\/\/formuland.com\/cdn\/shop\/articles\/tMbnv6uR1OLPP1xSgkVhgm8ZgaI0YofK1663682048.jpg?v=1663875529);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n                        <a href=\"https:\/\/formuland.com\/blogs\/news\/everything-you-need-to-know-about-goat-milk-formula\">\n                            <span class=\"obx-article-heading\">Everything You Need<br>to Know About<br>Goat Milk Formula<\/span>\n                        <\/a>    \n                    <\/div>\n                    <div class=\"obx-article\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/blog-feeding-the-young-the-history-of-baby-formula.png?v=1688406357);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n                        <a href=\"https:\/\/formuland.com\/blogs\/news\/tips-for-seamlessly-switching-baby-formula-brands\">\n                            <span class=\"obx-article-heading\">Tips for Seamlessly<br> Switching Baby <br>Formula Brands<\/span>\n                        <\/a>    \n                    <\/div>\n                    <div class=\"obx-article\" style=\"background-image: url(https:\/\/formuland.com\/cdn\/shop\/articles\/tGxfeeeGnP1jSOZVSnxdNDq16iLa4MUw1671641708.jpg?v=1672844530);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n                        <a href=\"https:\/\/formuland.com\/blogs\/news\/the-benefits-of-buying-european-baby-formula\">\n                            <span class=\"obx-article-heading\">The Benefits of<br>Buying European<br>Baby Formula<\/span>\n                        <\/a>    \n                    <\/div>\n                <\/div>\n        <\/div>\n            <\/div>\n<\/div>",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "main",
+    "e91b30c9-c862-4cfb-96cb-18aa016788d0"
+  ]
+}

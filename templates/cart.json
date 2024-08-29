@@ -1,0 +1,62 @@
+{
+  "sections": {
+    "1661912140a41b5758": {
+      "type": "section-custom-content",
+      "blocks": {
+        "bab065ad-5a20-455f-9664-3a86c5e59d52": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "Proceed to the Checkout page",
+            "button_url": "https:\/\/formuland.com\/checkout",
+            "button_color": "btn--primary",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--primary",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "bab065ad-5a20-455f-9664-3a86c5e59d52"
+      ],
+      "settings": {
+        "height": "use_screen_one_fifth",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "main": {
+      "type": "cart",
+      "blocks": {
+        "33950237-99f3-4bfb-aa43-5d892ea40a8d": {
+          "type": "cartProduct",
+          "settings": {
+            "prod": "hipp-formula"
+          }
+        },
+        "f428f945-dd9a-4246-bab2-7dc84074572f": {
+          "type": "cartProduct",
+          "settings": {
+            "prod": "holle-formula"
+          }
+        }
+      },
+      "block_order": [
+        "33950237-99f3-4bfb-aa43-5d892ea40a8d",
+        "f428f945-dd9a-4246-bab2-7dc84074572f"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "1661912140a41b5758",
+    "main"
+  ]
+}

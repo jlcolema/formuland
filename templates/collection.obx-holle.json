@@ -1,0 +1,75 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-hero",
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": false,
+        "show_description": true,
+        "show_description_below": true,
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "use_screen_one_fifth",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "text_color": "text--white"
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "show_subcollection": true,
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "aspect_ratio": 0.6,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "collections": {
+          "type": "collections",
+          "disabled": true,
+          "settings": {
+            "title": "All collections"
+          }
+        },
+        "filters": {
+          "type": "filters",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "collections",
+        "filters"
+      ],
+      "settings": {
+        "product_limit": 36,
+        "grid_setting_large": 4,
+        "grid_setting_small": "2",
+        "enable_layout_toggle": true,
+        "collection_sorting": true,
+        "hide_sidebar": true
+      }
+    },
+    "e91b30c9-c862-4cfb-96cb-18aa016788d0": {
+      "type": "section-html",
+      "custom_css": [],
+      "settings": {
+        "html": "<div id=\"obx-bottom-content\">\n    <div class=\"beige\">\n        <span class=\"home__subtitle\">shop with confidence<\/span>\n        <div class=\"obx-icon-row\">\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-fast-shipping.png?v=1688406357\" alt=\"\">\n                <span>Fast Shipping<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-fulfilling-orders.png?v=1688406357\" alt=\"\">\n                <span>Fulfilling Orders Since 2014<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-authenticity-guaranteed.png?v=1688406357\" alt=\"\">\n                <span>Authenticity Guaranteed<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-6-mo-shelf-life.png?v=1688406357\" alt=\"\">\n                <span>Long Shelf Life of 6+ Months<\/span>\n            <\/div>\n        <\/div>\n    <\/div>\n    <div class=\"green reviews\" style=\"display: none;\">\n        <span class=\"home__subtitle\">REAL REVIEWS FROM REAL CUSTOMERS<\/span>\n            <div class=\"review-card\">\n                <span class=\"review-stars\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-stars-five.svg?v=1688406357\" alt=\"\"><\/span>\n                <span class=\"review-body\">I have used this formula for both my babies, and I have always had an amazing experience. My formula has always been in stock, and has always gotten to me in great time. I always recommend this company to my friends and family! Thank you!!<\/span>\n                <span class=\"review-name\">Candace Stang<\/span>\n            <\/div>\n            <div class=\"review-card\">\n                \n                <span class=\"review-stars\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-stars-five.svg?v=1688406357\" alt=\"\"><\/span>\n                <span class=\"review-body\">I have used this formula for both my babies, and I have always had an amazing experience. My formula has always been in stock, and has always gotten to me in great time. I always recommend this company to my friends and family! Thank you!!<\/span>\n                <span class=\"review-name\">Candace Stang<\/span>\n            <\/div>\n            <div class=\"review-card\">\n                <span class=\"review-stars\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-stars-five.svg?v=1688406357\" alt=\"\"><\/span>\n                <span class=\"review-body\">I have used this formula for both my babies, and I have always had an amazing experience. My formula has always been in stock, and has always gotten to me in great time. I always recommend this company to my friends and family! Thank you!!<\/span>\n                <span class=\"review-name\">Candace Stang<\/span>\n            <\/div>\n        <\/div>\n    <div class=\"two-col\">\n        <div class=\"flex-row\">\n            <div class=\"flex-img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/organic-baby-formula-1.png?v=1688406358\" alt=\"\">\n            <\/div>\n            <div class=\"flex-content\">\n                <h2>Why Choose Holle Baby Formula?<\/h2>\n                <p>Holle Organic Baby Formula is the one of the best choices for parents who want to give their babies the healthiest start in life.<\/p> \n                <p>Holle formulas are made with the highest-quality organic ingredients, ensuring that your baby gets all the nutrients they need to grow and thrive. Plus, Holle formulas are free from artificial preservatives, colors, and flavors, making them the natural choice for your little one.<\/p>\n            <\/div>\n        <\/div>\n    <\/div>\n    <div class=\"two-col\">\n        <div class=\"flex-row\">\n            <div class=\"flex-content right-align\">\n    <div>\n        <h2>What Makes Holle Formula Different?<\/h2>\n        <p>Holle formula is made from organic and biodynamic ingredients, which are carefully selected to ensure that they meet the highest quality standards.<\/p>\n        <p>This European baby food brand has been producing high-quality baby food products for over 85 years. Holle was founded in Switzerland in 1934 and has since then been committed to providing organic baby formula and food products that meet the highest quality standards.<\/p>\n        <p>Holle works closely with farmers to ensure that ingredients are of the highest quality, and we never use any artificial additives or preservatives. Plus, Holle formulas are easy to digest, making them the perfect choice for babies with sensitive tummies.<\/p>                    \n    <\/div>\n            <\/div>\n            <div class=\"flex-img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/organic-baby-formula-2.png?v=1688406357\" alt=\"\">\n            <\/div>\n        <\/div>\n    <\/div>\n    <div class=\"one-col\">\n        <div class=\"obx-container\">\n            <h2>Holle Formula Organic Ingredients and Demeter-Certified Biodynamic Farming<\/h2>\n            <p>Choosing the right Holle Organic Baby Formula for your little one is easy. Simply choose the stage that corresponds to your baby's age and needs.<\/p>\n            <h3 style=\"margin-top:60px;\">Holle Formula Stages<\/h3>\n            <p>Holle formula is available in several stages, each designed to meet the specific nutritional needs of babies at different stages of development. All products are organic and contain Omega3 (ALA), Omega3 (DHA) and Omega 6 to support healthy growth and development in all stages.<\/p>\n            <ul class=\"obx-list\">\n                <li>Holle Stage Pre is perfect for newborns, while Holle Stage 1 is ideal for babies from birth to 6 months.<\/li>\n                <li>Holle Stage 2 is great for babies from 6 to 10 months, and Holle Stage 3 is perfect for babies from 10 months to 1 year.<\/li>\n                <li>Holle Stage 4 is designed for toddlers over 1 year of age.<\/li>\n            <\/ul>\n            <h3>Holle's Goat Milk Formula<\/h3>\n            <p>Holle's Goat Milk Formula is made from organic goat milk and is designed for babies who are sensitive to cow's milk. It contains all the nutrients that babies need to grow and develop, but is easier to digest than cow's milk. Shop Holle’s complete Goat Milk Formula collection<\/p>\n            <h3>Holle Cow's Milk Formulas<\/h3>\n            <p>Holle also offers several different cow's milk formulas, including Stage PRE, Stage 1, Stage 2, Stage 3, and Stage 4 toddler formulas. Each formula is designed to meet the specific nutritional needs of babies at different stages of development. Shop Holle’s complete Cow Milk Formula collection<\/p>\n        <\/div>\n    <\/div>\n        <div class=\"obx-cta holle\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/cta-hipp-organic-baby-formula.png?v=1688406357);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n    <div class=\"cta-container\">\n        <h2>Purchase Holle Organic Formula Today<\/h2>\n        <p>We understand that choosing the right baby formula for your little one can be overwhelming. At Formuland, we’re proud to offer a range of high-quality Holle organic baby formulas that are designed to meet the unique nutritional needs of your baby.<\/p>\n        <p>Whether you’re looking for a formula for a newborn or a growing baby, you can find the right Holle product at Formuland and have it delivered right to your door. Buy your Holle Organic Formula from Formuland today and give your baby the best start in life!<\/p>\n        <a href=\"https:\/\/formuland.com\/collections\" class=\"obx-btn green\">Shop All Best Sellers <\/a>\n    <\/div>\n\n<\/div>\n\n    <div class=\"obx-faq one-col\" style=\"display: none\">\n    <div class=\"obx-container\">\n        <h2>Frequently Asked Questions<\/h2>\n        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.<\/p>\n        <details class=\"faq-item\" style=\"\n    border-top: 2px solid #CCDFD9;\n\">\n            <summary><h3 class=\"question\">Tempor orci eu lobortis elementum non?<\/h3><\/summary>\n            <div class=\"faq-answer\">\n                <p>Tristique sollicitudin nibh sit amet commodo. Rhoncus est pellentesque elit ullamcorper. Posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Felis donec et odio pellentesque diam volutpat.<\/p>\n            <\/div>\n        <\/details>\n        <details class=\"faq-item\">\n            <summary><h3 class=\"question\">Tempor orci eu lobortis elementum non?<\/h3><\/summary>\n            <div class=\"faq-answer\">\n                <p>Tristique sollicitudin nibh sit amet commodo. Rhoncus est pellentesque elit ullamcorper. Posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Felis donec et odio pellentesque diam volutpat.<\/p>\n            <\/div>\n        <\/details>\n        <details class=\"faq-item\">\n            <summary><h3 class=\"question\">Tempor orci eu lobortis elementum non?<\/h3><\/summary>\n            <div class=\"faq-answer\">\n                <p>Tristique sollicitudin nibh sit amet commodo. Rhoncus est pellentesque elit ullamcorper. Posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Felis donec et odio pellentesque diam volutpat.<\/p>\n            <\/div>\n        <\/details>\n        <details class=\"faq-item\" style=\"\n    border-bottom: 2px solid #CCDFD9;\n\">\n            <summary><h3 class=\"question\">Tempor orci eu lobortis elementum non?<\/h3><\/summary>\n            <div class=\"faq-answer\">\n                <p>Tristique sollicitudin nibh sit amet commodo. Rhoncus est pellentesque elit ullamcorper. Posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Felis donec et odio pellentesque diam volutpat.<\/p>\n            <\/div>\n        <\/details>\n    <\/div>\n<\/div>\n    <div class=\"obx-related-articles\">\n        <div class=\"container\">\n            <h2>Related Articles<\/h2>\n<hr>\n                <div class=\"flex-row\">\n                    <div class=\"obx-article\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/blog-why-fathers-should-spend-more-time-with-their-baby.png?v=1688406357);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n                        <a href=\"https:\/\/formuland.com\/blogs\/news\/the-pros-and-cons-of-formula-feeding-your-baby\">\n                            <span class=\"obx-article-heading\">Why Fathers Should Spend Time Bonding With Their Baby<\/span>\n                        <\/a>    \n                    <\/div>\n                    <div class=\"obx-article\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/blog-feeding-the-young-the-history-of-baby-formula.png?v=1688406357);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n                        <a href=\"https:\/\/formuland.com\/blogs\/news\/the-pros-and-cons-of-formula-feeding-your-baby\">\n                            <span class=\"obx-article-heading\">Feeding the Young:<br> The History of Baby Formula<\/span>\n                        <\/a>    \n                    <\/div>\n                    <div class=\"obx-article\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/blog-the-pros-and-cons-of-formula-feeding-your-baby.png?v=1688406358);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n                        <a href=\"https:\/\/formuland.com\/blogs\/news\/the-pros-and-cons-of-formula-feeding-your-baby\">\n                            <span class=\"obx-article-heading\">The Pros and Cons<br> of Formula Feeding Your Baby<\/span>\n                        <\/a>    \n                    <\/div>\n                <\/div>\n        <\/div>\n            <\/div>\n<\/div>",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "main",
+    "e91b30c9-c862-4cfb-96cb-18aa016788d0"
+  ]
+}

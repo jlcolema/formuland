@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-hero",
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": false,
+        "show_description": true,
+        "show_description_below": true,
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "use_screen_one_fifth",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "text_color": "text--white"
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "show_subcollection": true,
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "aspect_ratio": 0.6,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "collections": {
+          "type": "collections",
+          "disabled": true,
+          "settings": {
+            "title": "All collections"
+          }
+        },
+        "filters": {
+          "type": "filters",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "collections",
+        "filters"
+      ],
+      "settings": {
+        "product_limit": 36,
+        "grid_setting_large": 4,
+        "grid_setting_small": "2",
+        "enable_layout_toggle": true,
+        "collection_sorting": true,
+        "hide_sidebar": true
+      }
+    },
+    "e92bcef3-3c18-4c65-a381-bdecbe959780": {
+      "type": "section-html",
+      "custom_css": [
+        ".two-col .flex-content {max-width: unset;}",
+        ".flex-content h2 {font-size: 32px !important;}",
+        ".flex-content h3 {font-size: 22px; margin: 10px 0 0;}",
+        ".flex-content h2,.flex-content h3,.flex-content p,.flex-content ul {max-width: unset;}",
+        ".obx-faq h3 {margin: 0 auto;}"
+      ],
+      "settings": {
+        "html": "<div id=\"obx-bottom-content\">\n    <div class=\"beige\">\n        <span class=\"home__subtitle\">Shop with Confidence<\/span>\n        <div class=\"obx-icon-row\">\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-fast-shipping.png?v=1688406357\" alt=\"\">\n                <span>Fast Shipping<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-fulfilling-orders.png?v=1688406357\" alt=\"\">\n                <span>Fulfilling Orders Since 2014<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-authenticity-guaranteed.png?v=1688406357\" alt=\"\">\n                <span>Authenticity Guaranteed<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-6-mo-shelf-life.png?v=1688406357\" alt=\"\">\n                <span>Long Shelf Life of 6+ Months<\/span>\n            <\/div>\n        <\/div>\n    <\/div>\n    <div class=\"one-col\">\n        <div class=\"flex-row\" class=\"min-height: 344px;\">\n            <div class=\"flex-img\">\n            <\/div> \n<div class=\"two-col\">\n        <div class=\"flex-row\" class=\"min-height: 344px;\">\n            <div class=\"flex-img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/Nannycare_Formula_fed_baby.png?v=1693253285\" alt=\"Nannycare formula fed baby starting back up at smiling mother\">\n            <\/div>\n            <div class=\"flex-content\"\n              <div style=\"text-align: left;\">\n<p>In addition to being a trailblazer in the biodynamic food industry, Holle holds the distinction of being one of the first companies to affix the Demeter organic seal to their products. Moreover, Holle stands among the pioneering businesses that championed the production of organic infant food. Today, Holle proudly ranks as one of the foremost producers of Demeter-certified organic infant formula.<\/p>\n<p>Did you know that since 2014, all of Holle's junior mueslis, milk cereals, and baby porridge have achieved CO2 neutrality? Holle's commitment extends beyond just nutrition; it encompasses the well-being of individuals, animals, and the environment.<\/p>\n<p><strong>Formula Stages Include:<\/strong><\/p>\n<ul>\n<li>Holle Organic Wholegrain Oat Cereal (6+ Months)<\/li>\n<li>Holle Organic Wholegrain Rice Cereal (6+ Months)<\/li>\n<li>Holle Organic Baby Muesli Porridge (6+ Months)<\/li>\n<li>Holle Organic Banana-Semolina Wholegrain Porridge (6+ Months)<\/li>\n<li>Holle Organic Milk Cereal With Banana (6+ Months)<\/li>\n<\/ul>\n<p>Experience the Holle difference, where our dedication to organic excellence nurtures your baby and our planet alike.<\/p>\n<ul><\/ul>",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "main",
+    "e92bcef3-3c18-4c65-a381-bdecbe959780"
+  ]
+}

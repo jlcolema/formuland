@@ -1,0 +1,334 @@
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shipping-boxes-on-red-brick.jpg",
+        "bg_position": "center-center",
+        "height": "use_screen_three_quarters",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "Formuland's How To",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "309f0860-3628-4947-b539-660165495ce1": {
+      "type": "section-columns",
+      "blocks": {
+        "template--16689278419163__309f0860-3628-4947-b539-660165495ce1-167588022697fdb850-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/snip1_02ee57af-c853-41e4-bd9a-de036c98f88f.png",
+            "bg_position": "left-center",
+            "title": "Step 1",
+            "text": "<p>Choose desired product (example image w\/red dots below, I chose Hipp UK Stage 1)<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--16689278419163__309f0860-3628-4947-b539-660165495ce1-167588022697fdb850-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/snip2_f7b3876b-c50f-4981-87a8-0e06b013ed80.png",
+            "bg_position": "center-center",
+            "title": "step 2",
+            "text": "<p>Choose desired quantity and click (example image w\/red dots & highlighted in green below, I chose 4 boxes for $41.99 ea)<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--16689278419163__309f0860-3628-4947-b539-660165495ce1-167588022697fdb850-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/snip3_050395a9-c8b7-44c3-9c44-afe7629d408e.png",
+            "bg_position": "center-center",
+            "title": "step 3",
+            "text": "<p>Click on \"Subscribe & Save\" (example image w\/red dots & highlighted in pink below) <\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "8bd1dbdd-8722-4708-9b22-c77afe159af1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/snip4_9a7746f5-3005-4389-8834-241e1ae1ebe2.png",
+            "bg_position": "center-center",
+            "title": "step 4",
+            "text": "<p>Choose and click on dropdown menu of desired delivery schedule (example image w\/red dots below)<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "2cbc4f98-389d-46a2-858d-de4106b483d4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/snip4.9_3eed5720-ba64-47de-970e-bb485dfac8c0.png",
+            "bg_position": "right-center",
+            "title": "step 5",
+            "text": "<p>Click on the quantity of this setup you desire (example image w\/red dots below)<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "86852fd1-a960-49e6-9b4e-61f8c27dbccc": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/snip5_39bb896d-b378-4ccd-9e91-8167f1578dd3.png",
+            "bg_position": "center-bottom",
+            "title": "step 6",
+            "text": "<p>Lastly, before you click \"ADD TO CART\" overlook and make sure you clicked and chose the right setup for your subscription.  In the \"ADD TO CART\" box in green will show your total before shipping is added.  Once everything looks good to you, you may click \"ADD TO CART\" the last green box. (example image w\/red dots below)<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "c0878c58-c887-44f2-8d52-33e60503d7b7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/snip6_6e9165c2-3719-43dc-af41-6ac913808875.png",
+            "bg_position": "right-center",
+            "title": "step 7",
+            "text": "<p>Now on that same exact page scroll to the top and you will see the cart icon with a dot over it indicating it has been added.  Click on that cart icon (example image w\/red dots below)<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "63d895b3-a37a-4597-a9be-95ffd670950b": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/snip7_9648e696-cbcd-4b59-b439-deec66e0a602.png",
+            "bg_position": "center-center",
+            "title": "step 8",
+            "text": "<p>After clicking the cart icon the website will take you to a popup page. If you have special instructions or want to know estimated shipping time then click on one of the two drop down boxes to input the information asked.  Once all is set or looks good on this page then click on the \"CHECK OUT\" box highlighted in green (example image w\/red dots below)<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "2399cf83-8522-49ec-9337-d7caa0dd8c39": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/snip81_d8ba2479-813e-4917-8f9e-1f9d513b0a91.png",
+            "bg_position": "left-center",
+            "title": "step 9",
+            "text": "<p>After it will take you to a new page where you will input your contact & shipping information. There is also express checkout at the top of this page.  Once all information is filled out then you are set to click on \"Continue to shipping\" box highlighted in green at the bottom of this page (example images w\/red dots below).<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "44edaa1c-aeb2-4015-98b1-64f4121c2a1d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/snip9_8c6f7b68-561a-4a04-8723-57f8d303e617.png",
+            "bg_position": "center-center",
+            "title": "step 10",
+            "text": "<p>Now the page will refresh and popup to the payment page and if everything looks good to you then click on \"Continue to payment\" box highlighted in green (example image w\/red dots below).<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "66f52ec8-de97-4758-a107-57c8e77c3ec1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/snip102_e9d838ce-429d-41d6-8b86-0dfd728bb983.png",
+            "bg_position": "center-bottom",
+            "title": "step 11",
+            "text": "<p>Finally you've made it!  Now on this payment page you will make sure your information above is correct (i.e. email address & shipping address). Below that Input your payment information and billing address.  After all this you have finally come to a conclusion once you click on \"Pay now\" box highlighted in green (example image w\/red dots below). <\/p><p><\/p><p>Yay you're all finished!  You should be receiving an email from us, congrats and welcome to our Formuland family!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--16689278419163__309f0860-3628-4947-b539-660165495ce1-167588022697fdb850-0",
+        "template--16689278419163__309f0860-3628-4947-b539-660165495ce1-167588022697fdb850-1",
+        "template--16689278419163__309f0860-3628-4947-b539-660165495ce1-167588022697fdb850-2",
+        "8bd1dbdd-8722-4708-9b22-c77afe159af1",
+        "2cbc4f98-389d-46a2-858d-de4106b483d4",
+        "86852fd1-a960-49e6-9b4e-61f8c27dbccc",
+        "c0878c58-c887-44f2-8d52-33e60503d7b7",
+        "63d895b3-a37a-4597-a9be-95ffd670950b",
+        "2399cf83-8522-49ec-9337-d7caa0dd8c39",
+        "44edaa1c-aeb2-4015-98b1-64f4121c2a1d",
+        "66f52ec8-de97-4758-a107-57c8e77c3ec1"
+      ],
+      "settings": {
+        "title": "How to setup subscription",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "aspect_ratio": 1
+      }
+    },
+    "345d7c53-bc7b-4d11-b64d-8724233e1896": {
+      "type": "section-columns",
+      "blocks": {
+        "template--16689278419163__345d7c53-bc7b-4d11-b64d-8724233e1896-16758848574f1a4563-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/manage1_0c3ac371-4280-468c-a19a-00831bb36c71.png",
+            "bg_position": "left-center",
+            "title": "step 1",
+            "text": "<p>To manage your subscription you first need to get to the login page by scrolling down to the very bottom of any part of the Formuland website and the far bottom left of the website will be the link saying \"Manage Subscription\", click on that (example image w\/red dots below).<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--16689278419163__345d7c53-bc7b-4d11-b64d-8724233e1896-16758848574f1a4563-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/manage2_4114cc9c-1efd-4568-b555-997c65ba0936.png",
+            "bg_position": "center-center",
+            "title": "step 2",
+            "text": "<p>After clicking on \"Manage Subscription\" it will take you to a whole new page where you will enter your login information. If you dont have an account with us previously dont worry. Below the sentence \"Need help accessing your subscriptions?\" there is a link that says Click here. Click on that link. (example image w\/red dots below).<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--16689278419163__345d7c53-bc7b-4d11-b64d-8724233e1896-16758848574f1a4563-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/manage3_c9a9b3e9-d32b-4f68-9f6d-1ade73f30f93.png",
+            "bg_position": "center-center",
+            "title": "step 3",
+            "text": "<p>After clicking on the link \"Click here\" the website will take you to a new page where you will provide your email address used for your recent subscription at checkout and in order to complete your account setup. Click on the green highlighted box \"Get subscription login\" after your email address been inputted (example image w\/red dots below). Once complete, you can manage your subscriptions directly within your account.<\/p><p><\/p><p>You are all done and welcome to Formuland!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--16689278419163__345d7c53-bc7b-4d11-b64d-8724233e1896-16758848574f1a4563-0",
+        "template--16689278419163__345d7c53-bc7b-4d11-b64d-8724233e1896-16758848574f1a4563-1",
+        "template--16689278419163__345d7c53-bc7b-4d11-b64d-8724233e1896-16758848574f1a4563-2"
+      ],
+      "settings": {
+        "title": "Managing your subscription",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "aspect_ratio": 1
+      }
+    },
+    "icons": {
+      "type": "section-icons",
+      "blocks": {
+        "icons-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_color": "#aaaaaa",
+            "title": "Free returns",
+            "text": "<p>Returns within 30 days receive a full refund.<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icons-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shipment-world",
+            "icon_color": "#aaaaaa",
+            "title": "Worldwide shipping",
+            "text": "<p>Ship anywhere, rates available at checkout.<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icons-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-phone",
+            "icon_color": "#aaaaaa",
+            "title": "24\/7 support",
+            "text": "<p>Call us anytime at 1(800) 555-1234.<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "icons-0",
+        "icons-1",
+        "icons-2"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--accent",
+        "icon_size": "icon--medium",
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-left"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "main",
+    "309f0860-3628-4947-b539-660165495ce1",
+    "345d7c53-bc7b-4d11-b64d-8724233e1896",
+    "icons"
+  ]
+}

@@ -1,0 +1,322 @@
+<!-- /sections/cart.liquid -->
+{%- liquid
+  assign hide_quantity = 'quantity--hide'
+  if settings.cart_show_quantity
+    assign hide_quantity = ''
+  endif
+  
+  assign ajax_disable = false
+  assign no_ajax_class = ''
+  if settings.cart_style == 'compatible'
+    assign ajax_disable = true
+    assign no_ajax_class = 'no--ajax'
+  endif
+
+  assign full_init = ''
+  assign empty_init = 'cart--hidden'
+  if cart.item_count == 0
+    assign empty_init = ''
+    assign full_init = 'cart--hidden'
+  endif
+-%}
+
+<div
+  class="cart__template {{ no_ajax_class }} {{ hide_quantity }}"
+  data-section-id="{{ section.id }}"
+  data-section-type="cart"
+  data-ajax-disable="{{ ajax_disable }}"
+>
+  {% comment %} Cart is empty {% endcomment %}
+  <div class="{{ empty_init }}" data-cart-empty>
+    {% render 'cart-empty' %}
+  </div>
+  {% comment %} Cart is full {% endcomment %}
+  <div class="wrapper pt2 pb4 {{ full_init }}" data-cart-form data-cart-loading>
+    <form action="{{ routes.cart_url }}" method="post" novalidate class="cart">
+     <h3 class="h3--body">
+        {{ 'cart.general.title' | t }}
+        <span id="custom-cart-item" class="custom-cart-item"></span>
+      </h3>
+      {% if is_enable %}
+        {% assign limit = settings.free_shipping_limit | plus: 0 %}
+        {% assign limit_currency = limit | times: 100 %}
+        {% assign subtotal_without_currency = cart.total_price | plus: 0 | divided_by: 100 %}
+
+     {% comment %}   {% capture left_to_spend %}
+          <span  data-hulkapps-cart-total data-left-to-spend>{{ limit_currency | minus: cart.total_price | money_without_trailing_zeros }}</span>
+        {% endcapture %} {% endcomment %}
+
+        {% assign free_shipping_message =  left_to_spend %}
+        {% assign qualified_shipping_message = 'cart.general.qualified_shipping_message' | t %}
+        {% assign class_message = '' %}
+
+        {% if subtotal_without_currency >= limit %}
+          {% if qualified_shipping_message != blank %}
+            {% assign class_message = 'is-success' %}
+          {% else %}
+            {% assign class_message = 'is-hidden' %}
+          {% endif %}
+        {% elsif subtotal_without_currency == 0 %}
+          {% comment %} {% assign class_message = 'is-hidden' %} {% endcomment %}
+        {% endif %}
+      {% endif %}
+
+      <div class="cart__footer__total">
+        <div class="cart__page__shipping custom__cart__page__shipping">
+          {% assign free_shipping_text = block.settings.message | default: settings.message %}
+          {% assign is_enable = false %}
+          {% assign show_wheel = true %}
+
+          {% if block.settings.show_wheel == false %}
+            {% assign show_wheel = false %}
+          {% endif %}
+
+          {% if block.settings.message != blank %}
+            {% assign is_enable = true %}
+          {% endif %}
+
+          {% if settings.show_free_shipping_message
+            and settings.free_shipping_limit != blank
+            and free_shipping_text != blank
+          %}
+            {% assign is_enable = true %}
+          {% endif %}
+
+          {% if is_enable %}
+            {% assign limit = settings.free_shipping_limit | plus: 0 %}
+           
+            {% assign limit_currency = limit | times: 100 %}
+            {% assign subtotal_without_currency = cart.total_price | plus: 0 | divided_by: 100 %}
+          {% assign final = limit | minus: subtotal_without_currency %}
+         
+
+            {% capture left_to_spend %}
+                  <span  data-hulkapps-cart-totadl data-left-to-spends>Spend {{ limit_currency | minus: cart.total_price | money_without_trailing_zeros }} more for free shipping</span>
+                {% endcapture %}
+
+            <p
+              class="cart__message custom__cart__message {{ class_message }}"
+              data-cart-message="{% if qualified_shipping_message != blank %}true{% else %}false{% endif %}"
+              data-limit="{{ limit }}"
+            >
+              {% assign percent = limit | minus: subtotal_without_currency | times: 100 | divided_by: limit %}
+              {% assign percent = 100 | minus: percent %}
+
+              {% if percent > 100 %}
+                {% assign percent = 100 %}
+              {% endif %}
+          
+              <progress id="cutom_progress_percent" max="100" value="{{ percent }}">
+                <span>{{ percent }}%</span>
+              </progress>
+            </p>
+
+            {% assign free_shipping_message =  left_to_spend %}
+            {% assign qualified_shipping_message = 'cart.general.qualified_shipping_message' | t %}
+            {% assign class_message = '' %}
+
+            {% if subtotal_without_currency >= limit %}
+              {% if qualified_shipping_message != blank %}
+                {% assign class_message = 'is-success' %}
+              {% else %}
+                {% assign class_message = 'is-hidden' %}
+              {% endif %}
+            {% elsif subtotal_without_currency == 0 %}
+              {% comment %} {% assign class_message = 'is-hidden' %} {% endcomment %}
+            {% endif %}
+
+            <p
+              class="cart__message {{ class_message }}"
+              data-cart-message="{% if qualified_shipping_message != blank %}true{% else %}false{% endif %}"
+              data-limit="{{ limit }}"
+            >
+              {% if show_wheel %}
+                {% assign percent = limit | minus: subtotal_without_currency | times: 100 | divided_by: limit %}
+                {% assign percent = 100 | minus: percent %}
+
+                {% if percent > 100 %}
+                  {% assign percent = 100 %}
+                {% endif %}
+              {% endif %}
+
+              {% if qualified_shipping_message != blank %}
+                <span class="cart__message-success">{{ qualified_shipping_message }}</span>
+              {% endif %}
+
+              <span class="cart__message-default reloadCartMessage">
+                {{ free_shipping_message }}
+              </span>
+            </p>
+          {% endif %}
+        </div>
+
+        <div class="page__footer__subtotal" data-cart-subtotal>
+          {% render 'cart-subtotal' %}
+        </div>
+      </div>
+      
+      <div class="errors" data-form-errors style="display: none;"></div>
+      <div class="cart__items__grid cart__heading__wrapper">
+        
+        <div class="cart__items__price">
+          <p class="cart__heading">{{ 'cart.label.price' | t }}</p>
+        </div>
+        <div class="cart__items__quantity">
+          <p class="cart__heading">{{ 'cart.label.quantity' | t }}</p>
+        </div>
+        <div class="cart__items__total">
+          <p class="cart__heading">{{ 'cart.label.total' | t }}</p>
+        </div>
+      </div>
+      <div class="template__cart__body">
+        <div class="errors" data-form-errors style="display: none;"></div>
+        <div data-cart-form>
+            {% comment %}
+              The following snippet is refreshed via ajax with
+              cart.items.liquid when the quantity is adjusted.
+            {% endcomment %}
+            <div data-line-items>
+            {% render 'cart-line-items' %}
+            </div>
+        </div>
+
+        <div class="template__cart__footer" data-cart-bottom>
+
+         
+            <div id="cart__footer__total" class="cart__footer__total">
+            <div class="page__footer__subtotal" data-cart-subtotal>
+              {% render 'cart-subtotal' %}
+            </div>
+
+            
+          </div>
+
+
+          <div class="cart__footer__checkout">
+            {% comment %} <button type="submit" name="checkout" class="btn btn--primary btn--large uppercase checkout__button">
+              <svg id="lock_svg" fill="#FFFFFF" viewBox="0 0 30 30" width="30px" height="30px">
+                <path d="M 15 2 C 11.145666 2 8 5.1456661 8 9 L 8 11 L 6 11 C 4.895 11 4 11.895 4 13 L 4 25 C 4 26.105 4.895 27 6 27 L 24 27 C 25.105 27 26 26.105 26 25 L 26 13 C 26 11.895 25.105 11 24 11 L 22 11 L 22 9 C 22 5.2715823 19.036581 2.2685653 15.355469 2.0722656 A 1.0001 1.0001 0 0 0 15 2 z M 15 4 C 17.773666 4 20 6.2263339 20 9 L 20 11 L 10 11 L 10 9 C 10 6.2263339 12.226334 4 15 4 z"/>
+              </svg>
+              <div class="checkout__text_button">
+                {{ 'cart.general.checkout' | t }} -
+                <span class="cart__footer__value cart__checkout__price__display" data-cart-final>
+                  {{- cart.total_price | money -}}
+                </span>
+              </div>
+            </button> {% endcomment %}
+            <button type="submit" name="checkout" class="btn btn--primary btn--large uppercase checkout__button">
+              <div class="mobile-lock-icon">
+                <svg id="lock_svg" fill="#FFFFFF" viewBox="0 0 30 30" width="30px" height="30px">
+                  <path d="M 15 2 C 11.145666 2 8 5.1456661 8 9 L 8 11 L 6 11 C 4.895 11 4 11.895 4 13 L 4 25 C 4 26.105 4.895 27 6 27 L 24 27 C 25.105 27 26 26.105 26 25 L 26 13 C 26 11.895 25.105 11 24 11 L 22 11 L 22 9 C 22 5.2715823 19.036581 2.2685653 15.355469 2.0722656 A 1.0001 1.0001 0 0 0 15 2 z M 15 4 C 17.773666 4 20 6.2263339 20 9 L 20 11 L 10 11 L 10 9 C 10 6.2263339 12.226334 4 15 4 z"/>
+                </svg>
+              </div>
+              <div class="checkout__text_button">
+                {{ 'cart.general.checkout' | t }}
+              </div>
+            </button>
+                  <div class="custom__free__shipping__message">Free Shipping On US Orders Above $100.</div>
+          </div>
+
+           <div id="slider" class="slider">
+            <div class="you-may-also-like">
+              <div class="heading__styles">You May Also Like</div>
+              <div class="slides">
+                {% for product in collections.all.products %}
+                  {% for tags in product.tags %}
+                    {% if settings.cart_slider contains tags %}
+                       {% if product.available %}
+                        <div class="product-item customATCcart">
+                          <img src="{{ product.featured_image.src | img_url }}" alt="{{ product.title }}">
+                          <div class="product__details customATC">
+                          {% if product.metafields.reviews.rating_count > 0 %}
+                            <div class="rating__wrapper__title">
+                              {% render 'product-rating',
+                                product: product,
+                                show_rating_count: block.settings.show_rating_count
+                              %}
+                            </div>
+                            {% endif %}
+                            <span class="custom_vendor">{{ product.vendor }}</span>
+                            <span>{{ product.title }}</span>
+                            <form class="custom_form" action="/cart/add" method="post">
+                              <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+                                  {% render 'product-form', product: product %}
+                            </form>
+                          </div>
+                        </div>
+                    {% endif %}
+                         {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+
+          <div id="cart__footer__update" class="cart__footer__update">
+            <span class="cart__update" data-update-button>
+              <span class="cart__update__icon">{% render 'icon-sync' %}</span>
+              <button type="submit" name="update" class="text-link">
+                {{ 'cart.general.update' | t }}
+              </button>
+            </span>
+          </div>
+
+          {% if additional_checkout_buttons and settings.cart_show_additional_buttons %}
+            <div class="cart__footer__additional">
+              <div class="additional-checkout-buttons">
+                {{ content_for_additional_checkout_buttons }}
+              </div>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<script>
+  const mediaQuery1 = window.matchMedia('(min-width: 768px)');
+  var clearSLider = document.getElementById('slider');
+  var clearSvg = document.getElementById('lock_svg');
+  if (mediaQuery1.matches) {
+    clearSLider.remove();
+    clearSvg.remove();
+  }
+  const mediaQuery2 = window.matchMedia('(max-width: 768px)');
+  var x = document.getElementById('cart__footer__update');
+  var y = document.getElementById('cart__footer__total');
+  if (mediaQuery2.matches) {
+    x.remove();
+    y.remove();
+  }
+</script>
+
+{% schema %}
+  {
+    "name": "Empty Cart Product",
+    "settings": [
+
+    ],
+    "blocks": [
+      {
+        "type": "cartProduct",
+        "name": "collection",
+        "settings": [
+          {
+            "label": "Select Product",
+            "id": "prod",
+            "type": "collection"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Cart Product",
+        "category": "C",
+        "blocks": [
+
+        ]
+      }
+    ]
+  }
+{% endschema %}

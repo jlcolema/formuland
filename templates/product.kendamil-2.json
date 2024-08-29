@@ -1,0 +1,191 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "product_show_vendor": false,
+            "show_rating": true,
+            "show_rating_count": true
+          }
+        },
+        "liquid_BPVjxE": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "{% if product.available == false %}\n  <div class=\"product-announcement\">\n    <p style=\"font-weight: bold;\">If this product is out of stock, please consider ordering the \n    <a href=\"https:\/\/formuland.com\/products\/kendamil-stage-2-organic-formula-800g-cowczech-ver\" title=\"Czech Version\" style=\"color: blue;\">Czech version<\/a> \n    which is exactly the same but only with a different packaging.<\/p>\n  <\/div>\n{% endif %}"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "button",
+            "show_quantity": true,
+            "enable_payment_button": true,
+            "subscriptions_enable_selectors": false,
+            "show_remaining": true,
+            "show_remaining_style": "low",
+            "countdown": 10,
+            "info_page": ""
+          }
+        },
+        "c5ce8e50-46bb-4d8b-9bc0-93f590587d62": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "liquid_QNB6P6": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "<p style=\"display: flex; align-items: center;\">\n  <img src=\"https:\/\/cdn-icons-png.flaticon.com\/512\/1670\/1670915.png\" style=\"height:25px;margin-right:10px;padding-bottom: 4px;\"\/>\n  <span>Get this item between <strong><span id=\"fromDate\"><\/span> - <span id=\"toDate\"><\/span><\/strong> (2-7 business days)<\/span>\n<\/p>\n{{ '\/\/cdnjs.cloudflare.com\/ajax\/libs\/datejs\/1.0\/date.min.js' | script_tag }}\n<script>\n  var fromDate = Date.today().addDays(2);\n  if (fromDate.is().saturday() || fromDate.is().sunday()) {\n    fromDate = fromDate.next().monday();\n  }\n  var toDate = Date.today().addDays(7);\n  if (toDate.is().saturday() || toDate.is().sunday()) {\n    toDate = toDate.next().monday();\n  }\n  document.getElementById('fromDate').innerHTML = fromDate.toString('ddd MMM dS');\n  document.getElementById('toDate').innerHTML = toDate.toString('ddd MMM dS');\n<\/script>"
+          }
+        },
+        "05d21821-063c-40c6-bbfd-d827b38c66e0": {
+          "type": "imagecolumn",
+          "settings": {
+            "image_column_title": "Shop with Confidence",
+            "image1": "shopify:\/\/shop_images\/fast-delivery.png",
+            "text1": "Fast Shipping",
+            "image2": "shopify:\/\/shop_images\/sent_22733b72-3715-4322-b19f-3442469bd645.png",
+            "text2": "Fulfilling Orders Since 2014",
+            "image3": "shopify:\/\/shop_images\/guarantee-certificate_1873816e-a907-46a6-b2f6-a7d0f5994637.png",
+            "text3": "Authenticity Gauranteed",
+            "image4": "shopify:\/\/shop_images\/shelf-life-expired_1.png",
+            "text4": "Long Shelf Life of 6+ Months",
+            "image_max_limit1": 50
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "read_more": true,
+            "enable_description": true,
+            "icon_description": "",
+            "style": "tabs",
+            "title_1": "",
+            "icon_name_1": "",
+            "raw_content_1": "",
+            "title_2": "",
+            "icon_name_2": "",
+            "raw_content_2": "",
+            "title_3": "",
+            "icon_name_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "icon_name_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "icon_name_5": "",
+            "raw_content_5": ""
+          }
+        },
+        "sharing": {
+          "type": "sharing",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "liquid_BPVjxE",
+        "form",
+        "c5ce8e50-46bb-4d8b-9bc0-93f590587d62",
+        "liquid_QNB6P6",
+        "05d21821-063c-40c6-bbfd-d827b38c66e0",
+        "description",
+        "sharing"
+      ],
+      "settings": {
+        "image_width": "narrow",
+        "align": "left",
+        "product_breadcrumbs": true,
+        "enable_video_looping": true,
+        "zoom_enable": true,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1654036097f69cfed8": {
+      "type": "apps",
+      "blocks": {
+        "b671a909-1078-480b-9069-7c6d0a6fda12": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "center",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
+          }
+        },
+        "4dce7d4b-0564-4292-823a-1c7aaba6209a": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "b671a909-1078-480b-9069-7c6d0a6fda12",
+        "4dce7d4b-0564-4292-823a-1c7aaba6209a"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
+      "settings": {
+        "product_reviews_enable": true,
+        "bg": "palette--light bg--accent"
+      }
+    },
+    "related": {
+      "type": "related",
+      "disabled": true,
+      "settings": {
+        "heading": "You might also like",
+        "bg": "palette--light bg--neutral",
+        "grid": 3,
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "Related products",
+        "show_recently_viewed": true,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "product_recently_heading": "Recently viewed"
+      }
+    },
+    "169757589574ce1c6c": {
+      "type": "apps",
+      "blocks": {
+        "1256b023-257e-46f3-ad24-9142b38a1b17": {
+          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-addon-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1256b023-257e-46f3-ad24-9142b38a1b17"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1654036097f69cfed8",
+    "reviews",
+    "related",
+    "169757589574ce1c6c"
+  ]
+}

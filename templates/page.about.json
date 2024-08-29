@@ -1,0 +1,153 @@
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "bg_position": "center-center",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "About",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "165403225165248871": {
+      "type": "section-richtext",
+      "blocks": {
+        "16540322514b2c14a8-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Our Company<\/p>",
+            "text_size": 8
+          }
+        }
+      },
+      "block_order": [
+        "16540322514b2c14a8-1"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "custom-content-2": {
+      "type": "section-custom-content",
+      "blocks": {
+        "custom-content-2-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>Formuland is founded by parents for parents.  We have shipped over 500,000 orders since 2014.  Our headquarters is located in Europe and we have warehouses in Germany, Netherlands, United Kingdom, and California that supply across the United States and Canada.  All shipments are via air freight in order to reduce transit time and avoid irradiation.<\/p><p>We only work directly with manufacturers or their official wholesale distributors in Europe who have been vetted thoroughly by us.  We are committed to the highest level of customer satisfaction and to provide quick, expert assistance to all your questions and concerns.  <\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "c6c8423c-5992-4c1a-9e2d-ab4345461412": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "custom-content-2-0",
+        "c6c8423c-5992-4c1a-9e2d-ab4345461412"
+      ],
+      "settings": {
+        "height": "use_screen_one_fifth",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "165403252199edb3c8": {
+      "type": "section-contact",
+      "blocks": {
+        "16540325215427884c-0": {
+          "type": "text",
+          "settings": {
+            "title": "Full Name"
+          }
+        },
+        "16540325215427884c-1": {
+          "type": "email",
+          "settings": {
+            "title": "Email"
+          }
+        },
+        "16540325215427884c-2": {
+          "type": "body",
+          "settings": {
+            "title": "Message"
+          }
+        }
+      },
+      "block_order": [
+        "16540325215427884c-0",
+        "16540325215427884c-1",
+        "16540325215427884c-2"
+      ],
+      "settings": {
+        "title": "Contact Us",
+        "align_text": "text-left",
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "main",
+    "165403225165248871",
+    "custom-content-2",
+    "165403252199edb3c8"
+  ]
+}

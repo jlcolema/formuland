@@ -1,0 +1,38 @@
+<p class="shipping-from" style="visibility: hidden; line-height:1">Shipping from EU</p>
+
+{% capture 'variant_titles' %} {% for variant in product.variants %}
+{{
+  variant.title
+}}
+{% unless forloop.last %}!0{% endunless %} {% endfor %} {% endcapture %}
+
+{% assign product_title = product.title  %}
+
+
+<script>
+  var product_title;
+  var variant_title;
+  var variant_title_arr;
+  var shipping_spans = document.querySelectorAll(".shipping-from");
+  window.addEventListener("load", function (event) {
+    product_title = `{{product_title}}`;
+    variant_title = `{{variant_titles}}`;
+    variant_title_arr = variant_title
+      .replace(/\n/gm, "")
+      .split("!0")
+      .map((v) => v.trim());
+  });
+  setTimeout(() => {
+  //console.log("HERE ="+ product_title, variant_title_arr); 
+    shipping_spans.forEach((s, i) => {
+
+      // console.log("variant= "+variant_title_arr[i])
+      // console.log("Product= "+ product_title)
+      // variant_title_arr[i].includes("1 Box") &&
+      if( variant_title_arr[i].includes("US")) s.innerText = "Shipping from California";      
+      else if (variant_title_arr[i].includes("UK")) s.innerText = "Shipping from UK";
+      s.style.visibility = "visible";
+    });
+    
+  }, 5000);
+</script>

@@ -1,0 +1,666 @@
+{% comment %}
+	LOOP SUBSCRIPTIONS (https://apps.shopify.com/loop-subscriptions)
+
+  DO NOT modify source code of this file because
+	It is automatically generated from LOOP SUBSCRIPTIONS WIDGET DESIGN
+	If you need to make change, please do it using our standard widget design settings or create a custom widget design in LOOP SUBSCRIPTIONS app.
+{% endcomment %}
+
+{% if product.selling_plan_groups.size > 0 %}
+
+{%- liquid
+        assign current_variant = product.selected_or_first_available_variant | default: product.variants.first
+-%}
+<script class="loopProductQuickJson-{{ product.id }}" type="application/json">
+    {{ product | json }}
+</script>
+  <style class="loop-style">
+    .loop-hidden {
+        display: none;
+    }
+    .loop-full-width {
+        width: 100% !important;
+    }
+  	.loop-subscription-container {
+  		display: flex;
+      	flex-direction: column;
+  	}
+    .loop-selling-plan-fieldset {
+        padding: 0;
+        margin: 15px 0;
+        flex-basis: 100%;
+        border-width: 0;
+        border-style: groove;
+        border-color: threedface;
+        border-image: initial;
+        border-radius: 0.5em;
+        border: 1px solid #c3cfd9 !important;
+        overflow: hidden !important;
+    }
+    .loop-selling-plan-fieldset-legend {
+        display: none;
+    }
+    .loop-one-time-purchase-option-position {
+        display: flex !important;
+    }
+    .loop-purchase-options-label {
+        width: auto !important;
+        flex: 2;
+        padding: 0 !important;
+        margin: 0 !important;
+        font-size: 1.1em !important;
+        line-height: 1.1em !important;
+    }
+    .loop-one-time-purchase-option {
+        display: flex;
+        align-items: center;
+        width: 100% !important;
+        padding: 1.1em !important;
+    }
+    .loop-one-time-purchase-option-radio {
+        width: 1.2rem !important;
+        height: 1.2rem !important;
+        min-height: 1.2rem !important;
+        position: initial !important;
+        appearance: auto !important;
+        line-height: 1.2rem !important;
+        margin: 0 1rem 0 0 !important;
+        padding: 0 !important;
+    }
+    .loop-one-time-purchase-option-label {
+        width: auto !important;
+        line-height: 1.2em !important;
+        font-size: 1em !important;
+        font-weight: 600 !important;
+        flex: 2;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .loop-one-time-purchase-option-price-container {
+        text-align: right;
+      	flex: 1;
+    }
+    .loop-one-time-purchase-option-price-amount {
+        line-height: 1.2em !important;
+        font-size: 1em !important;
+    }
+
+    .loop-one-time-purchase-option-price-quantity {
+        line-height: 1em !important;
+        font-size: 0.8em !important;
+      	opacity: 0.8;
+    }
+
+    .loop-selling-plan-allocation {
+        display: flex !important;
+    }
+
+    .loop-subscription-group {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 1.1em !important;
+    }
+    .loop-subscription-group-border-top {
+        border-top: 1px solid #c3cfd9 !important;
+    }
+
+    .loop-subscription-group-border-bottom {
+        border-bottom: 1px solid #c3cfd9 !important;
+    }
+    .loop-subscription-group-radio {
+        width: 1.2rem !important;
+        height: 1.2rem !important;
+        min-height: 1.2rem !important;
+        line-height: 1.2rem;
+        position: initial !important;
+        appearance: auto !important;
+        margin: 0 1rem 0 0 !important;
+        padding: 0 !important;
+    }
+    .loop-subscription-group-text {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 3;
+        align-items: center;
+    }
+
+    .loop-subscription-group-label {
+        width: auto !important;
+        padding: 0;
+        margin: 0 1em 0 0;
+        line-height: 1.2em !important;
+        font-size: 1em !important;
+        font-weight: 600 !important;
+        display: flex;
+        align-items: center;
+    }
+
+    .loop-subscription-group-discount-badge {
+        border-radius: 50px;
+        padding: 0.3em .5em;
+        background: #53cf54;
+        display: flex;
+        justify-content: center;
+        width: max-content;
+        line-height: 1.2em;
+        font-size: 1em;
+    }
+
+    .loop-subscription-group-price-container {
+        text-align: right;
+        flex: 1;
+    }
+
+
+    .loop-subscription-group-price-amount {
+        line-height: 1.2em !important;
+        font-size: 1em !important;
+    }
+
+    .loop-subscription-group-price-quantity {
+        line-height: 1em !important;
+        font-size: 0.8em !important;
+      	opacity: 0.8;
+    }
+
+
+    .loop-subscription-group-selling-plans-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100% !important;
+        margin-top: 0.5em;
+        margin-left: 2.2rem;
+    }
+
+    .loop-selling-plan-selector-label {
+        width: auto !important;
+        padding: 0;
+        margin: 0.5em 0 0.5em 0;
+        line-height: 1.2em;
+        font-size: 1em;
+    }
+
+    .loop-selling-plan-selector {
+        width: auto!important;
+        display: block !important;
+        border-color: #C3D0D9 !important;
+        border-width: 1px !important;
+        margin: 6px 0 0 12px !important;
+        padding: 0.5em 2.5em 0.5em 0.7em !important;
+        border-radius: 5px !important;
+        font-size: 1em !important;
+        background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+          linear-gradient(135deg, gray 50%, transparent 50%),
+          linear-gradient(to right, #ccc, #ccc);
+        background-position: calc(100% - 20px) calc(1em), calc(100% - 15px) calc(1em), calc(100% - 2.5em) 0.5em;
+        background-size: 5px 5px, 5px 5px, 0px 1.5em;
+        background-repeat: no-repeat;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+
+    .loop-selling-plan-selector:focus {
+        background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+          linear-gradient(135deg, gray 50%, transparent 50%),
+          linear-gradient(to right, #ccc, #ccc);
+        background-position: calc(100% - 20px) calc(1em), calc(100% - 15px) calc(1em), calc(100% - 2.5em) 0.5em;
+        background-size: 5px 5px, 5px 5px, 0px 1.5em;
+        background-repeat: no-repeat;
+        border-color: green;
+        outline: 0;
+        padding: 0.5em 2.5em 0.5em 0.7em !important;
+    }
+
+    .loop-selling-plan-selector:-moz-focusring {
+        color: transparent;
+        text-shadow: 0 0 0 #000;
+    }
+
+    .loop-selling-plan-selector-option {
+        display: flex;
+        align-items: center;
+    }
+
+    .loop-selling-plan-selector-description {
+        width: 100%;
+        font-size: 0.9em !important;
+        line-height: normal !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        opacity: 0.8;
+    }
+
+
+    .loop-subscription-group-radio:not(:checked) ~ .loop-subscription-group-selling-plans-container {
+        display: none !important;
+    }
+
+    .loop-selling-plan-selector:focus-visible {
+        outline: none !important;
+        outline-offset: 0.3rem;
+        box-shadow: none !important;
+    }
+
+
+    .loop-price-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .loop-price-section {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .loop-price-section-subscription-banner {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        padding: 0px 5px;
+        border: 1px solid;
+        border-radius: 5px;
+        line-height: 11px;
+        margin-left: 8px;
+    }
+
+    .loop-final-price {
+
+    }
+
+    .loop-compare-price {
+        text-decoration: line-through;
+        opacity: 0.5;
+    }
+    .loop-price-sub-text {
+        font-size: 11px;
+    }
+
+    .loop-dot {
+        height: 4px;
+        width: 4px;
+        background-color: #000;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .loop-display-none {
+        display: none !important;
+    }
+
+  	.loop-display-none-by-variant {
+        display: none !important;
+  	}
+
+    .loop-left-margin-0 {
+        margin-left: 0 !important;
+    }
+
+    .loop-tooltip {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        padding-bottom: 1em;
+        margin-top: -10px;
+    }
+
+
+    .loop-tooltip-label {
+      display: flex;
+      cursor: pointer;
+    }
+    .loop-tooltip-image {
+        height: 18px;
+        width: 18px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .loop-tooltip .loop-tooltiptext {
+        visibility: hidden;
+        width: 300px;
+        min-width: 100%;
+        background-color: #081d33;
+        color: #fff;
+        text-align: left;
+        border-radius: 6px;
+        padding: 15px;
+        margin-top: -10px;
+
+        position: absolute;
+        z-index: 1;
+        top: 100%;
+        left: 0%;
+    }
+
+    .loop-tooltip:hover .loop-tooltiptext {
+        visibility: visible;
+    }
+
+    .loop-tooltip-description {
+        margin: 0 !important;
+        padding: 0 !important;
+      	font-size: 1em;
+    }
+
+    .loop-container-arrow {
+        height: 16px;
+        width: 16px;
+        background-color: #081d33;
+        position: absolute;
+    }
+
+    .loop-container-arrow--tl {
+        left: 32px;
+        top: 0px;
+        border-left: 1px solid rgba(0, 0, 0, 0.3);
+        border-top: 1px solid rgba(0, 0, 0, 0.3);
+        transform: translate(50%, -50%) rotate(45deg);
+    }
+    .block-swatch-list{
+      text-align: center;
+      display: flex;
+      line-height: 1.2;
+      margin-bottom: 15px;
+      gap: 4px;
+      margin-top: 20px;
+    }
+  .block-swatch{
+    margin: 0;
+    flex: 1 1 0px;
+  }
+    .block-swatch .block-swatch__item{
+      color: #006240;
+      align-items: center;
+      padding: 15px 10px;
+      height: 90%;
+      text-align: center;
+      font-size: .85rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-radius: 0;
+      transition: all .5s cubic-bezier(.215,.61,.355,1);
+      font-weight: 600;
+      box-shadow: none !important;
+      padding-bottom: 80px;
+      border: 1px solid rgba(0, 98, 64, 0.2);
+  }
+  .quantity-selector{
+     border: 1px solid rgba(0, 98, 64, 0.2);
+  }
+  .block-swatch__radio:checked+.block-swatch__item{
+      background-color: #006240;
+      color: #fff;
+  }
+  .block-swatch__item-text{
+        text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: .85rem;
+  }
+
+  /* Price + Quantity block */
+  .product-form__info-list{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .product-form__info-item{
+    display: inline-flex;
+    align-items: center;
+  }
+  .product-form__info-item .product-form__info-title{
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: var(--text-dark);
+    display: inline-block;
+    padding: 8px 0 6px;
+    color: #000;
+  }
+  .product-form__info-item .price{
+        font-weight: 700;
+      color: #000;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      line-height: 1em;
+      font-size: 18px;
+    margin-left: 0.7em;
+  }
+  .price--compare{
+    display: none;
+  }
+  .product-form__info-item--quantity .product-form__info-title{
+    display: none;
+  }
+.quantity-selector--product .quantity-selector__value{
+  border: none;
+    width: 100%;
+    max-width: 100%;
+}
+.loop-selling-plan-fieldset{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 0 !important;
+border: none !important;
+  gap: 4px;
+  border-bottom-left-radius: 0 !important;
+border-bottom-right-radius: 0 !important;
+}
+  .loop-selected-selling-plan-group{
+    color: #fff;;
+    background-color: #d86d74;
+    padding: 12px 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+  }
+  #loop-product-variant-{{ variant.id }}{
+    padding: 12px 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    color: #000;
+  }
+  .loop-one-time-purchase-option-radio, .loop-subscription-group-radio{
+    display: none;
+  }
+    .loop-one-time-purchase-option, .loop-subscription-group{
+    flex-direction: column;
+      border: 1px solid rgba(0, 98, 64, 0.2);
+      max-width: 100%;
+      max-height: 85px;
+      flex-wrap: inherit;
+      align-items: center;
+      justify-content: center;
+}
+  
+  .loop-subscription-group-discount-badge{
+    background-color: transparent !important;
+  }
+  .loop-one-time-purchase-option-price-amount , .loop-subscription-group-price-amount{
+    line-height: 1.2em !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+  
+  .loop-cloned__container {
+    display: none;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100% !important;
+    }
+.loop-subscription-group-selling-plans-container{
+  display: none;
+}
+  .loop-cloned__container .loop-selling-plan-selector{
+        border-radius: 0!important; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent !important;
+    padding: 8px 10px  !important;
+    text-indent: 0.01px;
+    text-overflow: clip;
+    cursor: pointer;
+  border: 1px solid rgba(0, 98, 64, 0.2)  !important;
+    width: 100%  !important;
+    max-width: 100%  !important;
+    margin: 0 0 1em !important;
+    outline: none;
+    color: #000;
+    background-image: url('https://formuland.com/cdn/shop/t/51/assets/ico-select.svg?v=6511190357154599821692615001');
+    background-size: 9px;
+  }
+    .loop-subscription-group-text, .loop-one-time-purchase-option-label{
+    justify-content: center;
+      align-items: baseline;
+      text-align: center;
+  }
+  #loop-selling-plan-fieldset input[type=checkbox], #loop-selling-plan-fieldset input[type=radio]{
+    display: none;
+  }
+  @media screen and (max-width: 760px){
+.block-swatch-list{
+  flex-direction: column;
+}
+  }
+  @media screen and (min-width: 760px){
+    .quantity-selector--product .quantity-selector__value{
+      padding: 11px 30px;
+}
+  }
+</style>
+<div id="loop-subscription-container-{{product.id}}" class="loop-subscription-container loop-display-none">
+    <input type="hidden" name="selling_plan">
+    <input name="loop_variant_id" class="loop-hidden">
+    <!-- <div class="loop-purchase-options-label loop-display-none">Purchase Options</div> -->
+        <fieldset
+        id="loop-selling-plan-fieldset"
+        class="loop-selling-plan-fieldset loop-display-none"
+    >
+        <legend class="loop-selling-plan-fieldset-legend">Selling Plans</legend>
+        {% unless product.requires_selling_plan %}
+        <div class="loop-one-time-purchase-option-position" id="loop-one-time-purchase-option-at-top">
+            <div class="loop-one-time-purchase-option">
+                <input type="radio" class="loop-one-time-purchase-option-radio" name="loop_purchase_option" id="loop-one-time-purchase-{{product.id}}" data-id="loop-one-time-purchase" data-product-id="{{ product.id }}" data-name="loop-one-time-purchase">
+                <label class="loop-one-time-purchase-option-label" for="loop-one-time-purchase-{{product.id}}">One time Purchase</label>
+                <div class="loop-one-time-purchase-option-price-container">
+                    <div id="loop-price-one-time" class="loop-one-time-purchase-option-price-amount">
+                        {{ current_variant.price | money }}
+                    </div>
+                    <div class="loop-one-time-purchase-option-price-quantity">
+                        each
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endunless %}
+        {% for variant in product.variants %}
+            <div id="loop-product-variant-{{ variant.id }}">
+                {% assign selected_selling_plan_group = nil %}
+                {% for selling_plan_group in product.selling_plan_groups %}
+                    {% unless selling_plan_group.app_id != "5284869" %}
+                        <div id="loop-selling_plan_group-{{ selling_plan_group.id }}">
+                            {% for allocation in variant.selling_plan_allocations %}
+                            <div class="loop-selling-plan-allocation" id="loop-allocation-{{ allocation.selling_plan_group_id }}">
+                                {% if selling_plan_group.id == allocation.selling_plan_group_id and selected_selling_plan_group != selling_plan_group.id %}
+                                    {% assign selected_selling_plan_group = selling_plan_group.id %}
+                                    <div class="loop-full-width loop-subscription-group loop-subscription-group-border-top" id="loop-{{variant.id}}-{{selling_plan_group.id}}">
+                                        <input type="radio" class="loop-subscription-group-radio" id="loop-radio-{{ variant.id }}{{selling_plan_group.id}}" name="loop_purchase_option" data-variant-id="{{variant.id}}"  data-product-id="{{product.id}}" data-id="{{selling_plan_group.id}}" data-name="{{selling_plan_group.name}}">
+                                        <div class="loop-subscription-group-text">
+                                            <label class="loop-subscription-group-label" for="loop-radio-{{ variant.id }}{{selling_plan_group.id}}">
+                                                {{selling_plan_group.name}}
+                                            </label>
+                                            <div class="loop-subscription-group-discount-badge loop-display-none" id="loop-discount-badge-{{ variant.id }}-{{selling_plan_group.id}}">
+                                            </div>
+                                        </div>
+                                        <div class="loop-subscription-group-price-container">
+                                            <div id="loop-price-{{ variant.id }}-{{ selling_plan_group.id }}" class="loop-subscription-group-price-amount">
+                                                {{ current_variant.price | money }}
+                                            </div>
+                                                <div class="loop-subscription-group-price-quantity">
+                                                    each
+                                            </div>
+                                        </div>
+                                        <div class="loop-subscription-group-selling-plans-container loop-full-width" id="loop-selling-plan-container-{{variant.id}}-{{selling_plan_group.id}}">
+                                            <label class="loop-selling-plan-selector-label" for="loop-select-{{variant.id}}-{{selling_plan_group.id}}"> {{ selling_plan_group.selling_plans[0].options[0].name }}</label>
+                                            <div id="loop-selling-plan-first-delivery-options-{{variant.id}}-{{selling_plan_group.id}}" class="loop-display-none"> &nbsp;{{ selling_plan_group.selling_plans[0].options[0].value }} </div>
+                                            <select class="loop-full-width loop-selling-plan-selector" id="loop-select-{{variant.id}}-{{selling_plan_group.id}}" data-position="{{ option.position }}" data-selling-plan-group-id="{{ selling_plan_group.id }}" data-product-id="{{product.id}}">
+                                                    {% for sp in selling_plan_group.selling_plans %}
+                                                    <option class="loop-selling-plan-selector-option" value="{{ sp.id }}">{{ sp.options[0].value }}</option>
+                                                    {% endfor %}
+                                            </select>
+                                            <div class="loop-selling-plan-selector-description" id="loop-selling-plan-description-{{ variant.id }}-{{ selling_plan_group.id }}"></div>
+                                            </div>
+                                    </div>
+                                {% endif %}
+                            </div>
+                            {% endfor %}
+                        </div>
+                    {% endunless %}
+                {% endfor %}
+            </div>
+        {% endfor %}
+        {% unless product.requires_selling_plan %}
+            <div class="loop-one-time-purchase-option-position" id="loop-one-time-purchase-option-at-bottom">
+            </div>
+        {% endunless %}
+    </fieldset>
+<div id="loop-copy-container" class="loop-cloned__container"></div>  
+    <div class="loop-tooltip loop-display-none" id="loop-tooltip">
+        <div class="loop-tooltip-image">
+            <svg
+                width="18"
+                height="18"
+                viewBox="0 0 90 90"
+                xmlns="http://www.w3.org/2000/svg"
+                id="loop-tooltip-image-svg"
+            >
+                <path d="M45 0C20.1827 0 0 20.1827 0 45C0 69.8173 20.1827 90 45 90C69.8173 90 90 69.8174 90 45C90.0056 44.6025 89.9322 44.2078 89.7839 43.8389C89.6357 43.47 89.4156 43.1342 89.1365 42.8511C88.8573 42.568 88.5247 42.3432 88.158 42.1897C87.7912 42.0363 87.3976 41.9573 87 41.9573C86.6024 41.9573 86.2088 42.0363 85.842 42.1897C85.4753 42.3432 85.1427 42.568 84.8635 42.8511C84.5844 43.1342 84.3643 43.47 84.2161 43.8389C84.0678 44.2078 83.9944 44.6025 84 45C84 66.5748 66.5747 84 45 84C23.4253 84 6 66.5747 6 45C6 23.4254 23.4253 6 45 6C56.1538 6 66.3012 10.5882 73.4375 18H65.4062C65.0087 17.9944 64.614 18.0678 64.2451 18.2161C63.8762 18.3643 63.5405 18.5844 63.2573 18.8635C62.9742 19.1427 62.7494 19.4753 62.596 19.842C62.4425 20.2088 62.3635 20.6024 62.3635 21C62.3635 21.3976 62.4425 21.7912 62.596 22.158C62.7494 22.5247 62.9742 22.8573 63.2573 23.1365C63.5405 23.4156 63.8762 23.6357 64.2451 23.7839C64.614 23.9322 65.0087 24.0056 65.4062 24H79.8125C80.6081 23.9999 81.3711 23.6838 81.9337 23.1212C82.4963 22.5586 82.8124 21.7956 82.8125 21V6.59375C82.821 6.18925 82.7476 5.78722 82.5966 5.41183C82.4457 5.03644 82.2205 4.69545 81.9344 4.40936C81.6483 4.12327 81.3073 3.898 80.9319 3.7471C80.5565 3.5962 80.1545 3.52277 79.75 3.53125C79.356 3.53941 78.9675 3.62511 78.6067 3.78344C78.2458 3.94177 77.9197 4.16963 77.6469 4.45402C77.3741 4.73841 77.16 5.07375 77.0168 5.44089C76.8737 5.80803 76.8042 6.19977 76.8125 6.59375V12.875C68.6156 4.86282 57.3081 0 45 0ZM43.75 20.75C43.356 20.7582 42.9675 20.8439 42.6067 21.0022C42.2458 21.1605 41.9197 21.3884 41.6469 21.6728C41.3741 21.9572 41.16 22.2925 41.0168 22.6596C40.8737 23.0268 40.8042 23.4185 40.8125 23.8125V47.375C40.8116 47.7693 40.8883 48.16 41.0385 48.5246C41.1886 48.8892 41.4092 49.2207 41.6875 49.5L54.0938 61.9375C54.6573 62.5011 55.4217 62.8177 56.2188 62.8177C57.0158 62.8177 57.7802 62.5011 58.3438 61.9375C58.9073 61.3739 59.224 60.6095 59.224 59.8125C59.224 59.0155 58.9073 58.2511 58.3438 57.6875L46.8125 46.1875V23.8125C46.821 23.408 46.7476 23.006 46.5966 22.6306C46.4457 22.2552 46.2205 21.9142 45.9344 21.6281C45.6483 21.342 45.3073 21.1168 44.9319 20.9658C44.5565 20.8149 44.1545 20.7415 43.75 20.75Z"></path>
+            </svg>
+        </div>
+        <div id="loop-tooltip-label" class="loop-tooltip-label">
+        </div>
+        <div class="loop-tooltiptext">
+            <div class="loop-container-arrow loop-container-arrow--tl">&#8205;</div>
+            <p id="loop-tooltip-description" class="loop-tooltip-description">
+            </p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    // **** DON'T EDIT THIS CODE BLOCK ****//
+    var sellingPlanEle = document.querySelector("input[name=selling_plan]");
+    var d1 = document.createElement("div");
+    d1.setAttribute("id", "loop-price-money-format");
+    d1.setAttribute("class", "loop-hidden");
+    d1.innerHTML = '{{ 000 | money }} each';
+
+    var d2 = document.createElement("div");
+    d2.setAttribute("id", "loop-price-money_without_currency-format")
+    d2.setAttribute("class", "loop-hidden")
+    d2.innerHTML = '{{ 000 | money_without_currency }}';
+    
+    sellingPlanEle.after(d2);
+    sellingPlanEle.after(d1);
+// **** DON'T EDIT THIS CODE BLOCK ****//
+</script>
+<script type="text/javascript" defer>
+    window.addEventListener("DOMContentLoaded", (event) => {
+        main({{ product.id }});
+    });
+</script>
+{%- endif -%}

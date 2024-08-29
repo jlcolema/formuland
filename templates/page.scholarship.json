@@ -1,0 +1,244 @@
+{
+  "sections": {
+    "b02d60c9-54f6-468a-b756-5e35ce5af8cf": {
+      "type": "section-gallery",
+      "blocks": {
+        "62da49aa-1222-4cab-a058-7a89b1ca3050": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2021-desk-setup-flat-lay.jpg",
+            "bg_position": "center-top",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "62da49aa-1222-4cab-a058-7a89b1ca3050"
+      ],
+      "settings": {
+        "full_width": false,
+        "padding": true,
+        "scale_image": true,
+        "aspect_ratio": 0.5,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text--black",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "60f0e6cf-025d-4085-9e60-ee51900f364d": {
+      "type": "section-gallery-text",
+      "blocks": {
+        "template--16682341564635__60f0e6cf-025d-4085-9e60-ee51900f364d-1674965804f7c4438e-0": {
+          "type": "text",
+          "settings": {
+            "title": "Scholarship Eligibility",
+            "text": "<p>You must fulfill the requirements listed below in order to qualify for this scholarship. Before applying, make sure you have properly read the prerequisites and are eligible.<\/p><p><\/p><ul><li>All study areas and GPAs will be taken into consideration.<\/li><li>Candidates for scholarships must either be in their senior year of high school or enrolled in an undergraduate or graduate degree program at an institution of higher learning with a US location.<\/li><\/ul><p><\/p><p><strong>SCHOLARSHIP AWARD WINNER<\/strong><\/p><p>The winner of this scholarship award will need to provide a photo of themselves and a 100-150 word essay of how this scholarship would impact them and their loved ones .  Also anything else they would like to share that would be a great message to anyone reading their essay (Which would be displayed on our webpage).<\/p>",
+            "text_align": "text-left"
+          }
+        },
+        "5fef366b-4d2c-4746-9c50-7cb8ac34f37d": {
+          "type": "text",
+          "settings": {
+            "title": " Scholarship FAQ",
+            "text": "<p><strong>Deadline for Scholarship application?<\/strong><br\/>Twice a year the scholarship is awarded, in fall and spring. The 2 deadlines for the application is on September 30th and March 01.<\/p><p><strong>What is the value of the scholarship?<\/strong><br\/>The Value of each scholarship will be $500 for high school senior and $1000 for Graduate or College Student. The Formuland Mighty Star Scholarships will<br\/>be given to the applicant directly, or to the applicant's legal guardian if the<br\/>candidate is under 18 years old. The scholarship is meant to be used for any<br\/>essential educational costs for you.<\/p><p><strong>How will the winner be notified and when will the winner be announced?<\/strong><br\/>One week prior to the announcement date, the winner will get a phone call or<br\/>email notification. We will select a candidate who has the greatest potential<br\/>to influence their family and community. The recipient of this scholarship<br\/>should aim to have a massive, positive impact on both their immediate and<br\/>distant surroundings.<\/p><p><strong>How will you receive the scholarship award? <\/strong><br\/>The Formuland Mighty Star Scholarship check will be sent to the winner’s<br\/>college institution in their name also in the name of their institution (based<br\/>on the needs of the school).<\/p>",
+            "text_align": "text-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--16682341564635__60f0e6cf-025d-4085-9e60-ee51900f364d-1674965804f7c4438e-0",
+        "5fef366b-4d2c-4746-9c50-7cb8ac34f37d"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "3a429f48-19cd-40c9-b1ae-32ce38b535e6": {
+      "type": "section-gallery",
+      "blocks": {
+        "template--16682341564635__3a429f48-19cd-40c9-b1ae-32ce38b535e6-1674963986811d5e77-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/students-learning-in-class-room.jpg",
+            "bg_position": "center-bottom",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16682341564635__3a429f48-19cd-40c9-b1ae-32ce38b535e6-1674963986811d5e77-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "padding": true,
+        "scale_image": true,
+        "aspect_ratio": 0.5,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "046d346a-d46b-4f9d-98ba-8eb199a5fbf5": {
+      "type": "section-page",
+      "settings": {
+        "home_page_content": "how-to-apply-for-the-formuland-mighty-star-scholarship",
+        "home_page_show_title": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "b07b1f68-f043-458a-bf9b-f87470d5307b": {
+      "type": "section-contact",
+      "blocks": {
+        "template--16682341564635__b07b1f68-f043-458a-bf9b-f87470d5307b-1674964546d32bee41-0": {
+          "type": "text",
+          "settings": {
+            "title": "Full Name"
+          }
+        },
+        "template--16682341564635__b07b1f68-f043-458a-bf9b-f87470d5307b-1674964546d32bee41-1": {
+          "type": "email",
+          "settings": {
+            "title": "Email"
+          }
+        },
+        "bbd318aa-d20e-4125-8a20-489e54da6fcd": {
+          "type": "text",
+          "settings": {
+            "title": "What major and degree are your pursuing?"
+          }
+        },
+        "83a17882-029c-414e-a990-4e4b7ffaa2a9": {
+          "type": "text",
+          "settings": {
+            "title": "Current GPA?"
+          }
+        },
+        "3b28a0c9-f2e1-45f2-985b-bc8c70b55286": {
+          "type": "text",
+          "settings": {
+            "title": "Any extracurriculars, skills, experiences, or awards? (Optional)"
+          }
+        },
+        "template--16682341564635__b07b1f68-f043-458a-bf9b-f87470d5307b-1674964546d32bee41-2": {
+          "type": "body",
+          "settings": {
+            "title": "Fill your 500-1000 word essay here!"
+          }
+        }
+      },
+      "block_order": [
+        "template--16682341564635__b07b1f68-f043-458a-bf9b-f87470d5307b-1674964546d32bee41-0",
+        "template--16682341564635__b07b1f68-f043-458a-bf9b-f87470d5307b-1674964546d32bee41-1",
+        "bbd318aa-d20e-4125-8a20-489e54da6fcd",
+        "83a17882-029c-414e-a990-4e4b7ffaa2a9",
+        "3b28a0c9-f2e1-45f2-985b-bc8c70b55286",
+        "template--16682341564635__b07b1f68-f043-458a-bf9b-f87470d5307b-1674964546d32bee41-2"
+      ],
+      "settings": {
+        "title": "Formuland Might Star Scholarship Essay",
+        "align_text": "text-center",
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "dedfaa4f-c91c-44b2-9ae8-53af889726c5": {
+      "type": "section-columns",
+      "blocks": {
+        "e54feb70-f219-48f6-8e40-83b34a5fbed1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/IMG_1975_2.jpg",
+            "bg_position": "center-center",
+            "title": "Rachel Hanley \/ SEPTEMBER 2023",
+            "text": "<p>Thank you for this incredible honor.  Receiving this scholarship will have a profound impact on both my academic journey and my family's well-being.  As I embark on my Ph.D. in clinicalpsychology, specializing in clinical neuropsychology, this financial support will alleviate some of the burdens associated with pursuing advanced education, allowing me to fully commit to my studies and research.  Pursuing this degree means that I am bringing in less income which strains our financials.  The scholarship will allow me to work less so that I can dedicate myself to the research I believe can change our community.<br\/><br\/>In essence, this scholarship would not only empower me to pursue my academic and professional aspirations but also contribute to my beloved family's well-being and future prospects.  It would be a significant investment in our collective future, allowing us to thrive as I work towards becoming a clinical neuropsychologist dedicated to improving the lives of others through cutting-edge research and compassionate care.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--16682341564635__dedfaa4f-c91c-44b2-9ae8-53af889726c5-1679328853e45829e3-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/chloe01.jpg",
+            "bg_position": "center-center",
+            "title": "Chloe Krebill \/ March 2023",
+            "text": "<p>Thank you so much for awarding me the Formuland Mighty Star Scholarship. I am incredibly grateful for this opportunity to further pursue my career goals! This scholarship will help me pay for part of my tuition at Washington State University to pursue my master’s in business administration. Because I support myself and my son, I do not have anything saved for my education, so this scholarship enables me to start my master’s this fall. With this honor, I can continue to be a role model for my son and exemplify the importance of pursuing higher education and persisting through difficult times. I can’t wait to one day give back to students in similar situations and provide hope as this scholarship has for me.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--16682341564635__dedfaa4f-c91c-44b2-9ae8-53af889726c5-1679328853e45829e3-1": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "bg_position": "center-center",
+            "title": "Who will be next?",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--16682341564635__dedfaa4f-c91c-44b2-9ae8-53af889726c5-1679328853e45829e3-2": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "bg_position": "center-center",
+            "title": "WHO WILL BE NEXT?",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "e54feb70-f219-48f6-8e40-83b34a5fbed1",
+        "template--16682341564635__dedfaa4f-c91c-44b2-9ae8-53af889726c5-1679328853e45829e3-0",
+        "template--16682341564635__dedfaa4f-c91c-44b2-9ae8-53af889726c5-1679328853e45829e3-1",
+        "template--16682341564635__dedfaa4f-c91c-44b2-9ae8-53af889726c5-1679328853e45829e3-2"
+      ],
+      "settings": {
+        "title": "Scholarship Winners!",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "aspect_ratio": 1
+      }
+    }
+  },
+  "order": [
+    "b02d60c9-54f6-468a-b756-5e35ce5af8cf",
+    "main",
+    "60f0e6cf-025d-4085-9e60-ee51900f364d",
+    "3a429f48-19cd-40c9-b1ae-32ce38b535e6",
+    "046d346a-d46b-4f9d-98ba-8eb199a5fbf5",
+    "b07b1f68-f043-458a-bf9b-f87470d5307b",
+    "dedfaa4f-c91c-44b2-9ae8-53af889726c5"
+  ]
+}

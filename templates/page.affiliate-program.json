@@ -1,0 +1,62 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "165403304635025203": {
+      "type": "section-richtext",
+      "blocks": {
+        "1654033046c42652da-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Affiliate Program<\/p>",
+            "text_size": 8
+          }
+        },
+        "1654033046c42652da-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Formuland Affiliate Program Offers the Following:<\/strong><\/p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        },
+        "5373243c-b7ee-4d30-a94b-6b8a88d16a31": {
+          "type": "text",
+          "settings": {
+            "text": "<p>- Targeted Audience<\/p><p>- Average Conversion Rate: 8-10% (very high compared to other industries)<\/p><p>- Commission Rate: 5% of sales<\/p><p>- Cookie: 30 days (all orders placed within 30 days are counted)<\/p><p>- Average Order Value: $130<\/p><p>- Commission Tiers: Over $1,000 in commission, we will increase the commission rate to 8%<\/p><p>- Payments are made once a month via Paypal (minimum payout is $50)<\/p><p>- Absolutely Free to Join!<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "1654033046c42652da-1",
+        "1654033046c42652da-2",
+        "5373243c-b7ee-4d30-a94b-6b8a88d16a31"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165403304635025203"
+  ]
+}

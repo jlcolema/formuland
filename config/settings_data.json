@@ -1,0 +1,757 @@
+{
+  "current": {
+    "Desk_img": "https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/baby-held-in-a-persons-arm-looks-surprised_1800x.jpg?v=1654038672",
+    "color_announcement_bg": "#f5f1ff",
+    "color_announcement_text": "#1e2e00",
+    "color_header_bg": "#ffffff",
+    "color_header_text": "#364f07",
+    "color_nav_border": "#f8f0e7",
+    "color_highlight_link": "#ff0000",
+    "color_body_bg": "#ffffff",
+    "color_body_text": "#006240",
+    "color_primary": "#1e2e00",
+    "color_secondary": "#1e2e00",
+    "color_bg_light": "#fcfaf7",
+    "color_bg_inverse": "#333333",
+    "color_text_inverse": "#FFFFFF",
+    "color_primary_inverse": "#ffe5da",
+    "color_secondary_inverse": "#dff3fd",
+    "color_bg_accent_inverse": "#191008",
+    "default_background": "",
+    "color_footer_bg": "#006240",
+    "color_footer_text": "#fffcf9",
+    "high_contrast": true,
+    "type_heading_font": "itc_clearface_n4",
+    "type_heading_size": 115,
+    "font_title_capitalize": false,
+    "type_accent_font": "avenir_next_n5",
+    "type_accent_size": 95,
+    "type_base_font": "avenir_next_n4",
+    "type_body_size": 100,
+    "button_radius": 0,
+    "animations_scroll_enable": false,
+    "search_pages": false,
+    "search_articles": false,
+    "search_collections": false,
+    "collection_text_alignment": "text-center",
+    "product_grid_style": "under",
+    "image_hover_enable": true,
+    "product_grid_image": "crop",
+    "swatches_enable": true,
+    "badge_sale": true,
+    "badge_sale_discount": false,
+    "badge_sale_type": "percentage",
+    "badge_custom": true,
+    "color_badge": "#ffffff",
+    "color_badge_text": "#656565",
+    "product_grid_show_rating": true,
+    "product_grid_show_rating_count": true,
+    "cart_style": "page",
+    "cart_shipping_enable": true,
+    "cart_notes_enable": true,
+    "show_free_shipping_message": true,
+    "cart_slider": "Porridge\/Cereal",
+    "cart_custom_message_enable": false,
+    "cart_color_bg": "palette--light bg--neutral",
+    "cart_show_additional_buttons": false,
+    "favicon": "shopify:\/\/shop_images\/formuland_logo_center_transparent_36e05c8a-f17b-4cc6-a325-7e0ee732316f.png",
+    "custom_shipping_text": "Unfortunately, we cannot ship an order to a PO box at this time.",
+    "card_heading_0": "Satisfaction Guarantee",
+    "card_info_0": "If you are trying to find out which formula works for your baby, please order a box or a can (not available on 4\/6\/12 packs).  Let us know if the formula does not work out, then we will issue a 100% store credit so you can try something different.",
+    "sidebar_title": "Shop with Confidence",
+    "card_image_check": false,
+    "card_img_1": "shopify:\/\/shop_images\/fast-delivery.png",
+    "card_heading_1": "Fast Shipping",
+    "card_info_1": "Average transit time for all orders is 2-5 business days.  Overnight and 2-day shipping options are available on single boxes and cans from California.",
+    "card_img_2": "shopify:\/\/shop_images\/sent_22733b72-3715-4322-b19f-3442469bd645.png",
+    "card_heading_2": "Since 2014",
+    "card_info_2": "We have fulfilled over 500,000 since 2014.",
+    "card_img_3": "shopify:\/\/shop_images\/guarantee-certificate_1873816e-a907-46a6-b2f6-a7d0f5994637.png",
+    "card_heading_3": "Guaranteed Authenticity",
+    "card_info_3": "We only work directly with manufacturers or their official wholesale distributors in Europe who have been vetted thoroughly by us",
+    "card_img_4": "shopify:\/\/shop_images\/shelf-life-expired_1.png",
+    "card_heading_4": "Long Shelf Life of 6+ Months Guarantee",
+    "card_info_4": "For your peace of mind, we only stock the most recent products.",
+    "post_text": "Orders that are $250 and above in value may require a signature confirmation, which can be waived. Shipments out of California Warehouse:  Express orders (overnight\/2-day shipping) placed before 12 PM Pacific from Monday to Friday and Saturday 10 AM will be shipped out the same day via FedEx\/UPS.  All other orders (standard and free shipping) will be shipped out on next business day.  Shipments out of EU & UK: All shipping estimates are valid only Monday through Friday, and packages will leave the warehouse the following business day (unless there is a holiday either here in the US or in the EU). We have no authority over or control over shipping carriers. Customs' processing times for each and every parcel they receive are beyond our control or legal jurisdiction.",
+    "checkout_logo_image": "shopify:\/\/shop_images\/cropped-formuland-logo-center.jpg",
+    "checkout_logo_position": "center",
+    "checkout_accent_color": "#006240",
+    "checkout_button_color": "#006240",
+    "product_background_color": "#fcfcfc",
+    "sections": {
+      "announcement": {
+        "type": "announcement",
+        "blocks": {
+          "b0823ca5-407d-444e-9c07-61bf995d99e5": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "text": "<p>Holiday Schedule: Warehouses in Europe will be closed on<br\/>1\/1.  All orders from 12\/29<br\/>to 1\/1 will go out on 1\/2.  All<br\/>shipping carriers are closed on 1\/1 for delivery.<\/p>",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          },
+          "0069c7b7-0c00-44b2-9217-4ea7dfef8487": {
+            "type": "text",
+            "settings": {
+              "text": "<p>⚡ Fast and Free Shipping on 4\/6\/8\/12 <br\/>Packs. <a href=\"\/collections\/goat-milk-formula\"><strong>Shop Now<\/strong><\/a><\/p>",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          },
+          "text_zXWHht": {
+            "type": "text",
+            "settings": {
+              "text": "<p>🏆 Shop our Best Selling European Baby <br\/>Formulas. <a href=\"\/collections\"><strong>Shop Now<\/strong><\/a><\/p>",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          },
+          "text_jyPUdy": {
+            "type": "text",
+            "settings": {
+              "text": "<p>🚨 Shipments may experience 1-3 days of <br\/>delay due to the severe weather <br\/>conditions across the US.<\/p>",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          }
+        },
+        "block_order": [
+          "b0823ca5-407d-444e-9c07-61bf995d99e5",
+          "0069c7b7-0c00-44b2-9217-4ea7dfef8487",
+          "text_zXWHht",
+          "text_jyPUdy"
+        ],
+        "settings": {
+          "text_size": 4,
+          "layout": "slider",
+          "speed": 8
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "collection_block": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "position": "1",
+              "collection": "",
+              "limit": 4
+            }
+          }
+        },
+        "block_order": [
+          "collection_block"
+        ],
+        "settings": {
+          "header_style": "split",
+          "logo": "shopify:\/\/shop_images\/cropped-formuland-logo-center.jpg",
+          "logo_max_limit": 215,
+          "main_menu_linklist": "main-menu-1",
+          "full_width": false,
+          "underline_current": false,
+          "enable_search": true,
+          "enable_account": true,
+          "use_icons": true,
+          "header_sticky": "sticky",
+          "transparent_home": false,
+          "transparent_collection": false,
+          "transparent_blog": false,
+          "transparent_article": false,
+          "transparent_page": false,
+          "transparent_text_color": "#ffffff"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "linklist": {
+            "type": "linklist",
+            "settings": {
+              "linklist": "about-us",
+              "accordion_default": ""
+            }
+          },
+          "69a1f966-68f6-4a02-80a0-d073c22bf93e": {
+            "type": "linklist",
+            "settings": {
+              "linklist": "brands",
+              "accordion_default": ""
+            }
+          },
+          "9c27e2bb-3d8c-4851-8d3d-30c219ee5e6e": {
+            "type": "linklist",
+            "settings": {
+              "linklist": "policies",
+              "accordion_default": ""
+            }
+          },
+          "c0c7d50d-9311-4ec7-9b64-8cd01c17bb3c": {
+            "type": "text",
+            "settings": {
+              "title": "QUESTIONS? SEND US AN EMAIL!",
+              "text": "<p><a href=\"mailto:care@formuland.com\" title=\"mailto:care@formuland.com\">care@formuland.com<\/a><\/p><p>We will get back to you as soon as possible!<\/p>",
+              "accordion_default": ""
+            }
+          }
+        },
+        "block_order": [
+          "linklist",
+          "69a1f966-68f6-4a02-80a0-d073c22bf93e",
+          "9c27e2bb-3d8c-4851-8d3d-30c219ee5e6e",
+          "c0c7d50d-9311-4ec7-9b64-8cd01c17bb3c"
+        ],
+        "settings": {
+          "footer_secondary_linklist": "",
+          "footer_payment_enable": true,
+          "footer_social_enable": true,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "currency_select_type": "country"
+        }
+      },
+      "popups": {
+        "type": "popups",
+        "blocks": {
+          "cookies": {
+            "type": "cookie",
+            "disabled": true,
+            "settings": {
+              "show_cookies_popup": true,
+              "text_title": "Are Cookies OK?",
+              "text_body": "<p>We use cookies to improve your browsing experience<\/p>",
+              "text_accept": "Accept",
+              "text_learn": "Learn more",
+              "learn_url": "shopify:\/\/policies\/privacy-policy",
+              "text_color": "text--neutral",
+              "button_color": "btn--neutral",
+              "button_style": "btn--soft uppercase",
+              "bg": "palette--light bg--neutral",
+              "position": "popup--left"
+            }
+          },
+          "newsletter_signup": {
+            "type": "newsletter",
+            "disabled": true,
+            "settings": {
+              "title": "Join the club",
+              "text": "<p>Enter your email to save 10% on your next order<\/p>",
+              "success": "Success! Use code CLUB10 to save 10%",
+              "text_color": "text--neutral",
+              "bg": "palette--light bg--neutral",
+              "position": "popup--right",
+              "trigger": "always",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          }
+        },
+        "block_order": [
+          "cookies",
+          "newsletter_signup"
+        ],
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "15885745614559378752": {
+        "type": "shopify:\/\/apps\/accessibly\/blocks\/app-embed\/4b59303e-1141-4c8a-945f-bf4adb516864",
+        "disabled": false,
+        "settings": {
+          "themeColor": "#574cd5",
+          "iconColor": "#574cd5",
+          "showLogo": true,
+          "topBottomPosition": 10,
+          "rightLeftPosition": 10,
+          "iconSize": "extra-small",
+          "iconCustomSize": 64,
+          "position": "bottom-left"
+        }
+      },
+      "3228365661995190140": {
+        "type": "shopify:\/\/apps\/comparable-products\/blocks\/compare_products\/a0463732-e49b-4c6e-b22b-3158b9b069a8",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "17151115064775110295": {
+        "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/recharge-theme\/371eed76-0b44-4869-9813-730372ea378e",
+        "disabled": false,
+        "settings": {
+          "color_brand": "#467c99",
+          "contrast_color": "#ffffff",
+          "color_brand_secondary": "#467c99",
+          "corners": "8px",
+          "app_background": "#f9f8f4",
+          "app_container": 1200,
+          "app_vertical_padding": 32,
+          "images_aspect_ratio": "1",
+          "cards_background": "#ffffff",
+          "cards_border_color": "rgba(0,0,0,0)"
+        }
+      },
+      "2102808784413787648": {
+        "type": "shopify:\/\/apps\/krtbite-back-in-stock-restock\/blocks\/main-app-embed\/147a6f7f-6771-4f9b-8dc6-c14e6b24f32c",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "18228966181090706294": {
+        "type": "shopify:\/\/apps\/selleasy\/blocks\/app-embed\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+        "disabled": false,
+        "settings": {
+          "storefrontAccessToken": "a7d3dee514f34a711adde59ea73b326c"
+        }
+      },
+      "6174324309569838175": {
+        "type": "shopify:\/\/apps\/smile-loyalty-rewards\/blocks\/smile-shopify-app\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Bright": {
+      "color_announcement_bg": "#766456",
+      "color_announcement_text": "#fffcf9",
+      "color_header_bg": "#ffffff",
+      "color_header_text": "#766456",
+      "color_nav_border": "#f8f0e7",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#766456",
+      "color_primary": "#d2815f",
+      "color_secondary": "#687158",
+      "color_bg_light": "#fcfaf7",
+      "color_bg_inverse": "#333333",
+      "color_primary_inverse": "#ffe5da",
+      "color_secondary_inverse": "#dff3fd",
+      "color_bg_accent_inverse": "#191008",
+      "product_background_color": "#fcfcfc",
+      "color_footer_bg": "#f9f6f2",
+      "color_footer_text": "#766456",
+      "type_heading_font": "itc_clearface_n4",
+      "type_heading_size": 115,
+      "font_title_capitalize": false,
+      "type_accent_font": "avenir_next_n5",
+      "type_accent_size": 95,
+      "type_base_font": "avenir_next_n4",
+      "type_body_size": 100,
+      "animations_scroll_enable": true,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "under",
+      "image_hover_enable": true,
+      "product_grid_image": "crop",
+      "cart_style": "drawer",
+      "sections": {
+        "announcement": {
+          "type": "announcement",
+          "blocks": {
+            "announce_text": {
+              "type": "text",
+              "disabled": true,
+              "settings": {
+              }
+            },
+            "announce_shipping": {
+              "type": "message",
+              "disabled": true,
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "announce_text",
+            "announce_shipping"
+          ],
+          "settings": {
+          }
+        },
+        "header": {
+          "type": "header",
+          "blocks": {
+            "collection_block": {
+              "type": "collection",
+              "disabled": true,
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "collection_block"
+          ],
+          "settings": {
+            "main_menu_linklist": "main-menu",
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "linklist": {
+              "type": "linklist",
+              "settings": {
+                "linklist": "main-menu"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "linklist",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+          }
+        },
+        "popups": {
+          "type": "popups",
+          "blocks": {
+            "cookies": {
+              "type": "cookie",
+              "disabled": true,
+              "settings": {
+                "show_cookies_popup": true,
+                "text_title": "Are Cookies OK?",
+                "text_body": "<p>We use cookies to improve your browsing experience<\/p>",
+                "text_accept": "Accept",
+                "text_learn": "Learn more",
+                "learn_url": "shopify:\/\/policies\/privacy-policy"
+              }
+            },
+            "newsletter_signup": {
+              "type": "newsletter",
+              "disabled": true,
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "cookies",
+            "newsletter_signup"
+          ],
+          "settings": {
+          }
+        }
+      }
+    },
+    "Light": {
+      "color_announcement_bg": "#f7f7f7",
+      "color_announcement_text": "#656565",
+      "color_header_bg": "#ffffff",
+      "color_header_text": "#656565",
+      "color_nav_border": "#d7d7d7",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#656565",
+      "color_primary": "#f4a482",
+      "color_secondary": "#585e71",
+      "color_bg_light": "#f7f7f7",
+      "color_bg_inverse": "#2e3438",
+      "color_text_inverse": "#ffffff",
+      "color_primary_inverse": "#fcd8c8",
+      "color_secondary_inverse": "#c6dae5",
+      "color_bg_accent_inverse": "#222324",
+      "product_background_color": "#ffffff",
+      "color_footer_bg": "#efefef",
+      "color_footer_text": "#393939",
+      "type_heading_font": "futura_n7",
+      "type_heading_size": 115,
+      "font_title_capitalize": true,
+      "type_accent_font": "itc_johnston_n5",
+      "type_accent_size": 95,
+      "type_base_font": "harmonia_sans_n4",
+      "type_body_size": 100,
+      "button_radius": 0,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "hover",
+      "image_hover_enable": true,
+      "animations_scroll_enable": true,
+      "product_grid_image": "crop",
+      "cart_style": "pop",
+      "sections": {
+        "announcement": {
+          "type": "announcement",
+          "blocks": {
+            "announce_text": {
+              "type": "text",
+              "disabled": true,
+              "settings": {
+              }
+            },
+            "announce_shipping": {
+              "type": "message",
+              "disabled": true,
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "announce_text",
+            "announce_shipping"
+          ],
+          "settings": {
+          }
+        },
+        "header": {
+          "type": "header",
+          "blocks": {
+            "collection_block": {
+              "type": "collection",
+              "disabled": true,
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "collection_block"
+          ],
+          "settings": {
+            "main_menu_linklist": "main-menu",
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "linklist": {
+              "type": "linklist",
+              "settings": {
+                "linklist": "main-menu"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "linklist",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+          }
+        },
+        "popups": {
+          "type": "popups",
+          "blocks": {
+            "cookies": {
+              "type": "cookie",
+              "disabled": true,
+              "settings": {
+                "show_cookies_popup": true,
+                "text_title": "Are Cookies OK?",
+                "text_body": "<p>We use cookies to improve your browsing experience<\/p>",
+                "text_accept": "Accept",
+                "text_learn": "Learn more",
+                "learn_url": "shopify:\/\/policies\/privacy-policy"
+              }
+            },
+            "newsletter_signup": {
+              "type": "newsletter",
+              "disabled": true,
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "cookies",
+            "newsletter_signup"
+          ],
+          "settings": {
+          }
+        }
+      }
+    },
+    "Dark": {
+      "color_announcement_bg": "#000000",
+      "color_announcement_text": "#ffffff",
+      "color_header_bg": "#000000",
+      "color_header_text": "#f1f1f1",
+      "color_nav_border": "#282828",
+      "color_body_bg": "#f7f7f7",
+      "color_body_text": "#000000",
+      "color_primary": "#28a77f",
+      "color_secondary": "#18664e",
+      "color_bg_light": "#eeeeee",
+      "color_bg_inverse": "#282828",
+      "color_text_inverse": "#e9e9e9",
+      "color_primary_inverse": "#28a77f",
+      "color_secondary_inverse": "#78a395",
+      "color_bg_accent_inverse": "#000000",
+      "default_background": "default--dark",
+      "color_footer_bg": "#000000",
+      "color_footer_text": "#fdfdfd",
+      "type_heading_font": "basic_commercial_n7",
+      "type_heading_size": 110,
+      "font_title_capitalize": false,
+      "type_accent_font": "montserrat_n5",
+      "type_accent_size": 100,
+      "type_base_font": "basic_commercial_n4",
+      "type_body_size": 110,
+      "button_radius": 0,
+      "parallax_enable": true,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "under",
+      "image_hover_enable": true,
+      "product_grid_image": "crop",
+      "swatches_enable": true,
+      "badge_sale_discount": true,
+      "badge_sale_type": "dollar",
+      "color_badge": "#ffffff",
+      "color_badge_text": "#000000",
+      "cart_style": "pop",
+      "cart_color_bg": "palette--dark bg--invert--accent",
+      "animations_enable": true,
+      "image_autoheight_enable": true,
+      "tag_sellout": false,
+      "tag_sale": false,
+      "sections": {
+        "announcement": {
+          "type": "announcement",
+          "blocks": {
+            "announce_text": {
+              "type": "text",
+              "disabled": true,
+              "settings": {
+              }
+            },
+            "announce_shipping": {
+              "type": "message",
+              "disabled": true,
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "announce_text",
+            "announce_shipping"
+          ],
+          "settings": {
+          }
+        },
+        "header": {
+          "type": "header",
+          "blocks": {
+            "collection_block": {
+              "type": "collection",
+              "disabled": true,
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "collection_block"
+          ],
+          "settings": {
+            "main_menu_linklist": "main-menu",
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "linklist": {
+              "type": "linklist",
+              "settings": {
+                "linklist": "main-menu"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "linklist",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+          }
+        },
+        "popups": {
+          "type": "popups",
+          "blocks": {
+            "cookies": {
+              "type": "cookie",
+              "disabled": true,
+              "settings": {
+                "show_cookies_popup": true,
+                "text_title": "Are Cookies OK?",
+                "text_body": "<p>We use cookies to improve your browsing experience<\/p>",
+                "text_accept": "Accept",
+                "text_learn": "Learn more",
+                "learn_url": "shopify:\/\/policies\/privacy-policy"
+              }
+            },
+            "newsletter_signup": {
+              "type": "newsletter",
+              "disabled": true,
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "cookies",
+            "newsletter_signup"
+          ],
+          "settings": {
+          }
+        }
+      }
+    }
+  }
+}

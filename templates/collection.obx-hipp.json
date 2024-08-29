@@ -1,0 +1,74 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-hero",
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": false,
+        "show_description": true,
+        "show_description_below": true,
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "use_screen_one_fifth",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "text_color": "text--white"
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "show_subcollection": true,
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "aspect_ratio": 0.6,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "collections": {
+          "type": "collections",
+          "disabled": true,
+          "settings": {
+            "title": "All collections"
+          }
+        },
+        "filters": {
+          "type": "filters",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "collections",
+        "filters"
+      ],
+      "settings": {
+        "product_limit": 36,
+        "grid_setting_large": 4,
+        "grid_setting_small": "2",
+        "enable_layout_toggle": true,
+        "collection_sorting": true,
+        "hide_sidebar": true
+      }
+    },
+    "e92bcef3-3c18-4c65-a381-bdecbe959780": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div id=\"obx-bottom-content\">\n    <div class=\"beige\">\n        <span class=\"home__subtitle\">HiPP Organic European Formula<\/span>\n        <div class=\"obx-icon-row\">\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-fast-shipping.png?v=1688406357\" alt=\"\">\n                <span>Fast Shipping<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-fulfilling-orders.png?v=1688406357\" alt=\"\">\n                <span>Fulfilling Orders Since 2014<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-authenticity-guaranteed.png?v=1688406357\" alt=\"\">\n                <span>Authenticity Guaranteed<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-6-mo-shelf-life.png?v=1688406357\" alt=\"\">\n                <span>Long Shelf Life of 6+ Months<\/span>\n            <\/div>\n        <\/div>\n    <\/div>\n    <div class=\"two-col\">\n        <div class=\"flex-row\" class=\"min-height: 344px;\">\n            <div class=\"flex-img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/HiPP_Organic_Farming_-_2.png?v=1691174492\" alt=\"Green farmland and pastures for Kendamil grass fed cows\">\n            <\/div>\n            <div class=\"flex-content\">\n                <h2>Kinds Of HiPP Baby Formula<\/h2>\n                <p>Whether you opt for <a href=\"https:\/\/formuland.com\/collections\/hipp-german\">HiPP German<\/a>, <a href=\"https:\/\/formuland.com\/collections\/hipp-dutch\">HiPP Dutch<\/a>, or <a href=\"https:\/\/formuland.com\/collections\/hipp-uk\">HiPP UK<\/a>, you can rest assured that your baby's needs will be met.<\/p>\n                <p>All HiPP formulas are certified organic by the European Union, giving you the peace of mind that you are making a healthy and responsible choice for your little one.<\/p>\n            <\/div>\n        <\/div>\n    <\/div>\n    <div class=\"two-col\">\n        <div class=\"flex-row\">\n            <div class=\"flex-content right-align\">\n                <div>\n                    <h2>Speciality HiPP Formulas<\/h2>\n                    <p>If your little one suffers from acid reflux, a sensitive stomach, allergies, gas, or constipation, HiPP has a formula tailored to their needs.<\/p>\n                    <p>Some specialty HiPP baby formula products include:<\/p>\n                    <ul class=\"obx-list\">\n                        <li>HiPP Bio Combiotik (regular HiPP organic formula)<\/li>\n                        <li>HiPP Anti-Reflux (acid reflux)<\/li>\n                        <li>HiPP HA Combiotic (milk protein sensitivity)<\/li>\n                        <li>HiPP Sensitive (gas or constipation)<\/li>\n                        <li>HiPP Bio Kindermilch (nutrients for an older child)<\/li>\n                    <\/ul>                \n                <\/div>\n            <\/div>\n            <div class=\"flex-img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/Mother_giving_baby_HiPP_Baby_Formula_bottle_-_3.png?v=1691174492\" alt=\"Mother feeding her baby Kendamil baby formula\">\n            <\/div>\n        <\/div>\n    <\/div>\n    <div class=\"one-col\">\n        <div class=\"obx-container\">\n            <h2>The Story Behind HiPP Formula Brand<\/h2>\n            <p>The HiPP baby formula brand was founded in Pfaffenhofen in the late 19th century by Joseph Hipp, whose wife had trouble breastfeeding her twins. As a baker, he solved his twins' nutrition problems by baking rusks and enriching their milk with rusk flour.<\/p>\n            <p>In the mid-20th century, Georg Hipp started manufacturing weaning food and switched to packaging in jars.<\/p>\n            <p>The HiPP product range expanded to include organic farming, and Claus Hipp travelled to raise awareness and build a network of organic farms. The family-owned Ehrensberg farm near Pfaffenhofen converted to organic production, and HiPP became a pioneer in organic farming.<\/p>\n            <p style=\"margin-bottom: 60px;\">For more than 50 years, the HiPP company has been associated with thoughtful and conscientious treatment of the environment, people, and the economy. Every HiPP organic baby formula product comes with a personal assurance from Claus Hipp that it is of the highest caliber.<\/p>\n            <h2>The HiPP Formula Difference<\/h2>\n            <h3>HiPP Organic Seal<\/h3>\n            <p>HiPP formula goes beyond statutory requirements and international rules on organic farming. The company works closely with organic farms to ensure that HiPP baby formula is made with the highest quality ingredients. HiPP's organic baby formula passes the toughest residue checks, giving parents the assurance that they can rely on the HiPP Organic Seal.<\/p>\n            <p>Additionally, HiPP organic formula contains healthy ingredients, such as:<\/p>\n            <ul class=\"obx-list\">\n                <li>Pre and Probiotics<\/li>\n                <li>Omega 3 and 6 LCPs (DHA and ALA)<\/li>\n                <li>Lactose-Derived Oligosaccharides<\/li>\n            <\/ul>\n            <h3>260 Safety Checks<\/h3>\n            <p>The HiPP baby formula brand ensures that every single jar of baby food undergoes up to 260 safety checks, including independent tests by reputable institutes, to provide guaranteed safety for babies.<\/p>\n            <p>This level of scrutiny is crucial for parents who want to ensure that their babies are consuming safe and healthy food products.<\/p>\n        <\/div>\n    <\/div>\n    <div class=\"obx-cta\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/HiPP_formula_fed_happy_baby.png?v=1691174493);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n        <div class=\"cta-container\">\n            <h2>Purchase HiPP Organic Baby Formula Today<\/h2>\n            <p>For parents, there is nothing more important than the quality and safety of their baby's food. With HiPP's rigorous safety checks and commitment to quality, you can rest easy knowing that your babies are consuming the best and safest organic food products available. Purchase HiPP formula and more from Formuland today to experience the difference.<\/p>\n            <a href=\"#\" class=\"obx-btn green\">Shop Today<\/a>\n        <\/div>\n    <\/div>\n\n    \n    <div class=\"obx-related-articles\">\n        <div class=\"container\">\n            <h2>Hipp Baby Formula: Related Articles<\/h2>\n<hr>\n                <div class=\"flex-row\">\n                    <div class=\"obx-article\" style=\"background-image: url(https:\/\/formuland.com\/cdn\/shop\/articles\/tMbnv6uR1OLPP1xSgkVhgm8ZgaI0YofK1663682048.jpg?v=1663875529);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n                        <a href=\"https:\/\/formuland.com\/blogs\/news\/everything-you-need-to-know-about-goat-milk-formula\">\n                            <span class=\"obx-article-heading\">Everything You Need<br>to Know About<br>Goat Milk Formula<\/span>\n                        <\/a>    \n                    <\/div>\n                    <div class=\"obx-article\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/blog-feeding-the-young-the-history-of-baby-formula.png?v=1688406357);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n                        <a href=\"https:\/\/formuland.com\/blogs\/news\/tips-for-seamlessly-switching-baby-formula-brands\">\n                            <span class=\"obx-article-heading\">Tips for Seamlessly<br> Switching Baby <br>Formula Brands<\/span>\n                        <\/a>    \n                    <\/div>\n                    <div class=\"obx-article\" style=\"background-image: url(https:\/\/formuland.com\/cdn\/shop\/articles\/tGxfeeeGnP1jSOZVSnxdNDq16iLa4MUw1671641708.jpg?v=1672844530);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n                        <a href=\"https:\/\/formuland.com\/blogs\/news\/the-benefits-of-buying-european-baby-formula\">\n                            <span class=\"obx-article-heading\">The Benefits of<br>Buying European<br>Baby Formula<\/span>\n                        <\/a>    \n                    <\/div>\n                <\/div>\n        <\/div>\n            <\/div>\n<\/div>",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "main",
+    "e92bcef3-3c18-4c65-a381-bdecbe959780"
+  ]
+}

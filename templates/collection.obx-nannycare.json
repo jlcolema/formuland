@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-hero",
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": false,
+        "show_description": true,
+        "show_description_below": true,
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "use_screen_one_fifth",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "text_color": "text--white"
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "show_subcollection": true,
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "aspect_ratio": 0.6,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "collections": {
+          "type": "collections",
+          "disabled": true,
+          "settings": {
+            "title": "All collections"
+          }
+        },
+        "filters": {
+          "type": "filters",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "collections",
+        "filters"
+      ],
+      "settings": {
+        "product_limit": 36,
+        "grid_setting_large": 4,
+        "grid_setting_small": "2",
+        "enable_layout_toggle": true,
+        "collection_sorting": true,
+        "hide_sidebar": true
+      }
+    },
+    "e92bcef3-3c18-4c65-a381-bdecbe959780": {
+      "type": "section-html",
+      "custom_css": [
+        ".two-col .flex-content {max-width: unset;}",
+        ".flex-content h2 {font-size: 32px !important;}",
+        ".flex-content h3 {font-size: 22px; margin: 10px 0 0;}",
+        ".flex-content h2,.flex-content h3,.flex-content p,.flex-content ul {max-width: unset;}",
+        ".obx-faq h3 {margin: 0 auto;}"
+      ],
+      "settings": {
+        "html": "<div id=\"obx-bottom-content\">\n    <div class=\"beige\">\n        <span class=\"home__subtitle\">Shop with Confidence<\/span>\n        <div class=\"obx-icon-row\">\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-fast-shipping.png?v=1688406357\" alt=\"\">\n                <span>Fast Shipping<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-fulfilling-orders.png?v=1688406357\" alt=\"\">\n                <span>Fulfilling Orders Since 2014<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-authenticity-guaranteed.png?v=1688406357\" alt=\"\">\n                <span>Authenticity Guaranteed<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-6-mo-shelf-life.png?v=1688406357\" alt=\"\">\n                <span>Long Shelf Life of 6+ Months<\/span>\n            <\/div>\n        <\/div>\n    <\/div>\n    <div class=\"two-col\">\n        <div class=\"flex-row\" class=\"min-height: 344px;\">\n            <div class=\"flex-img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/Nannycare_Formula_fed_baby.png?v=1693253285\" alt=\"Nannycare formula fed baby starting back up at smiling mother\">\n            <\/div>\n            <div class=\"flex-content\">\n                <h2>Ideal Nutrition for Growing Infants<\/h2>\n                <p>Nannycare goat milk formula is carefully crafted to provide essential vitamins and minerals for healthy growth and development. It’s an excellent source of nutrition for parents concerned about their baby's overall well-being.<\/p>\n                <p>With Nannycare formula, you can have peace of mind knowing that each serving is carefully crafted to deliver all the necessary nutrients your baby needs. By choosing Nannycare goat milk formula, you are making a conscious decision to provide your baby with a nutritionally balanced diet, specifically tailored to their needs.<\/p>\n\n            <\/div>\n        <\/div>\n    <\/div>\n    <div class=\"two-col\">\n        <div class=\"flex-row\">\n            <div class=\"flex-content right-align\">\n                <div>\n                    <h2>Nannycare Formula is Gentle on Babies' Digestive Systems<\/h2>\n                    <p>Nannycare formula offers a unique and gentle approach to baby nutrition. Made from the milk of carefully raised goats, this specially formulated formula is designed to be easily digested by infants, making it an excellent choice for parents concerned about their baby's digestive health.<\/p>\n                    <p>By using goat's milk, <a href=\"https:\/\/www.sciencedirect.com\/science\/article\/abs\/pii\/0921448894901058#:~:text=Between%2040%20to%20100%25%20of,cured%20by%20goat%20milk%20therapy\" target=\"_blank\">which is known to be less allergenic and easier to digest<\/a>, Nannycare formula addresses the specific needs of infants with sensitive tummies or those who may be experiencing digestive discomfort.<\/p>              \n                <\/div>\n            <\/div>\n            <div class=\"flex-img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/Gently_raised_Nannycare_goats_grazing_in_a_grassy_field.png?v=1693253286\" alt=\"Nannycare goats grazing in a green grassy field.\">\n            <\/div>\n        <\/div>\n    <\/div>\n    <div class=\"obx-faq one-col\">\n        <div class=\"obx-container\">\n            <h2>Nannycare Formula FAQs<\/h2>\n            <details class=\"faq-item\" style=\"border-top: 2px solid #CCDFD9;\">\n                <summary><h3 class=\"question\">Is Nannycare goat milk formula suitable for babies with lactose intolerance?<\/h3><\/summary>\n                <div class=\"faq-answer\">\n                    <p>Nannycare goat milk formula does contain lactose, which is the naturally occurring sugar found in goat's milk. However, some babies with lactose intolerance may still be able to tolerate goat milk formula as it has lower levels of lactose compared to cow's milk.<\/p>\n                    <p>It’s always recommended to consult with a healthcare professional to determine the best feeding option for babies with lactose intolerance.<\/p>\n                <\/div>\n            <\/details>\n            <details class=\"faq-item\">\n                <summary><h3 class=\"question\">Are there different stages of Nannycare formula available?<\/h3><\/summary>\n                <div class=\"faq-answer\">\n                    <p>Yes, Nannycare offers different stages of goat milk formula to meet the changing nutritional needs of growing infants. These stages typically include <a href=\"https:\/\/formuland.com\/products\/nanny-care-formula-first-infant-goat-milk\">Stage 1 Nannycare<\/a> (From Birth), <a href=\"https:\/\/formuland.com\/products\/nanny-care-follow-on-goat-milk-stage-2-900g-uk\">Stage 2 Nannycare<\/a> (6+ Months), and <a href=\"https:\/\/formuland.com\/products\/nannycare-growing-up-goat-milk-1-3-years-900g-uk\">Stage 3 Nannycare<\/a> (12+ Months). <\/p>\n                    <p>Each stage is carefully formulated to provide the necessary nutrients for the specific age group. It’s recommended to follow the guidelines provided by healthcare professionals when transitioning to a different stage of formula.<\/p>\n                <\/div>\n            <\/details>\n            <details class=\"faq-item\">\n                <summary><h3 class=\"question\">Is Nannycare goat milk formula organic?<\/h3><\/summary>\n                <div class=\"faq-answer\">\n                    <p>Nannycare goat milk formula is not certified organic, but it is made with high-quality goat milk sourced from goats that are free to graze and fed a primarily natural diet. The formula also avoids the use of artificial colors, flavors, and preservatives, and strives to provide simple, wholesome nutrition for babies.<\/p>\n                <\/div>\n            <\/details>\n        <\/div>\n    <\/div>\n    <div class=\"obx-cta\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/Nannycare_Formula_and_bottle.png?v=1693253285);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);background-position: 80%;\">\n        <div class=\"cta-container\">\n            <h2>Order Your Nannycare Formula Today!<\/h2>\n            <p>At Nannycare, we understand the importance of offering the perfect formula for your baby. Order your Nannycare goat milk formula today and give your baby the very best start in life. Try Nannycare formula and discover its exceptional quality and gentle balance of nutrition - your baby will love it!<\/p>\n            <a href=\"#\" class=\"obx-btn green\">Order Nannycare Formula Now<\/a>\n        <\/div>\n    <\/div>\n\n    \n    <div class=\"obx-related-articles\">\n        <div class=\"container\">\n            <h2>Nannycare Formula: Related Articles<\/h2>\n            <hr>\n            <div class=\"flex-row\">\n                <div class=\"obx-article\" style=\"background-image: url(https:\/\/formuland.com\/cdn\/shop\/articles\/c963f3a8910a23594c004eb4452b0047_720x.jpg?v=1657133532);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n                    <a href=\"https:\/\/formuland.com\/blogs\/news\/7-health-reasons-to-choose-goat-milk-baby-formula\">\n                        <span class=\"obx-article-heading\">7 Health Reasons to Choose Goat Milk Baby Formula<\/span>\n                    <\/a>    \n                <\/div>\n                <div class=\"obx-article\" style=\"background-image: url(http:\/\/formuland.com\/cdn\/shop\/articles\/tMbnv6uR1OLPP1xSgkVhgm8ZgaI0YofK1663682048.jpg?v=1663875529);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n                    <a href=\"https:\/\/formuland.com\/blogs\/news\/everything-you-need-to-know-about-goat-milk-formula\">\n                        <span class=\"obx-article-heading\">Everything You Need to Know About Goat Milk Formula<\/span>\n                    <\/a>    \n                <\/div>\n                <div class=\"obx-article\" style=\"background-image: url(http:\/\/formuland.com\/cdn\/shop\/articles\/ZX99T5QUzFJPnFQk1P4caYh1ZBC4L1tC1664813353.jpg?v=1666290894);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);background-position:70%;\">\n                    <a href=\"https:\/\/formuland.com\/blogs\/news\/tips-for-seamlessly-switching-baby-formula-brands\">\n                        <span class=\"obx-article-heading\">Tips for Seamlessly Switching Baby Formula Brands<\/span>\n                    <\/a>    \n                <\/div>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/div>",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "main",
+    "e92bcef3-3c18-4c65-a381-bdecbe959780"
+  ]
+}

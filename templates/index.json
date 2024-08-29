@@ -1,0 +1,400 @@
+{
+  "sections": {
+    "16587409143e5cd7d6": {
+      "type": "section-hero-meroxio",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hero-formuland.jpg",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "Premium Organic European Formulas for a Healthy Start in Life",
+        "richtext": "",
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "link_text": "Shop Baby Formula",
+        "link": "shopify:\/\/collections\/all",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "hero": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/baby-held-in-a-persons-arm-looks-surprised.jpg",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "The Leading European Formula Brands",
+        "richtext": "",
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "link_text": "View products",
+        "link": "shopify:\/\/collections\/all",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "tabs": {
+      "type": "section-collection-tabs",
+      "blocks": {
+        "tab-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "hipp-formula",
+            "title": "Hipp"
+          }
+        },
+        "tab-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "holle-formula",
+            "title": "Holle"
+          }
+        },
+        "3c060ddd-8d04-4636-aac1-2dabdf8400df": {
+          "type": "collection",
+          "settings": {
+            "collection": "jovie-formula",
+            "title": "Jovie"
+          }
+        },
+        "69e8671b-2d32-47b4-b396-05e6ae6b6565": {
+          "type": "collection",
+          "settings": {
+            "collection": "aptamil-formula",
+            "title": "Aptamil"
+          }
+        },
+        "31b20380-efda-4ac7-960d-ec27463a6eb2": {
+          "type": "collection",
+          "settings": {
+            "collection": "kabrita-formula",
+            "title": "Kabrita"
+          }
+        },
+        "f79217ff-35d8-4e9b-a574-1de190764d14": {
+          "type": "collection",
+          "settings": {
+            "collection": "kendamil",
+            "title": "Kendamil"
+          }
+        },
+        "fe1312d2-c188-4d62-a9ec-97c39cdfd441": {
+          "type": "collection",
+          "settings": {
+            "collection": "lebenswert-formula",
+            "title": "Lebenswert"
+          }
+        },
+        "c740e794-2daa-4a3a-acd6-ac2abd01466a": {
+          "type": "collection",
+          "settings": {
+            "collection": "nannycare-formula",
+            "title": "Nannycare"
+          }
+        }
+      },
+      "block_order": [
+        "tab-0",
+        "tab-1",
+        "3c060ddd-8d04-4636-aac1-2dabdf8400df",
+        "69e8671b-2d32-47b4-b396-05e6ae6b6565",
+        "31b20380-efda-4ac7-960d-ec27463a6eb2",
+        "f79217ff-35d8-4e9b-a574-1de190764d14",
+        "fe1312d2-c188-4d62-a9ec-97c39cdfd441",
+        "c740e794-2daa-4a3a-acd6-ac2abd01466a"
+      ],
+      "custom_css": [
+        "h2 {margin-top: 45px;}"
+      ],
+      "settings": {
+        "title": "Featured Organic Baby Formula Collections",
+        "grid": 5,
+        "limit": 20,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "5db86c69-b19f-4571-96c3-2e17c3915aad": {
+      "type": "section-html",
+      "custom_css": [
+        ".obx-home-centered {text-align: center; max-width: 1120px; padding: 40px 0; margin: auto;}",
+        "p {font-size: 18px; margin-top: 0;}",
+        "h2 {margin: 60px 0 20px;}",
+        "a {text-decoration: underline;}"
+      ],
+      "settings": {
+        "html": "<div class=\".obx-home-centered\" style=\"max-width: 1120px; margin: auto;\">\n<h2 class='standard__subtitle'>Why Choose European Baby Formula?<\/h2>\n<p>European baby formula is widely regarded as the gold standard when it comes to infant nutrition.<\/p>\n<p>At Formuland, we believe in providing parents with the right nutrition for their babies. That’s why we offer a wide selection of high-quality European formula brands, including <a href=\"https:\/\/formuland.com\/collections\/hipp\">HiPP<\/a>, <a href=\"https:\/\/formuland.com\/collections\/holle\">Holle<\/a>, <a href=\"https:\/\/formuland.com\/collections\/lebenswert\">Lebenswert<\/a>, <a href=\"https:\/\/formuland.com\/collections\/kabrita\">Kabrita<\/a>, and so much more.<\/p>\n<p>We've thoroughly vetted the European formula brands we provide and work directly with manufacturers or their official wholesale distributors to guarantee our products' authenticity. This means that you can trust that the formula you’re giving your baby is safe, pure, and free from harmful contaminants.\n<\/p>\n\n<h2 class='standard__subtitle'>Why Choose Formuland?<\/h2>\n<p style=\"margin-bottom: 40px;\">Formuland's founders are parents, too, so we understand your concerns about finding the right European formula for your baby. Our products include well-known brands that you can rely on. We know every parent wants to provide the best nutrition for their baby, and that's why we've carefully selected our full range of products. \n<\/p><\/div>",
+        "full_width": true
+      }
+    },
+    "5af6faf2-0cb1-4fe9-860d-6916819bd013": {
+      "type": "section-richtext",
+      "blocks": {
+        "33dcb3b6-24cf-436a-8e53-2ede85f6c2b9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Formuland, we believe in providing newborn parents with the right European baby formula. We carry various European infant formula brands, including HiPP, Holle, Lebenswert, Aptamil, and so much more. When you’re figuring out where to buy Europena baby formula, look no further than us. Ask us about our European baby formula products today. <\/p><p><\/p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "33dcb3b6-24cf-436a-8e53-2ede85f6c2b9"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "text-left",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "00583726-47be-4e9e-b769-db1bceb09b71": {
+      "type": "section-html",
+      "custom_css": [
+        "\/*this is a header for a TrustPilot section injected beneath it*\/"
+      ],
+      "settings": {
+        "html": "<div style='text-align: center; padding: 0;'><h2 class='home__subtitle'>Customer Reviews<\/h2><\/div>",
+        "full_width": true
+      }
+    },
+    "7b7e3d10-cc75-4588-a8c6-1360f2c13de1": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='text-align: center; padding: 45px 0 0; max-width: 1120px; margin: auto;'>\n<h2 class='home__subtitle'>Shop by Baby formula brand\n<\/h2><p>If you want organic European baby formula, you can't go wrong with Formuland's options. Many of our products contain the prebiotics, probiotics, and Omega 3s you want for your baby. Several options are also gluten-free, wheat-free, and soy-free, giving you the freedom you need to select the right baby formula from Europe for your child. All our products are tasty, and you're sure to find something easily digestible for your baby.\n<\/p><\/div>",
+        "full_width": true
+      }
+    },
+    "logos": {
+      "type": "section-logos",
+      "blocks": {
+        "logo-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VA1UaSP_400x400_3244252f-9675-47d7-aa81-4eb5a4fdbfcf.jpg",
+            "link": "https:\/\/formuland.com\/collections\/hipp"
+          }
+        },
+        "logo-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/aptamil-eu-icon.png",
+            "link": "https:\/\/formuland.com\/collections\/aptamil"
+          }
+        },
+        "logo-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/holle_manu_logo_square_tiny_600x_c51bbf31-57f9-452b-b6e9-812455c2084d.webp",
+            "link": "https:\/\/formuland.com\/collections\/holle"
+          }
+        },
+        "logo-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Jovie_Logo_600x_20510d3c-8234-4ddf-ac18-85dbbdbdfc50.webp",
+            "link": "https:\/\/formuland.com\/collections\/jovie"
+          }
+        },
+        "logo-4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo_250x_f6cde8b1-6516-4620-964d-bc9b1275df8e.png",
+            "link": "https:\/\/formuland.com\/collections\/kabrita"
+          }
+        },
+        "2ad7df9b-28e0-44b2-88a5-a78bd87787bf": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download.png",
+            "link": "https:\/\/formuland.com\/collections\/kendamil"
+          }
+        },
+        "5598038c-2fa8-46cb-8b71-4f42938d25e3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lebenswertlogo58344883cfb0b.png",
+            "link": "https:\/\/formuland.com\/collections\/lebenswert"
+          }
+        },
+        "ec91c5a1-4370-480d-81e6-4afb364ba587": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/60850591_1046919625506879_8800813444669374464_n_1000x1000_9f5c856c-9575-428a-bd36-7d7d654538ce.webp",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo-0",
+        "logo-1",
+        "logo-2",
+        "logo-3",
+        "logo-4",
+        "2ad7df9b-28e0-44b2-88a5-a78bd87787bf",
+        "5598038c-2fa8-46cb-8b71-4f42938d25e3",
+        "ec91c5a1-4370-480d-81e6-4afb364ba587"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "bb98f5a3-8d66-4492-a6c4-1e12d309cb3d": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='text-align: center; padding: 45px 0 0; '>\n<h2 class='home__subtitle'>Reliable, Fast, & Free Shipping of Organic Baby Formula\n<\/h2><p><\/p><\/div>",
+        "full_width": true
+      }
+    },
+    "double": {
+      "type": "section-double",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/woman-pushes-stroller-while-using-phone.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Easy Online Shopping and Home Delivery",
+            "text": "<p>With the convenience of online shopping and home delivery, it's easier than ever to get the European baby formula you need for your baby. At Formuland, we make it simple and stress-free to order the baby formula products you need and have them delivered right to your door.<\/p><ul><li><strong>Free Shipping:<\/strong> We are currently offering free shipping on purchases of $100 or more (on US stock items).  We do not offer free shipping for orders going to Canada. Orders will be shipped out the next business day.<\/li><li><strong>Fast Shipping:<\/strong> FedEx express orders placed before 12 PM Pacific Monday to Friday and Saturday before 10 AM will be shipped out the same day. <\/li><li><strong>Standard Shipping<\/strong>: Standard shipping orders are shipped out the next business day.<\/li><\/ul>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#f7f7f7"
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "text"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "custom": {
+      "type": "section-custom-content",
+      "blocks": {
+        "9bc1c60e-921f-40ae-bc33-55e491faac40": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Why Buy European Baby Formula Now?",
+            "text": "<p>If you're considering European baby formula for your baby, there's no better time to buy than now. <\/p><p>Our wide range of European formula brands caters to the different nutritional needs of babies. Each brand has unique features and formulas, such as organic, biodynamic, goat milk-based, and more. We carefully select the brands we offer based on their reputation, quality, and safety standards, ensuring that we provide parents with the solutions they're looking for. Check out <a href=\"https:\/\/formuland.com\/collections\"><span style=\"text-decoration:underline\">our great lineup of European formula brands<\/span><\/a> today.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "2c1339f4-d93f-4e1a-ab3c-8e310a62f31a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/baby-lays-on-its-belly-on-a-soft-colorful-mat.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "9bc1c60e-921f-40ae-bc33-55e491faac40",
+        "2c1339f4-d93f-4e1a-ab3c-8e310a62f31a"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "cd46ce54-3409-4e14-b8d4-889c31b4e5fc": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='text-align: center; padding: 90px 0 0;'><h2 class='home__subtitle'>Authentic European Baby Formula Products<\/h2>",
+        "full_width": true
+      }
+    },
+    "170516565596c34e5f": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_3amdY7": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-RAfxMj\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_3amdY7"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "16587409143e5cd7d6",
+    "hero",
+    "tabs",
+    "5db86c69-b19f-4571-96c3-2e17c3915aad",
+    "5af6faf2-0cb1-4fe9-860d-6916819bd013",
+    "00583726-47be-4e9e-b769-db1bceb09b71",
+    "7b7e3d10-cc75-4588-a8c6-1360f2c13de1",
+    "logos",
+    "bb98f5a3-8d66-4492-a6c4-1e12d309cb3d",
+    "double",
+    "custom",
+    "cd46ce54-3409-4e14-b8d4-889c31b4e5fc",
+    "170516565596c34e5f"
+  ]
+}

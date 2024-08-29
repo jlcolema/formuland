@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-hero",
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": false,
+        "show_description": true,
+        "show_description_below": true,
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "use_screen_one_fifth",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "text_color": "text--white"
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "show_subcollection": true,
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "aspect_ratio": 0.6,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "collections": {
+          "type": "collections",
+          "disabled": true,
+          "settings": {
+            "title": "All collections"
+          }
+        },
+        "filters": {
+          "type": "filters",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "collections",
+        "filters"
+      ],
+      "settings": {
+        "product_limit": 36,
+        "grid_setting_large": 4,
+        "grid_setting_small": "2",
+        "enable_layout_toggle": true,
+        "collection_sorting": true,
+        "hide_sidebar": true
+      }
+    },
+    "e92bcef3-3c18-4c65-a381-bdecbe959780": {
+      "type": "section-html",
+      "custom_css": [
+        ".two-col .flex-content {max-width: unset;}",
+        ".flex-content h2 {font-size: 32px !important;}",
+        ".flex-content h3 {font-size: 22px; margin: 10px 0 0;}",
+        ".flex-content h2,.flex-content h3,.flex-content p,.flex-content ul {max-width: unset;}",
+        ".obx-faq h3 {margin: 0 auto;}"
+      ],
+      "settings": {
+        "html": "<div id=\"obx-bottom-content\">\n    <div class=\"beige\">\n        <span class=\"home__subtitle\">Shop With Confidence<\/span>\n        <div class=\"obx-icon-row\">\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-fast-shipping.png?v=1688406357\" alt=\"\">\n                <span>Fast Shipping<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-fulfilling-orders.png?v=1688406357\" alt=\"\">\n                <span>Fulfilling Orders Since 2014<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-authenticity-guaranteed.png?v=1688406357\" alt=\"\">\n                <span>Authenticity Guaranteed<\/span>\n            <\/div>\n            <div class=\"obx-icon\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/icon-6-mo-shelf-life.png?v=1688406357\" alt=\"\">\n                <span>Long Shelf Life of 6+ Months<\/span>\n            <\/div>\n        <\/div>\n    <\/div>\n    <div class=\"two-col\">\n        <div class=\"flex-row\" class=\"min-height: 344px;\">\n            <div class=\"flex-img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/Lebenswert-Formula-Bioland-Certified-Farm-Germany.png?v=1692025150\" alt=\"Green farmland and pastures for Lebenswert Bioland Formula\">\n            <\/div>\n            <div class=\"flex-content\">\n                <h2>Lebenswert Formula Uses Premium Quality and Clean Ingredients<\/h2>\n                <h3>Clean Ingredients, Trusted Source:<\/h3>\n                <p>Lebenswert Bio sources its milk from Bioland-certified organic farms in Germany and Austria. These farms prioritize animal welfare, ecological sustainability, and chemical-free practices. It's the trusted source that nourishes your little one with the purest ingredients.<\/p>\n                <h3>Enriched with Essential Nutrients<\/h3>\n                <p>Lebenswert Bioland Formula is packed with the essential nutrients your baby needs to thrive. Vitamins A, D, and E, minerals, and essential fatty acids are all there to support your baby's healthy growth and development.<\/p>\n                <h3>Free From Artificial Sweeteners and GMOs<\/h3>\n                <p>Your baby's well-being is our top priority. That's why Lebenswert Bio Formula is free from artificial sweeteners and genetically modified organisms (GMOs). We believe in providing your baby with the purest nutrition, free from unnecessary additives.<\/p>\n                <p>Choose Lebenswert Bio Formula for a clean, trusted, and nourishing start in life.<\/p>\n            <\/div>\n        <\/div>\n    <\/div>\n    <div class=\"two-col\">\n        <div class=\"flex-row\">\n            <div class=\"flex-content right-align\">\n                <div>\n                    <h2>The Stages of Lebenswert Formula<\/h2>\n                    <p>Discover the perfect nutrition for your baby with Lebenswert Formula's carefully crafted stages, designed to meet their specific developmental needs. With each stage thoughtfully formulated, you can rest assured knowing that your little one is receiving the essential nutrients for their healthy growth and development.<\/p>\n                    <p>Some specialty HiPP baby formula products include:<\/p>\n                    <ul class=\"obx-list\">\n                        <li><strong><a href=\"https:\/\/formuland.com\/collections\/lebenswert\/products\/lebenswert-formula-bio-stage-1\">Stage 1<\/a>: From Birth<\/strong>\n                            Give your newborn the best start in life with Stage 1 of Lebenswert Formula. Specially created for their delicate tummies, this formula provides the nutrition they need in their earliest stages.<\/li>\n                        <li><strong><a href=\"https:\/\/formuland.com\/collections\/lebenswert\/products\/lebenswert-formula-bio-stage-2\">Stage 2<\/a>: for 6+ Months<\/strong>\n                            As your baby enters the exciting world of exploration, their nutritional needs evolve. Stage 2 of Lebenswert Formula is the ideal choice for babies aged 6+ months, providing them with the essential vitamins and minerals necessary for this important stage of development.<\/li>\n                        <li><strong><a href=\"https:\/\/formuland.com\/collections\/lebenswert\/products\/lebenswert-formula-bio-stage-3\">Stage 3<\/a>: for 10+ Months<\/strong>\n                            As your little one starts to explore new flavors and textures, their nutritional requirements continue to change. Stage 3 of Lebenswert Formula is designed specifically for babies aged 10+ months, supporting their growing needs and helping them flourish on their journey towards toddlerhood.<\/li>\n                    <\/ul>\n                    <p>Each stage of Lebenswert Formula is carefully crafted with the utmost care, ensuring that your baby receives the nutrition they deserve.<\/p>                \n                <\/div>\n            <\/div>\n            <div class=\"flex-img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/Lebendswert_Formula_fed_baby.png?v=1692025149\" alt=\"Mother feeding her baby Lebenswert baby formula\">\n            <\/div>\n        <\/div>\n    <\/div>\n    <div class=\"one-col\">\n        <div class=\"obx-container\">\n            <h2>Key features of Lebenswert Formula:<\/h2>\n            <p>When it comes to choosing the best formula for your precious little one, nothing but the absolute best will do. That's why we proudly present Lebenswert Formula, a nourishing and reliable choice that will give you the utmost confidence in your baby's nutrition.<\/p>\n            <h3>Made with Organic Goodness:<\/h3>\n            <p>Lebenswert Formula is carefully crafted using premium organic skim cow's milk, whey, vegetable oils, and lactose. Rest easy knowing that every sip your baby takes is filled with the purest and most natural ingredients available.<\/p>\n            <h3>Enriched with Essential Nutrients:<\/h3>\n            <p>It’s crucial to provide your baby with the vital nutrients they need to thrive. That's why Lebenswert Formula is enriched with essential vitamins, including the powerhouse trio of vitamins A, D, and E. With each feeding, your little one will receive a boost of nutrition to support their healthy growth and development.<\/p>\n            <h3>No Artificial Sweeteners or GMOs:<\/h3>\n            <p>We believe in keeping things pure and simple. Lebenswert formula is completely free of artificial sweeteners and genetically modified organisms (GMOs). We believe that your baby deserves only the most authentic and wholesome nutrition, without any unnecessary additives.<\/p>\n            <p>Make the confident choice for your little one's health and happiness. Choose Lebenswert Formula, the gold standard in organic baby nutrition.<\/p>\n        <\/div>\n    <\/div>\n    <div class=\"obx-cta\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/Lebenswert_Formula_Bottom_Content_CTA.png?v=1692025149);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);background-position: revert !important;\">\n        <div class=\"cta-container\">\n            <h2>Try Lebenswert Formula for Your Baby Today<\/h2>\n            <p>Discover the premium quality and clean ingredients of Lebenswert Baby Formula today. Join the countless parents who have embraced the natural goodness of Lebenswert and give your baby the very best start in life.<\/p>\n            <a href=\"#\" class=\"obx-btn green\">Shop Today<\/a>\n        <\/div>\n    <\/div>\n\n    <div class=\"obx-faq one-col\">\n        <div class=\"obx-container\">\n            <h2>Lebenswert Formula FAQs<\/h2>\n            <details class=\"faq-item\" style=\"border-top: 2px solid #CCDFD9;\">\n                <summary><h3 class=\"question\">Is Lebenswert Formula organic?<\/h3><\/summary>\n                <div class=\"faq-answer\">\n                    <p>Yes, Lebenswert Formula is made from organic ingredients sourced from Bioland-certified organic farms.<\/p>\n                <\/div>\n            <\/details>\n            <details class=\"faq-item\">\n                <summary><h3 class=\"question\">What stages of Lebenswert Formula are available?<\/h3><\/summary>\n                <div class=\"faq-answer\">\n                    <p>Lebenswert Formula offers three stages: Stage 1 (From Birth), Stage 2 (6+ Months), and Stage 3 (10+ Months).<\/p>\n                <\/div>\n            <\/details>\n            <details class=\"faq-item\">\n                <summary><h3 class=\"question\">What nutrients are present in Lebenswert Formula?<\/h3><\/summary>\n                <div class=\"faq-answer\">\n                    <p>Lebenswert Formula is enriched with essential nutrients such as vitamins A, D, and E, minerals, and essential fatty acids.<\/p>\n                <\/div>\n            <\/details>\n            <details class=\"faq-item\" style=\"border-bottom: 2px solid #CCDFD9;\">\n                <summary><h3 class=\"question\">Is Lebenswert Formula free of artificial sweeteners and GMOs?<\/h3><\/summary>\n                <div class=\"faq-answer\">\n                    <p>Yes, Lebenswert Formula is free of artificial sweeteners and GMOs, ensuring a clean and natural formula for your baby.<\/p>\n                <\/div>\n            <\/details>\n        <\/div>\n    <div class=\"obx-related-articles\">\n        <div class=\"container\">\n            <h2>Lebenswert Baby Formula: Related Articles<\/h2>\n<hr>\n                <div class=\"flex-row\">\n                    <div class=\"obx-article\" style=\"background-image: url(https:\/\/formuland.com\/cdn\/shop\/articles\/1c93e00330013723cb7c8948e8a0b590.jpg);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n                        <a href=\"https:\/\/formuland.com\/blogs\/news\/your-hunt-for-the-best-baby-formula-is-over\">\n                            <span class=\"obx-article-heading\">Your Hunt For the Best Baby Formula Is Over<\/span>\n                        <\/a>    \n                    <\/div>\n                    <div class=\"obx-article\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/7493\/0651\/files\/blog-feeding-the-young-the-history-of-baby-formula.png?v=1688406357);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n                        <a href=\"https:\/\/formuland.com\/blogs\/news\/tips-for-seamlessly-switching-baby-formula-brands\">\n                            <span class=\"obx-article-heading\">Tips for Seamlessly<br> Switching Baby <br>Formula Brands<\/span>\n                        <\/a>    \n                    <\/div>\n                    <div class=\"obx-article\" style=\"background-image: url(https:\/\/formuland.com\/cdn\/shop\/articles\/2208c98a643d1eb42e701cbd5fe384b8.jpg);box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);\">\n                        <a href=\"https:\/\/formuland.com\/blogs\/news\/top-5-essential-baby-nutrients-for-optimal-health-and-well-being\">\n                            <span class=\"obx-article-heading\">Top 5 Essential Baby Nutrients for Optimal Health and Well-Being<\/span>\n                        <\/a>    \n                    <\/div>\n                <\/div>\n        <\/div>\n            <\/div>\n<\/div>",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "main",
+    "e92bcef3-3c18-4c65-a381-bdecbe959780"
+  ]
+}
